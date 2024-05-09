@@ -1,0 +1,9514 @@
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>ezr ezr
+donn session :
+id_commande=>5656ere
+donn session :
+numTrans=>343511  
+donn session :
+numautorisation=>041135
+donn session :
+dateTran=>04/02/2020
+donn session :
+heureTrans=>11:59
+donn session :
+lg=>FR
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>5,656.00
+donn session :
+idmsg=>3ko
+donn session :
+signature=>35abba29c198bccb357c0713dac743f9
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+repauto=>00
+donn session :
+emailrd=>raziki@m2mgroup.com
+donn session :
+nomprenom=>azzzz raaa
+donn session :
+id_commande=>656dfdf565
+donn session :
+numTrans=>244414  
+donn session :
+numautorisation=>041444
+donn session :
+dateTran=>04/02/2020
+donn session :
+heureTrans=>14:46
+donn session :
+lg=>FR
+donn session :
+signature=>c71f58592a25ce924c89352f4125c31b
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>121.00
+donn session :
+codecmr=>1180092
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>05
+donn session :
+emailrd=>mbenkachcha@naps.ma
+donn session :
+nomprenom=>mery
+donn session :
+id_commande=>10000010
+donn session :
+numTrans=>  
+donn session :
+numautorisation=>
+donn session :
+dateTran=>04/02/2020
+donn session :
+heureTrans=>15:02
+donn session :
+lg=>FR
+donn session :
+signature=>ab469a24d92b318eecfe1e57ed2645bc
+donn session :
+numCarte=>434567xxxxxx4567
+donn session :
+typecarte=>VISA
+donn session :
+montant=>100.00
+donn session :
+idmsg=>3ko
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>mbenkachcha@naps.ma
+donn session :
+nomprenom=>mery
+donn session :
+id_commande=>10000010
+donn session :
+numTrans=>320215  
+donn session :
+numautorisation=>041502
+donn session :
+dateTran=>04/02/2020
+donn session :
+heureTrans=>15:02
+donn session :
+lg=>FR
+donn session :
+signature=>ab469a24d92b318eecfe1e57ed2645bc
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>100.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>mbenkachcha@naps.ma
+donn session :
+nomprenom=>mery
+donn session :
+id_commande=>10000012
+donn session :
+numTrans=>100815  
+donn session :
+numautorisation=>041508
+donn session :
+dateTran=>04/02/2020
+donn session :
+heureTrans=>15:08
+donn session :
+lg=>FR
+donn session :
+signature=>82e6e68fb90a863b8cd22ed0a11686ca
+donn session :
+numCarte=>434567xxxxxx4567
+donn session :
+typecarte=>VISA
+donn session :
+montant=>100.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>mbenkachcha@naps.ma
+donn session :
+nomprenom=>mery
+donn session :
+id_commande=>10000012
+donn session :
+numTrans=>100815  
+donn session :
+numautorisation=>041508
+donn session :
+dateTran=>04/02/2020
+donn session :
+heureTrans=>15:08
+donn session :
+lg=>FR
+donn session :
+signature=>82e6e68fb90a863b8cd22ed0a11686ca
+donn session :
+numCarte=>434567xxxxxx4567
+donn session :
+typecarte=>VISA
+donn session :
+montant=>100.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>mbenkachcha@naps.ma
+donn session :
+nomprenom=>mery
+donn session :
+id_commande=>10000013
+donn session :
+numTrans=>141215  
+donn session :
+numautorisation=>041512
+donn session :
+dateTran=>04/02/2020
+donn session :
+heureTrans=>15:12
+donn session :
+lg=>FR
+donn session :
+signature=>4515c9b2b4ec288875ea4a7e2f6bda61
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>120.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>aymen96@hotmail.com
+donn session :
+nomprenom=>gh
+donn session :
+id_commande=>ghj
+donn session :
+numTrans=>343815  
+donn session :
+numautorisation=>041538
+donn session :
+dateTran=>04/02/2020
+donn session :
+heureTrans=>15:38
+donn session :
+lg=>FR
+donn session :
+signature=>f4ce8ec7023701e9854a3c6ee29e4acc
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>145.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>mbenkachcha@naps.ma
+donn session :
+nomprenom=>mery
+donn session :
+id_commande=>10000013
+donn session :
+numTrans=>141215  
+donn session :
+numautorisation=>041512
+donn session :
+dateTran=>04/02/2020
+donn session :
+heureTrans=>17:20
+donn session :
+lg=>FR
+donn session :
+signature=>4515c9b2b4ec288875ea4a7e2f6bda61
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>120.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>frer terter
+donn session :
+id_commande=>989ert989
+donn session :
+numTrans=>113017  
+donn session :
+numautorisation=>041730
+donn session :
+dateTran=>04/02/2020
+donn session :
+heureTrans=>17:30
+donn session :
+lg=>FR
+donn session :
+signature=>bf7fd6850f42db0097e2e81bf004f53f
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>65.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>aymen96@hotmail.com
+donn session :
+nomprenom=>ffff
+donn session :
+id_commande=>fffff
+donn session :
+numTrans=>523911  
+donn session :
+numautorisation=>051139
+donn session :
+dateTran=>05/02/2020
+donn session :
+heureTrans=>11:39
+donn session :
+lg=>FR
+donn session :
+signature=>b3dc2e9d09d21379da440b7aea17d1b4
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>120.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>aymen96@hotmail.com
+donn session :
+nomprenom=>wwwwwwww
+donn session :
+id_commande=>wwwwwwwwwwww
+donn session :
+numTrans=>560212  
+donn session :
+numautorisation=>051202
+donn session :
+dateTran=>05/02/2020
+donn session :
+heureTrans=>12:02
+donn session :
+lg=>FR
+donn session :
+signature=>5246f8999275e598b8b9e91e7a1fc0de
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>120.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>aymen96@hotmail.com
+donn session :
+nomprenom=>gttttttttt
+donn session :
+id_commande=>tttttttt
+donn session :
+numTrans=>510312  
+donn session :
+numautorisation=>051203
+donn session :
+dateTran=>05/02/2020
+donn session :
+heureTrans=>12:03
+donn session :
+lg=>FR
+donn session :
+signature=>f2676f6f3101e00583b5c44afa52ff4
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>120.00
+donn session :
+idmsg=>3ko
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>aymen96@hotmail.com
+donn session :
+nomprenom=>feeeeeee
+donn session :
+id_commande=>eeeeeeeeeee
+donn session :
+numTrans=>480712  
+donn session :
+numautorisation=>051207
+donn session :
+dateTran=>05/02/2020
+donn session :
+heureTrans=>12:07
+donn session :
+lg=>FR
+donn session :
+signature=>914687e346fd52f93bcdb12128ac4cff
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>20.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>aymen96@hotmail.com
+donn session :
+nomprenom=>dee
+donn session :
+id_commande=>mlk
+donn session :
+numTrans=>131614  
+donn session :
+numautorisation=>051416
+donn session :
+dateTran=>05/02/2020
+donn session :
+heureTrans=>14:16
+donn session :
+lg=>FR
+donn session :
+signature=>a7fb8430605ddc71302a39fa93d09ba9
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>300.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>aymen96@hotmail.com
+donn session :
+nomprenom=>gfff
+donn session :
+id_commande=>uiiiiii
+donn session :
+numTrans=>231714  
+donn session :
+numautorisation=>051417
+donn session :
+dateTran=>05/02/2020
+donn session :
+heureTrans=>14:17
+donn session :
+lg=>FR
+donn session :
+signature=>4ef4113194fa3f6328446b43ccc90d30
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>750.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>aymen96@hotmail.com
+donn session :
+nomprenom=>aaaaaarrr
+donn session :
+id_commande=>lllllllll
+donn session :
+numTrans=>352614  
+donn session :
+numautorisation=>051426
+donn session :
+dateTran=>05/02/2020
+donn session :
+heureTrans=>14:26
+donn session :
+lg=>FR
+donn session :
+signature=>4af245797fdc7ffbdc55f98a54bc248b
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>20.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>dkhissi@m2mgroup.com
+donn session :
+nomprenom=>ayman dkhissi
+donn session :
+id_commande=>rf65kl489
+donn session :
+numTrans=>013414  
+donn session :
+numautorisation=>051434
+donn session :
+dateTran=>05/02/2020
+donn session :
+heureTrans=>14:34
+donn session :
+lg=>FR
+donn session :
+signature=>5233bd17aebe48d63c66fdad0f0bf82c
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>960.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>05
+donn session :
+emailrd=>mbenkachcha@naps.ma
+donn session :
+nomprenom=>ayman
+donn session :
+id_commande=>10000015
+donn session :
+numTrans=>  
+donn session :
+numautorisation=>
+donn session :
+dateTran=>05/02/2020
+donn session :
+heureTrans=>15:29
+donn session :
+lg=>FR
+donn session :
+signature=>ef04c685c3c56732e459903bb640d0b4
+donn session :
+numCarte=>434567xxxxxx4567
+donn session :
+typecarte=>VISA
+donn session :
+montant=>100.00
+donn session :
+idmsg=>3ko
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>mbenkachcha@naps.ma
+donn session :
+nomprenom=>ayman
+donn session :
+id_commande=>10000015
+donn session :
+numTrans=>272915  
+donn session :
+numautorisation=>051529
+donn session :
+dateTran=>05/02/2020
+donn session :
+heureTrans=>15:29
+donn session :
+lg=>FR
+donn session :
+signature=>ef04c685c3c56732e459903bb640d0b4
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>100.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>mbenkachcha@naps.ma
+donn session :
+nomprenom=>ayman
+donn session :
+id_commande=>10000016
+donn session :
+numTrans=>113115  
+donn session :
+numautorisation=>051531
+donn session :
+dateTran=>05/02/2020
+donn session :
+heureTrans=>15:31
+donn session :
+lg=>FR
+donn session :
+signature=>30a4ea21a90687bfb18cc143024adf61
+donn session :
+numCarte=>434567xxxxxx4567
+donn session :
+typecarte=>VISA
+donn session :
+montant=>100.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>mbenkachcha@naps.ma
+donn session :
+nomprenom=>ayman
+donn session :
+id_commande=>10000017
+donn session :
+numTrans=>493215  
+donn session :
+numautorisation=>051532
+donn session :
+dateTran=>05/02/2020
+donn session :
+heureTrans=>15:32
+donn session :
+lg=>FR
+donn session :
+signature=>1aacef368f814777b51386422c79580b
+donn session :
+numCarte=>434567xxxxxx4567
+donn session :
+typecarte=>VISA
+donn session :
+montant=>100.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>mbenkachcha@naps.ma
+donn session :
+nomprenom=>ayman
+donn session :
+id_commande=>10000018
+donn session :
+numTrans=>333415  
+donn session :
+numautorisation=>051534
+donn session :
+dateTran=>05/02/2020
+donn session :
+heureTrans=>15:34
+donn session :
+lg=>FR
+donn session :
+signature=>95e97cf93ee343f76a654c23406780a0
+donn session :
+numCarte=>434567xxxxxx4567
+donn session :
+typecarte=>VISA
+donn session :
+montant=>100.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>mbenkachcha@naps.ma
+donn session :
+nomprenom=>mery ben
+donn session :
+id_commande=>100000108
+donn session :
+numTrans=>184018  
+donn session :
+numautorisation=>061840
+donn session :
+dateTran=>06/02/2020
+donn session :
+heureTrans=>18:40
+donn session :
+lg=>FR
+donn session :
+signature=>79ea795de9486b793cd0221ff87371a1
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>100.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>raziki@m2mgroup.com
+donn session :
+nomprenom=>aziki rachida
+donn session :
+id_commande=>15989g556g56
+donn session :
+numTrans=>463818  
+donn session :
+numautorisation=>111838
+donn session :
+dateTran=>11/02/2020
+donn session :
+heureTrans=>18:38
+donn session :
+lg=>FR
+donn session :
+signature=>70b068e9324492ef7f233b1506da5b0
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>123.00
+donn session :
+idmsg=>3ko
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>raziki@m2mgroup.com
+donn session :
+nomprenom=>aziki rachida
+donn session :
+id_commande=>15989g556g56ff
+donn session :
+numTrans=>493918  
+donn session :
+numautorisation=>111839
+donn session :
+dateTran=>11/02/2020
+donn session :
+heureTrans=>18:39
+donn session :
+lg=>FR
+donn session :
+signature=>7421934f1050c8fa76695dbc68b33e39
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>123.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>dfgfd fhggf
+donn session :
+id_commande=>fh5656f56fgh6
+donn session :
+numTrans=>294919  
+donn session :
+numautorisation=>121949
+donn session :
+dateTran=>12/02/2020
+donn session :
+heureTrans=>19:49
+donn session :
+lg=>FR
+donn session :
+signature=>914c9c851daa18e746a8e2a25ec9725d
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>789.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>lhajjam@naps.ma
+donn session :
+nomprenom=>ASMAA
+donn session :
+id_commande=>999
+donn session :
+numTrans=>274217  
+donn session :
+numautorisation=>131742
+donn session :
+dateTran=>13/02/2020
+donn session :
+heureTrans=>17:42
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>999.00
+donn session :
+idmsg=>1ok
+donn session :
+lg=>FR
+donn session :
+nom_cmr=>NAPS
+donn session :
+signature=>b27f0af92c2db68a431a26385e531c3a
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>05
+donn session :
+emailrd=>lhajjam@naps.ma
+donn session :
+nomprenom=>AMAL
+donn session :
+id_commande=>888
+donn session :
+numTrans=>  
+donn session :
+numautorisation=>
+donn session :
+dateTran=>13/02/2020
+donn session :
+heureTrans=>17:44
+donn session :
+numCarte=>434567xxxxxx4567
+donn session :
+typecarte=>VISA
+donn session :
+montant=>888.00
+donn session :
+idmsg=>3ko
+donn session :
+lg=>FR
+donn session :
+nom_cmr=>NAPS
+donn session :
+signature=>185efccfd26afc0df1129c7b1104c852
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>lhajjam@naps.ma
+donn session :
+nomprenom=>AMAL
+donn session :
+id_commande=>888
+donn session :
+numTrans=>064517  
+donn session :
+numautorisation=>131745
+donn session :
+dateTran=>13/02/2020
+donn session :
+heureTrans=>17:45
+donn session :
+numCarte=>434567xxxxxx4567
+donn session :
+typecarte=>VISA
+donn session :
+montant=>888.00
+donn session :
+idmsg=>1ok
+donn session :
+lg=>FR
+donn session :
+nom_cmr=>NAPS
+donn session :
+signature=>185efccfd26afc0df1129c7b1104c852
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>lhajjam@naps.ma
+donn session :
+nomprenom=>QAMAR
+donn session :
+id_commande=>951
+donn session :
+numTrans=>244817  
+donn session :
+numautorisation=>131748
+donn session :
+dateTran=>13/02/2020
+donn session :
+heureTrans=>17:48
+donn session :
+numCarte=>434567xxxxxx4567
+donn session :
+typecarte=>VISA
+donn session :
+montant=>951.00
+donn session :
+idmsg=>1ok
+donn session :
+lg=>FR
+donn session :
+nom_cmr=>NAPS
+donn session :
+signature=>b4f95783e2bb0695dd737edd8404769a
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>raziki@m2mgroup.com
+donn session :
+nomprenom=>aziki rachida
+donn session :
+id_commande=>140202201539001
+donn session :
+numTrans=>015815  
+donn session :
+numautorisation=>141558
+donn session :
+dateTran=>14/02/2020
+donn session :
+heureTrans=>15:58
+donn session :
+lg=>FR
+donn session :
+signature=>505763d8873974a18fb1c83ef953e952
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>10.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>raziki@m2mgroup.com
+donn session :
+nomprenom=>ert trytr
+donn session :
+id_commande=>56try5656ty989
+donn session :
+numTrans=>290310  
+donn session :
+numautorisation=>171003
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>10:03
+donn session :
+lg=>FR
+donn session :
+signature=>2e21e95eba82f9188621ad910f00dba1
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>565.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>raziki@m2mgroup.com
+donn session :
+nomprenom=>gfh fgjytuj
+donn session :
+id_commande=>545ghj5h4j5
+donn session :
+numTrans=>550810  
+donn session :
+numautorisation=>171008
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>10:08
+donn session :
+lg=>FR
+donn session :
+signature=>4d8161bc937cd51a2c381b81782ea956
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>8,689.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>raziki@m2mgroup.com
+donn session :
+nomprenom=>gfh fgjytuj
+donn session :
+id_commande=>545ghj5h4j5
+donn session :
+numTrans=>550810  
+donn session :
+numautorisation=>171008
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>10:09
+donn session :
+lg=>FR
+donn session :
+signature=>4d8161bc937cd51a2c381b81782ea956
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>8,689.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+URL=>http://192.10.2.118/srv-test/Espace-agence/
+donn session :
+login=>LOUBNA
+donn session :
+pwd=>LOUBNALOUBNA
+donn session :
+firstConnexion=>false
+donn session :
+nom=>LOUBNA
+donn session :
+prenom=>LOUBNA
+donn session :
+email=>sbchi@m2mgroup.com
+donn session :
+adresse=>2,RUE ADMINISTRATIONS PUBLIQUES
+donn session :
+ville=>AGADIR
+donn session :
+codeBanque=>11010
+donn session :
+codeAgence=>100058
+donn session :
+libelleBanque=>N A P S
+donn session :
+libelleAgence=>AG AGADIR ADMINISTRATION
+donn session :
+soldeAgence=>9200.0
+donn session :
+ListeVille=>Array
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>lfriche@m2mgroup.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>101010
+donn session :
+numTrans=>412310  
+donn session :
+numautorisation=>171023
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>10:23
+donn session :
+lg=>FR
+donn session :
+signature=>270297fffcd49b38a0a58f8c4d03ef5c
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>100.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>10:48
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>10:50
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>lfriche@m2mgroup.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>2121221
+donn session :
+numTrans=>365010  
+donn session :
+numautorisation=>171050
+donn session :
+signature=>2fe09ec122c3bba529032c6740d646da
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>100.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>10:50
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>lfriche@m2mgroup.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>2121221
+donn session :
+numTrans=>365010  
+donn session :
+numautorisation=>171050
+donn session :
+signature=>2fe09ec122c3bba529032c6740d646da
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>100.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>10:54
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>10:54
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>10:54
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>10:56
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>10:58
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>11:01
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>11:02
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>11:04
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>11:07
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>11:07
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>11:15
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>11:20
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>11:22
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>11:24
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>11:28
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>11:28
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>11:29
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>11:30
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>11:31
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>11:33
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>11:34
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>11:35
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>11:35
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>11:36
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>11:39
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>11:42
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>11:43
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>11:47
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>14:51
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>14:51
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>14:52
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>fgfdg dfhfdh
+donn session :
+id_commande=>fhgf5454gh54hgf
+donn session :
+numTrans=>305214  
+donn session :
+numautorisation=>171452
+donn session :
+signature=>1ee2283dfa846c11c25b44c3f02331a9
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>14:52
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>fgfdg dfhfdh
+donn session :
+id_commande=>fhgf5454gh54hgf
+donn session :
+numTrans=>305214  
+donn session :
+numautorisation=>171452
+donn session :
+signature=>1ee2283dfa846c11c25b44c3f02331a9
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>14:53
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>fgfdg dfhfdh
+donn session :
+id_commande=>fhgf5454gh54hgf
+donn session :
+numTrans=>305214  
+donn session :
+numautorisation=>171452
+donn session :
+signature=>1ee2283dfa846c11c25b44c3f02331a9
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>14:54
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>fgfdg dfhfdh
+donn session :
+id_commande=>fhgf5454gh54hgf
+donn session :
+numTrans=>305214  
+donn session :
+numautorisation=>171452
+donn session :
+signature=>1ee2283dfa846c11c25b44c3f02331a9
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>15:01
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>15:02
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>15:03
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>15:04
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>15:06
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>15:07
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>15:07
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>15:08
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>15:08
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>15:19
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>fgfdg dfhfdh
+donn session :
+id_commande=>fhgf5454gh54hgf
+donn session :
+numTrans=>305214  
+donn session :
+numautorisation=>171452
+donn session :
+signature=>1ee2283dfa846c11c25b44c3f02331a9
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>15:20
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>15:22
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>15:24
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>15:25
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>15:27
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>15:28
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>15:29
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>15:32
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>15:32
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>15:32
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>15:33
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>15:36
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>15:39
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>15:41
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>05
+donn session :
+emailrd=>mbenkachcha@naps.ma
+donn session :
+nomprenom=>mery ben
+donn session :
+id_commande=>100000855
+donn session :
+numTrans=>  
+donn session :
+numautorisation=>
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>15:42
+donn session :
+lg=>FR
+donn session :
+signature=>c91cc8391f743042fea5c62ab227695e
+donn session :
+numCarte=>434567xxxxxx4567
+donn session :
+typecarte=>VISA
+donn session :
+montant=>100.00
+donn session :
+idmsg=>3ko
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>15:49
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>fgfdg dfhfdh
+donn session :
+id_commande=>fhgf5454gh54hgf
+donn session :
+numTrans=>305214  
+donn session :
+numautorisation=>171452
+donn session :
+signature=>1ee2283dfa846c11c25b44c3f02331a9
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>15:51
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>15:51
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>15:52
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>15:52
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>15:53
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>15:56
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>15:56
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>15:57
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>15:57
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>mbenkachcha@naps.ma
+donn session :
+nomprenom=>mery ben
+donn session :
+id_commande=>100000855
+donn session :
+numTrans=>145815  
+donn session :
+numautorisation=>171558
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>15:58
+donn session :
+lg=>FR
+donn session :
+signature=>c91cc8391f743042fea5c62ab227695e
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>100.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>15:58
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>15:59
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>16:00
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>16:02
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>fgfdg dfhfdh
+donn session :
+id_commande=>fhgf5454gh54hgf
+donn session :
+numTrans=>305214  
+donn session :
+numautorisation=>171452
+donn session :
+signature=>1ee2283dfa846c11c25b44c3f02331a9
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>16:03
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>16:03
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>16:05
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>16:06
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>16:07
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>16:09
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>16:10
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>16:12
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>16:14
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>16:15
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>16:15
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>fgfdg dfhfdh
+donn session :
+id_commande=>fhgf5454gh54hgf
+donn session :
+numTrans=>305214  
+donn session :
+numautorisation=>171452
+donn session :
+signature=>1ee2283dfa846c11c25b44c3f02331a9
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>16:16
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>16:17
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>16:17
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>16:17
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>16:17
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>16:17
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>16:18
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>454545454
+donn session :
+numTrans=>035410  
+donn session :
+numautorisation=>171054
+donn session :
+signature=>f85bd8e7455e0de1c9a5ea96897d8780
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>122,222.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>16:18
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>dd
+donn session :
+id_commande=>,nb,nb
+donn session :
+numTrans=>541816  
+donn session :
+numautorisation=>171618
+donn session :
+signature=>74e19b04f2cea0b1fd0d768f5cf7ea16
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>21,012.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>16:19
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>dd
+donn session :
+id_commande=>,nb,nb
+donn session :
+numTrans=>541816  
+donn session :
+numautorisation=>171618
+donn session :
+signature=>74e19b04f2cea0b1fd0d768f5cf7ea16
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>21,012.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>16:19
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>dd
+donn session :
+id_commande=>,nb,nb
+donn session :
+numTrans=>541816  
+donn session :
+numautorisation=>171618
+donn session :
+signature=>74e19b04f2cea0b1fd0d768f5cf7ea16
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>21,012.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>16:19
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>dd
+donn session :
+id_commande=>,nb,nb
+donn session :
+numTrans=>541816  
+donn session :
+numautorisation=>171618
+donn session :
+signature=>74e19b04f2cea0b1fd0d768f5cf7ea16
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>21,012.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>16:19
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>dd
+donn session :
+id_commande=>,nb,nb
+donn session :
+numTrans=>541816  
+donn session :
+numautorisation=>171618
+donn session :
+signature=>74e19b04f2cea0b1fd0d768f5cf7ea16
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>21,012.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>16:19
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>dd
+donn session :
+id_commande=>,nb,nb
+donn session :
+numTrans=>541816  
+donn session :
+numautorisation=>171618
+donn session :
+signature=>74e19b04f2cea0b1fd0d768f5cf7ea16
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>21,012.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>16:19
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>dd
+donn session :
+id_commande=>,nb,nb
+donn session :
+numTrans=>541816  
+donn session :
+numautorisation=>171618
+donn session :
+signature=>74e19b04f2cea0b1fd0d768f5cf7ea16
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>21,012.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>16:19
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>dd
+donn session :
+id_commande=>,nb,nb
+donn session :
+numTrans=>541816  
+donn session :
+numautorisation=>171618
+donn session :
+signature=>74e19b04f2cea0b1fd0d768f5cf7ea16
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>21,012.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>16:23
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>17:50
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>fgfdg dfhfdh
+donn session :
+id_commande=>fhgf5454gh54hgf
+donn session :
+numTrans=>305214  
+donn session :
+numautorisation=>171452
+donn session :
+signature=>1ee2283dfa846c11c25b44c3f02331a9
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>18:02
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>fgfdg dfhfdh
+donn session :
+id_commande=>fhgf5454gh54hgf
+donn session :
+numTrans=>305214  
+donn session :
+numautorisation=>171452
+donn session :
+signature=>1ee2283dfa846c11c25b44c3f02331a9
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>18:19
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>fgfdg dfhfdh
+donn session :
+id_commande=>fhgf5454gh54hgf
+donn session :
+numTrans=>305214  
+donn session :
+numautorisation=>171452
+donn session :
+signature=>1ee2283dfa846c11c25b44c3f02331a9
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>18:19
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>fgfdg dfhfdh
+donn session :
+id_commande=>fhgf5454gh54hgf
+donn session :
+numTrans=>305214  
+donn session :
+numautorisation=>171452
+donn session :
+signature=>1ee2283dfa846c11c25b44c3f02331a9
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>18:26
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1234567
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>fgfdg dfhfdh
+donn session :
+id_commande=>fhgf5454gh54hgf
+donn session :
+numTrans=>305214  
+donn session :
+numautorisation=>171452
+donn session :
+signature=>1ee2283dfa846c11c25b44c3f02331a9
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>18:28
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>18:30
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>18:33
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>18:37
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1234567
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>fgfdg dfhfdh
+donn session :
+id_commande=>fhgf5454gh54hgf
+donn session :
+numTrans=>305214  
+donn session :
+numautorisation=>171452
+donn session :
+signature=>1ee2283dfa846c11c25b44c3f02331a9
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>18:37
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1234567
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>aziki rachida
+donn session :
+id_commande=>19000157
+donn session :
+numTrans=>124118  
+donn session :
+numautorisation=>171841
+donn session :
+signature=>39e448f7c1ce1252a5236112183e5075
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>120.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>18:37
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1234567
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>aziki rachida
+donn session :
+id_commande=>19000157
+donn session :
+numTrans=>124118  
+donn session :
+numautorisation=>171841
+donn session :
+signature=>39e448f7c1ce1252a5236112183e5075
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>120.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>17/02/2020
+donn session :
+heureTrans=>18:38
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>09:26
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>09:30
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>09:38
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>09:39
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1234567
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>aziki rachida
+donn session :
+id_commande=>19000157
+donn session :
+numTrans=>124118  
+donn session :
+numautorisation=>171841
+donn session :
+signature=>39e448f7c1ce1252a5236112183e5075
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>120.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>09:39
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>09:42
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>09:42
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>09:43
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>09:43
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>09:44
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>09:47
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>09:47
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>09:49
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>09:49
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>09:51
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>09:54
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>09:55
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>09:56
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>09:57
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>09:58
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>09:58
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>10:00
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>10:03
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>10:23
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>10:23
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>10:24
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>10:26
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>10:33
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>10:33
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>10:34
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>10:35
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>10:35
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>10:38
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>10:38
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>10:39
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>10:46
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>10:47
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>10:47
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>10:48
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>10:48
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>10:50
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>10:50
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>10:51
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>kk@gmail.com
+donn session :
+nomprenom=>loubna fric
+donn session :
+id_commande=>3563665
+donn session :
+numTrans=>272316  
+donn session :
+numautorisation=>171623
+donn session :
+signature=>ba123e0e1f748e5f4841d825ab63bfec
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>4,565.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+URL=>http://192.10.2.118/srv-test/Espace-agence/
+donn session :
+login=>LOUBNA
+donn session :
+pwd=>LOUBNALOUBNA
+donn session :
+firstConnexion=>false
+donn session :
+nom=>LOUBNA
+donn session :
+prenom=>LOUBNA
+donn session :
+email=>sbchi@m2mgroup.com
+donn session :
+adresse=>2,RUE ADMINISTRATIONS PUBLIQUES
+donn session :
+ville=>AGADIR
+donn session :
+codeBanque=>11010
+donn session :
+codeAgence=>100058
+donn session :
+libelleBanque=>N A P S
+donn session :
+libelleAgence=>AG AGADIR ADMINISTRATION
+donn session :
+soldeAgence=>9200.0
+donn session :
+ListeVille=>Array
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>10:52
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+URL=>http://192.10.2.118/srv-test/Espace-agence/
+donn session :
+login=>LOUBNA
+donn session :
+pwd=>LOUBNALOUBNA
+donn session :
+firstConnexion=>false
+donn session :
+nom=>LOUBNA
+donn session :
+prenom=>LOUBNA
+donn session :
+email=>sbchi@m2mgroup.com
+donn session :
+adresse=>2,RUE ADMINISTRATIONS PUBLIQUES
+donn session :
+ville=>AGADIR
+donn session :
+codeBanque=>11010
+donn session :
+codeAgence=>100058
+donn session :
+libelleBanque=>N A P S
+donn session :
+libelleAgence=>AG AGADIR ADMINISTRATION
+donn session :
+soldeAgence=>9200.0
+donn session :
+ListeVille=>Array
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>10:52
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+URL=>http://192.10.2.118/srv-test/Espace-agence/
+donn session :
+login=>LOUBNA
+donn session :
+pwd=>LOUBNALOUBNA
+donn session :
+firstConnexion=>false
+donn session :
+nom=>LOUBNA
+donn session :
+prenom=>LOUBNA
+donn session :
+email=>sbchi@m2mgroup.com
+donn session :
+adresse=>2,RUE ADMINISTRATIONS PUBLIQUES
+donn session :
+ville=>AGADIR
+donn session :
+codeBanque=>11010
+donn session :
+codeAgence=>100058
+donn session :
+libelleBanque=>N A P S
+donn session :
+libelleAgence=>AG AGADIR ADMINISTRATION
+donn session :
+soldeAgence=>9200.0
+donn session :
+ListeVille=>Array
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>10:52
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+URL=>http://192.10.2.118/srv-test/Espace-agence/
+donn session :
+login=>LOUBNA
+donn session :
+pwd=>LOUBNALOUBNA
+donn session :
+firstConnexion=>false
+donn session :
+nom=>LOUBNA
+donn session :
+prenom=>LOUBNA
+donn session :
+email=>sbchi@m2mgroup.com
+donn session :
+adresse=>2,RUE ADMINISTRATIONS PUBLIQUES
+donn session :
+ville=>AGADIR
+donn session :
+codeBanque=>11010
+donn session :
+codeAgence=>100058
+donn session :
+libelleBanque=>N A P S
+donn session :
+libelleAgence=>AG AGADIR ADMINISTRATION
+donn session :
+soldeAgence=>9200.0
+donn session :
+ListeVille=>Array
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>10:52
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+URL=>http://192.10.2.118/srv-test/Espace-agence/
+donn session :
+login=>LOUBNA
+donn session :
+pwd=>LOUBNALOUBNA
+donn session :
+firstConnexion=>false
+donn session :
+nom=>LOUBNA
+donn session :
+prenom=>LOUBNA
+donn session :
+email=>sbchi@m2mgroup.com
+donn session :
+adresse=>2,RUE ADMINISTRATIONS PUBLIQUES
+donn session :
+ville=>AGADIR
+donn session :
+codeBanque=>11010
+donn session :
+codeAgence=>100058
+donn session :
+libelleBanque=>N A P S
+donn session :
+libelleAgence=>AG AGADIR ADMINISTRATION
+donn session :
+soldeAgence=>9200.0
+donn session :
+ListeVille=>Array
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>10:53
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+URL=>http://192.10.2.118/srv-test/Espace-agence/
+donn session :
+login=>LOUBNA
+donn session :
+pwd=>LOUBNALOUBNA
+donn session :
+firstConnexion=>false
+donn session :
+nom=>LOUBNA
+donn session :
+prenom=>LOUBNA
+donn session :
+email=>sbchi@m2mgroup.com
+donn session :
+adresse=>2,RUE ADMINISTRATIONS PUBLIQUES
+donn session :
+ville=>AGADIR
+donn session :
+codeBanque=>11010
+donn session :
+codeAgence=>100058
+donn session :
+libelleBanque=>N A P S
+donn session :
+libelleAgence=>AG AGADIR ADMINISTRATION
+donn session :
+soldeAgence=>9200.0
+donn session :
+ListeVille=>Array
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>10:54
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>lfriche@m2mgroup.com
+donn session :
+nomprenom=>dd
+donn session :
+id_commande=>ddjguhyg
+donn session :
+numTrans=>195410  
+donn session :
+numautorisation=>181054
+donn session :
+signature=>baac0b52661159807cfcfc947279da4e
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>100.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+URL=>http://192.10.2.118/srv-test/Espace-agence/
+donn session :
+login=>LOUBNA
+donn session :
+pwd=>LOUBNALOUBNA
+donn session :
+firstConnexion=>false
+donn session :
+nom=>LOUBNA
+donn session :
+prenom=>LOUBNA
+donn session :
+email=>sbchi@m2mgroup.com
+donn session :
+adresse=>2,RUE ADMINISTRATIONS PUBLIQUES
+donn session :
+ville=>AGADIR
+donn session :
+codeBanque=>11010
+donn session :
+codeAgence=>100058
+donn session :
+libelleBanque=>N A P S
+donn session :
+libelleAgence=>AG AGADIR ADMINISTRATION
+donn session :
+soldeAgence=>9200.0
+donn session :
+ListeVille=>Array
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>10:54
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>lfriche@m2mgroup.com
+donn session :
+nomprenom=>dd
+donn session :
+id_commande=>ddjguhyg
+donn session :
+numTrans=>195410  
+donn session :
+numautorisation=>181054
+donn session :
+signature=>baac0b52661159807cfcfc947279da4e
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>100.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+URL=>http://192.10.2.118/srv-test/Espace-agence/
+donn session :
+login=>LOUBNA
+donn session :
+pwd=>LOUBNALOUBNA
+donn session :
+firstConnexion=>false
+donn session :
+nom=>LOUBNA
+donn session :
+prenom=>LOUBNA
+donn session :
+email=>sbchi@m2mgroup.com
+donn session :
+adresse=>2,RUE ADMINISTRATIONS PUBLIQUES
+donn session :
+ville=>AGADIR
+donn session :
+codeBanque=>11010
+donn session :
+codeAgence=>100058
+donn session :
+libelleBanque=>N A P S
+donn session :
+libelleAgence=>AG AGADIR ADMINISTRATION
+donn session :
+soldeAgence=>9200.0
+donn session :
+ListeVille=>Array
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>10:54
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>lfriche@m2mgroup.com
+donn session :
+nomprenom=>dd
+donn session :
+id_commande=>ddjguhyg
+donn session :
+numTrans=>195410  
+donn session :
+numautorisation=>181054
+donn session :
+signature=>baac0b52661159807cfcfc947279da4e
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>100.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+URL=>http://192.10.2.118/srv-test/Espace-agence/
+donn session :
+login=>LOUBNA
+donn session :
+pwd=>LOUBNALOUBNA
+donn session :
+firstConnexion=>false
+donn session :
+nom=>LOUBNA
+donn session :
+prenom=>LOUBNA
+donn session :
+email=>sbchi@m2mgroup.com
+donn session :
+adresse=>2,RUE ADMINISTRATIONS PUBLIQUES
+donn session :
+ville=>AGADIR
+donn session :
+codeBanque=>11010
+donn session :
+codeAgence=>100058
+donn session :
+libelleBanque=>N A P S
+donn session :
+libelleAgence=>AG AGADIR ADMINISTRATION
+donn session :
+soldeAgence=>9200.0
+donn session :
+ListeVille=>Array
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>10:56
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>lfriche@m2mgroup.com
+donn session :
+nomprenom=>dd
+donn session :
+id_commande=>ddjguhyg
+donn session :
+numTrans=>195410  
+donn session :
+numautorisation=>181054
+donn session :
+signature=>baac0b52661159807cfcfc947279da4e
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>100.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+URL=>http://192.10.2.118/srv-test/Espace-agence/
+donn session :
+login=>LOUBNA
+donn session :
+pwd=>LOUBNALOUBNA
+donn session :
+firstConnexion=>false
+donn session :
+nom=>LOUBNA
+donn session :
+prenom=>LOUBNA
+donn session :
+email=>sbchi@m2mgroup.com
+donn session :
+adresse=>2,RUE ADMINISTRATIONS PUBLIQUES
+donn session :
+ville=>AGADIR
+donn session :
+codeBanque=>11010
+donn session :
+codeAgence=>100058
+donn session :
+libelleBanque=>N A P S
+donn session :
+libelleAgence=>AG AGADIR ADMINISTRATION
+donn session :
+soldeAgence=>9200.0
+donn session :
+ListeVille=>Array
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>10:57
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>lfriche@m2mgroup.com
+donn session :
+nomprenom=>dd
+donn session :
+id_commande=>ddjguhyg
+donn session :
+numTrans=>195410  
+donn session :
+numautorisation=>181054
+donn session :
+signature=>baac0b52661159807cfcfc947279da4e
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>100.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+URL=>http://192.10.2.118/srv-test/Espace-agence/
+donn session :
+login=>LOUBNA
+donn session :
+pwd=>LOUBNALOUBNA
+donn session :
+firstConnexion=>false
+donn session :
+nom=>LOUBNA
+donn session :
+prenom=>LOUBNA
+donn session :
+email=>sbchi@m2mgroup.com
+donn session :
+adresse=>2,RUE ADMINISTRATIONS PUBLIQUES
+donn session :
+ville=>AGADIR
+donn session :
+codeBanque=>11010
+donn session :
+codeAgence=>100058
+donn session :
+libelleBanque=>N A P S
+donn session :
+libelleAgence=>AG AGADIR ADMINISTRATION
+donn session :
+soldeAgence=>9200.0
+donn session :
+ListeVille=>Array
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>10:59
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>lfriche@m2mgroup.com
+donn session :
+nomprenom=>dd
+donn session :
+id_commande=>ddjguhyg
+donn session :
+numTrans=>195410  
+donn session :
+numautorisation=>181054
+donn session :
+signature=>baac0b52661159807cfcfc947279da4e
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>100.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+URL=>http://192.10.2.118/srv-test/Espace-agence/
+donn session :
+login=>LOUBNA
+donn session :
+pwd=>LOUBNALOUBNA
+donn session :
+firstConnexion=>false
+donn session :
+nom=>LOUBNA
+donn session :
+prenom=>LOUBNA
+donn session :
+email=>sbchi@m2mgroup.com
+donn session :
+adresse=>2,RUE ADMINISTRATIONS PUBLIQUES
+donn session :
+ville=>AGADIR
+donn session :
+codeBanque=>11010
+donn session :
+codeAgence=>100058
+donn session :
+libelleBanque=>N A P S
+donn session :
+libelleAgence=>AG AGADIR ADMINISTRATION
+donn session :
+soldeAgence=>9200.0
+donn session :
+ListeVille=>Array
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>10:59
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>lfriche@m2mgroup.com
+donn session :
+nomprenom=>dd
+donn session :
+id_commande=>ddjguhyg
+donn session :
+numTrans=>195410  
+donn session :
+numautorisation=>181054
+donn session :
+signature=>baac0b52661159807cfcfc947279da4e
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>100.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>11:05
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1234567
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>aziki rachida
+donn session :
+id_commande=>19000157
+donn session :
+numTrans=>124118  
+donn session :
+numautorisation=>171841
+donn session :
+signature=>39e448f7c1ce1252a5236112183e5075
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>120.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>15:29
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1234567
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>aziki rachida
+donn session :
+id_commande=>19000157
+donn session :
+numTrans=>124118  
+donn session :
+numautorisation=>171841
+donn session :
+signature=>39e448f7c1ce1252a5236112183e5075
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>120.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>17:12
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1234567
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>aziki rachida
+donn session :
+id_commande=>19000157
+donn session :
+numTrans=>124118  
+donn session :
+numautorisation=>171841
+donn session :
+signature=>39e448f7c1ce1252a5236112183e5075
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>120.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>17:41
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1234567
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>aziki rachida
+donn session :
+id_commande=>19000157
+donn session :
+numTrans=>124118  
+donn session :
+numautorisation=>171841
+donn session :
+signature=>39e448f7c1ce1252a5236112183e5075
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>120.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>17:51
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1234567
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>aziki rachida
+donn session :
+id_commande=>19000157
+donn session :
+numTrans=>124118  
+donn session :
+numautorisation=>171841
+donn session :
+signature=>39e448f7c1ce1252a5236112183e5075
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>120.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>17:55
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1234567
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>aziki rachida
+donn session :
+id_commande=>19000157
+donn session :
+numTrans=>124118  
+donn session :
+numautorisation=>171841
+donn session :
+signature=>39e448f7c1ce1252a5236112183e5075
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>120.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>17:56
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1234567
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>aziki rachida
+donn session :
+id_commande=>19000157
+donn session :
+numTrans=>124118  
+donn session :
+numautorisation=>171841
+donn session :
+signature=>39e448f7c1ce1252a5236112183e5075
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>120.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>19:37
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1234567
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>aziki rachida
+donn session :
+id_commande=>19000157
+donn session :
+numTrans=>124118  
+donn session :
+numautorisation=>171841
+donn session :
+signature=>39e448f7c1ce1252a5236112183e5075
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>120.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>18/02/2020
+donn session :
+heureTrans=>19:47
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1234567
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>aziki rachida
+donn session :
+id_commande=>19000157
+donn session :
+numTrans=>124118  
+donn session :
+numautorisation=>171841
+donn session :
+signature=>39e448f7c1ce1252a5236112183e5075
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>120.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>19/02/2020
+donn session :
+heureTrans=>11:39
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1234567
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>aziki rachida
+donn session :
+id_commande=>19000157
+donn session :
+numTrans=>124118  
+donn session :
+numautorisation=>171841
+donn session :
+signature=>39e448f7c1ce1252a5236112183e5075
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>120.00
+donn session :
+idmsg=>1ok
+donn session :
+URL=>http://192.10.2.118/srv-test/Espace-agence/
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>05
+donn session :
+emailrd=>mbenkachcha@naps.ma
+donn session :
+nomprenom=>mery ben
+donn session :
+id_commande=>10000006999
+donn session :
+numTrans=>  
+donn session :
+numautorisation=>
+donn session :
+dateTran=>20/02/2020
+donn session :
+heureTrans=>11:58
+donn session :
+lg=>FR
+donn session :
+signature=>a7fd5111cc758926d766219075af19f8
+donn session :
+numCarte=>434567xxxxxx4567
+donn session :
+typecarte=>VISA
+donn session :
+montant=>100.00
+donn session :
+idmsg=>3ko
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>mbenkachcha@naps.ma
+donn session :
+nomprenom=>mery ben
+donn session :
+id_commande=>10000006999
+donn session :
+numTrans=>590612  
+donn session :
+numautorisation=>201206
+donn session :
+dateTran=>20/02/2020
+donn session :
+heureTrans=>12:07
+donn session :
+lg=>FR
+donn session :
+signature=>a7fd5111cc758926d766219075af19f8
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>100.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>mbenkachcha@naps.ma
+donn session :
+nomprenom=>mery ben
+donn session :
+id_commande=>1000001122222
+donn session :
+numTrans=>354515  
+donn session :
+numautorisation=>201545
+donn session :
+dateTran=>20/02/2020
+donn session :
+heureTrans=>15:45
+donn session :
+lg=>FR
+donn session :
+signature=>ff930978ecfccf15926e2001c3962a9e
+donn session :
+numCarte=>434567xxxxxx4567
+donn session :
+typecarte=>VISA
+donn session :
+montant=>100.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>benkachcham@gmail.com
+donn session :
+nomprenom=>Mery
+donn session :
+id_commande=>12345678900
+donn session :
+numTrans=>590316  
+donn session :
+numautorisation=>201603
+donn session :
+dateTran=>20/02/2020
+donn session :
+heureTrans=>16:04
+donn session :
+lg=>FR
+donn session :
+signature=>e4a147ebef73975aa878a06638c0041f
+donn session :
+numCarte=>434567xxxxxx4567
+donn session :
+typecarte=>VISA
+donn session :
+montant=>100.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>21/02/2020
+donn session :
+heureTrans=>17:27
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1234567
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>aziki rachida
+donn session :
+id_commande=>19000157
+donn session :
+numTrans=>522817  
+donn session :
+numautorisation=>211728
+donn session :
+signature=>39e448f7c1ce1252a5236112183e5075
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>120.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>21/02/2020
+donn session :
+heureTrans=>18:18
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1234567
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>aziki rachida
+donn session :
+id_commande=>19000157
+donn session :
+numTrans=>522817  
+donn session :
+numautorisation=>211728
+donn session :
+signature=>39e448f7c1ce1252a5236112183e5075
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>120.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+lg=>FR
+donn session :
+dateTran=>24/02/2020
+donn session :
+heureTrans=>15:26
+donn session :
+nom_cmr=>NAPS
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>lfriche@m2mgroup.com
+donn session :
+nomprenom=>tuytu gug
+donn session :
+id_commande=>89huik6565
+donn session :
+numTrans=>552515  
+donn session :
+numautorisation=>241525
+donn session :
+signature=>705acda60d7b1aaff23341c61c16c66f
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>78.00
+donn session :
+idmsg=>1ok
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aaaa.aa
+donn session :
+nomprenom=>sds hjkhk
+donn session :
+id_commande=>5656hjh45hjh
+donn session :
+numTrans=>402110  
+donn session :
+numautorisation=>251021
+donn session :
+dateTran=>25/02/2020
+donn session :
+heureTrans=>10:17
+donn session :
+lg=>FR
+donn session :
+signature=>617af9f559c80ba77d5edb41fb694736
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>10.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>klkl lklkl
+donn session :
+id_commande=>56654444111
+donn session :
+numTrans=>194317  
+donn session :
+numautorisation=>251743
+donn session :
+dateTran=>25/02/2020
+donn session :
+heureTrans=>17:39
+donn session :
+lg=>FR
+donn session :
+signature=>bf348fc3a71e627b477a4ebdfb569a7f
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>45.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>
+donn session :
+nomprenom=>gfj jghj
+donn session :
+id_commande=>5656gjghj56000mm
+donn session :
+numTrans=>371019  
+donn session :
+numautorisation=>251910
+donn session :
+dateTran=>25/02/2020
+donn session :
+heureTrans=>19:11
+donn session :
+lg=>FR
+donn session :
+signature=>dfd998f2af2094fe6fe838f15fc362ac
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>26.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>
+donn session :
+nomprenom=>gfj jghj
+donn session :
+id_commande=>5656gjghj56009mm
+donn session :
+numTrans=>111219  
+donn session :
+numautorisation=>251912
+donn session :
+dateTran=>25/02/2020
+donn session :
+heureTrans=>19:12
+donn session :
+lg=>FR
+donn session :
+signature=>7f84faf602720bb8b551ab5d191fa79c
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>26.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>
+donn session :
+nomprenom=>gfj jghj
+donn session :
+id_commande=>5656gjghj56009mm
+donn session :
+numTrans=>111219  
+donn session :
+numautorisation=>251912
+donn session :
+dateTran=>25/02/2020
+donn session :
+heureTrans=>19:13
+donn session :
+lg=>FR
+donn session :
+signature=>7f84faf602720bb8b551ab5d191fa79c
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>26.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>hkuui ty
+donn session :
+id_commande=>gh2323g25h5u6uiu
+donn session :
+numTrans=>561419  
+donn session :
+numautorisation=>251914
+donn session :
+dateTran=>25/02/2020
+donn session :
+heureTrans=>19:15
+donn session :
+lg=>FR
+donn session :
+signature=>2d87f44cbc445333c4e91c549ba53031
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>12.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>raziki@m2mgroup.com
+donn session :
+nomprenom=>ett ry
+donn session :
+id_commande=>ttt5tttt5555
+donn session :
+numTrans=>434909  
+donn session :
+numautorisation=>260949
+donn session :
+dateTran=>26/02/2020
+donn session :
+heureTrans=>09:50
+donn session :
+lg=>FR
+donn session :
+signature=>ea4da95dc6cd6f07eea126df0d80cb47
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>11.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>raziki@m2mgroup.com
+donn session :
+nomprenom=>ett ry
+donn session :
+id_commande=>ttt5tttt5555
+donn session :
+numTrans=>035509  
+donn session :
+numautorisation=>260955
+donn session :
+dateTran=>26/02/2020
+donn session :
+heureTrans=>09:50
+donn session :
+lg=>FR
+donn session :
+signature=>ea4da95dc6cd6f07eea126df0d80cb47
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>11.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>05
+donn session :
+emailrd=>mbenkachcha@naps.ma
+donn session :
+nomprenom=>mery ben
+donn session :
+id_commande=>1000000624
+donn session :
+numTrans=>  
+donn session :
+numautorisation=>
+donn session :
+dateTran=>26/02/2020
+donn session :
+heureTrans=>11:24
+donn session :
+lg=>FR
+donn session :
+signature=>b9d0d158793126b28e003df338561039
+donn session :
+numCarte=>434567xxxxxx4567
+donn session :
+typecarte=>VISA
+donn session :
+montant=>100.00
+donn session :
+idmsg=>3ko
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>mbenkachcha@naps.ma
+donn session :
+nomprenom=>mery ben
+donn session :
+id_commande=>1000000624
+donn session :
+numTrans=>462411  
+donn session :
+numautorisation=>261124
+donn session :
+dateTran=>26/02/2020
+donn session :
+heureTrans=>11:25
+donn session :
+lg=>FR
+donn session :
+signature=>b9d0d158793126b28e003df338561039
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>100.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>mbenkachcha@naps.ma
+donn session :
+nomprenom=>mery ben
+donn session :
+id_commande=>10000006269
+donn session :
+numTrans=>323111  
+donn session :
+numautorisation=>261131
+donn session :
+dateTran=>26/02/2020
+donn session :
+heureTrans=>11:32
+donn session :
+lg=>FR
+donn session :
+signature=>806701e3855f28edd3012cf752f63557
+donn session :
+numCarte=>434567xxxxxx4567
+donn session :
+typecarte=>VISA
+donn session :
+montant=>200.75
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>fghgf  ukjk
+donn session :
+id_commande=>5654444444444kk
+donn session :
+numTrans=>094409  
+donn session :
+numautorisation=>270944
+donn session :
+dateTran=>27/02/2020
+donn session :
+heureTrans=>09:40
+donn session :
+lg=>FR
+donn session :
+signature=>261a20f230f1bca9a0dcf59fa8c6e74
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>45.00
+donn session :
+idmsg=>3ko
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>fghgf  ukjk
+donn session :
+id_commande=>5654444444444kka
+donn session :
+numTrans=>134509  
+donn session :
+numautorisation=>270945
+donn session :
+dateTran=>27/02/2020
+donn session :
+heureTrans=>09:41
+donn session :
+lg=>FR
+donn session :
+signature=>e8185ffbc358ea4847ae39f438c38512
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>45.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>rrr rrrrrr
+donn session :
+id_commande=>jj56jj65600888
+donn session :
+numTrans=>250911  
+donn session :
+numautorisation=>271109
+donn session :
+dateTran=>27/02/2020
+donn session :
+heureTrans=>11:05
+donn session :
+lg=>FR
+donn session :
+signature=>31c9ea38fd3a8d32e86b6700662c2207
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>14.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>rtrt rtr
+donn session :
+id_commande=>5656h6565httt
+donn session :
+numTrans=>241711  
+donn session :
+numautorisation=>271117
+donn session :
+dateTran=>27/02/2020
+donn session :
+heureTrans=>11:13
+donn session :
+lg=>FR
+donn session :
+signature=>b702b1e040a309f7763dbc11b972a694
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>5,656.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>tyrtr tyr
+donn session :
+id_commande=>gh656g65hh565688
+donn session :
+numTrans=>272211  
+donn session :
+numautorisation=>271122
+donn session :
+dateTran=>27/02/2020
+donn session :
+heureTrans=>11:18
+donn session :
+lg=>FR
+donn session :
+signature=>aa0486be27000992762e8f1ed33bb926
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>12.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>fdhy rytu
+donn session :
+id_commande=>ytu5658ytu98989yc
+donn session :
+numTrans=>202913  
+donn session :
+numautorisation=>271138
+donn session :
+dateTran=>27/02/2020
+donn session :
+heureTrans=>11:34
+donn session :
+lg=>FR
+donn session :
+signature=>725f9bb386c48ebfead43ae4ca45733d
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>12.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>g ertre
+donn session :
+id_commande=>556trtrt111
+donn session :
+numTrans=>204254  
+donn session :
+numautorisation=>271140
+donn session :
+dateTran=>27/02/2020
+donn session :
+heureTrans=>11:36
+donn session :
+lg=>FR
+donn session :
+signature=>105d99cb53a16d8529d2efa87caa6924
+donn session :
+numCarte=>434567xxxxxx4567
+donn session :
+typecarte=>VISA
+donn session :
+montant=>55.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>05
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>yrt ytry
+donn session :
+id_commande=>12125454879
+donn session :
+numTrans=>209522  
+donn session :
+numautorisation=>
+donn session :
+dateTran=>27/02/2020
+donn session :
+heureTrans=>11:38
+donn session :
+lg=>FR
+donn session :
+signature=>a43548be731266e3bdf0c4547693600e
+donn session :
+numCarte=>545678xxxxxx5678
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>12.00
+donn session :
+idmsg=>3ko
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1112020
+donn session :
+repauto=>05
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>ggf dfgfd
+donn session :
+id_commande=>22210000000
+donn session :
+numTrans=>204596  
+donn session :
+numautorisation=>
+donn session :
+dateTran=>27/02/2020
+donn session :
+heureTrans=>18:31
+donn session :
+lg=>FR
+donn session :
+signature=>bc7c0590418a24efc9d11cfde3183fb8
+donn session :
+numCarte=>545678xxxxxx5678
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>45.00
+donn session :
+idmsg=>3ko
+donn session :
+nom_cmr=>NAPS
+donn session :
+URL=>http://192.10.2.118/srv-test/Espace-agence/
+donn session :
+login=>LOUBNA
+donn session :
+pwd=>LOUBNALOUBNA
+donn session :
+firstConnexion=>false
+donn session :
+nom=>LOUBNA
+donn session :
+prenom=>LOUBNA
+donn session :
+email=>sbchi@m2mgroup.com
+donn session :
+adresse=>2,RUE ADMINISTRATIONS PUBLIQUES
+donn session :
+ville=>AGADIR
+donn session :
+codeBanque=>11010
+donn session :
+codeAgence=>100058
+donn session :
+libelleBanque=>N A P S
+donn session :
+libelleAgence=>AG AGADIR ADMINISTRATION
+donn session :
+soldeAgence=>9200.0
+donn session :
+ListeVille=>Array
+
+donn session :
+codecmr=>1112020
+donn session :
+repauto=>05
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>ggf dfgfd
+donn session :
+id_commande=>22210009991
+donn session :
+numTrans=>208285  
+donn session :
+numautorisation=>
+donn session :
+dateTran=>27/02/2020
+donn session :
+heureTrans=>18:34
+donn session :
+lg=>FR
+donn session :
+signature=>38a5b73d003c8602b21b224cb72a35d1
+donn session :
+numCarte=>545678xxxxxx5678
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>45.00
+donn session :
+idmsg=>3ko
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>05
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>jhghj hgj
+donn session :
+id_commande=>121hgj54hqq
+donn session :
+numTrans=>208417  
+donn session :
+numautorisation=>
+donn session :
+dateTran=>27/02/2020
+donn session :
+heureTrans=>18:36
+donn session :
+lg=>FR
+donn session :
+signature=>88be8a82adf9c6e7d1df00bdbbe183dd
+donn session :
+numCarte=>545678xxxxxx5678
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>112.00
+donn session :
+idmsg=>3ko
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>05
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>jhghj hgj
+donn session :
+id_commande=>121hgj54hqq
+donn session :
+numTrans=>208417  
+donn session :
+numautorisation=>
+donn session :
+dateTran=>27/02/2020
+donn session :
+heureTrans=>18:36
+donn session :
+lg=>FR
+donn session :
+signature=>88be8a82adf9c6e7d1df00bdbbe183dd
+donn session :
+numCarte=>545678xxxxxx5678
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>112.00
+donn session :
+idmsg=>3ko
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1112020
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>ytu tiuyt
+donn session :
+id_commande=>8989800azr974
+donn session :
+numTrans=>202184  
+donn session :
+numautorisation=>281118
+donn session :
+dateTran=>28/02/2020
+donn session :
+heureTrans=>11:18
+donn session :
+lg=>FR
+donn session :
+signature=>a91b609d831696f61afa206586c1fdd0
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>47.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1112020
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>ytu tiuyt
+donn session :
+id_commande=>8989800azr974
+donn session :
+numTrans=>202184  
+donn session :
+numautorisation=>281118
+donn session :
+dateTran=>28/02/2020
+donn session :
+heureTrans=>11:18
+donn session :
+lg=>FR
+donn session :
+signature=>a91b609d831696f61afa206586c1fdd0
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>47.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>jh; ujl
+donn session :
+id_commande=>j5665jkmlkm
+donn session :
+numTrans=>203628  
+donn session :
+numautorisation=>281209
+donn session :
+dateTran=>28/02/2020
+donn session :
+heureTrans=>12:05
+donn session :
+lg=>FR
+donn session :
+signature=>795090619eeaf0ef4732943fbc221a4f
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>85.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>aa@aa.aa
+donn session :
+nomprenom=>jhk jhlk
+donn session :
+id_commande=>5656hjgdwsws
+donn session :
+numTrans=>203704  
+donn session :
+numautorisation=>281211
+donn session :
+dateTran=>28/02/2020
+donn session :
+heureTrans=>12:07
+donn session :
+lg=>FR
+donn session :
+signature=>9b01eb0b582b9f4891475244391c141d
+donn session :
+numCarte=>434567xxxxxx4567
+donn session :
+typecarte=>VISA
+donn session :
+montant=>2,323.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>05
+donn session :
+emailrd=>mbenkachcha@naps.ma
+donn session :
+nomprenom=>mery ben
+donn session :
+id_commande=>1000000777
+donn session :
+numTrans=>204592  
+donn session :
+numautorisation=>281917
+donn session :
+dateTran=>28/02/2020
+donn session :
+heureTrans=>19:17
+donn session :
+lg=>FR
+donn session :
+signature=>218198b054f7ade184bd95055812cc1d
+donn session :
+numCarte=>545678xxxxxx5678
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>100.00
+donn session :
+idmsg=>3ko
+donn session :
+nom_cmr=>NAPS
+donn session :
+dateofcmd=>29220
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>mbenkachcha@naps.ma
+donn session :
+nomprenom=>mery ben
+donn session :
+id_commande=>1000000771
+donn session :
+numTrans=>201551  
+donn session :
+numautorisation=>281921
+donn session :
+dateTran=>28/02/2020
+donn session :
+heureTrans=>19:21
+donn session :
+lg=>FR
+donn session :
+signature=>77f74fc2c38d03c7b799435fd46342da
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>100.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+donn session :
+dateofcmd=>29220
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>lhajjam@naps.ma
+donn session :
+nomprenom=>LAILA HAJJAM
+donn session :
+id_commande=>985352555
+donn session :
+numTrans=>202627  
+donn session :
+numautorisation=>021156
+donn session :
+dateTran=>02/03/2020
+donn session :
+heureTrans=>11:56
+donn session :
+lg=>FR
+donn session :
+signature=>b462e009a8f6c480eb1770c60419e6b
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>150.00
+donn session :
+idmsg=>3ko
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>lhajjam@naps.ma
+donn session :
+nomprenom=>TAOUFIK
+donn session :
+id_commande=>98520147
+donn session :
+numTrans=>208955  
+donn session :
+numautorisation=>021159
+donn session :
+dateTran=>02/03/2020
+donn session :
+heureTrans=>12:00
+donn session :
+lg=>FR
+donn session :
+signature=>ea6f9f53ea5316c94686fac49a5887a7
+donn session :
+numCarte=>434567xxxxxx4567
+donn session :
+typecarte=>VISA
+donn session :
+montant=>520.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1112020
+donn session :
+repauto=>00
+donn session :
+emailrd=>raziki@m2mgroup.com
+donn session :
+nomprenom=>yu ytu
+donn session :
+id_commande=>56t5yu56ytu787
+donn session :
+numTrans=>208111  
+donn session :
+numautorisation=>021507
+donn session :
+dateTran=>02/03/2020
+donn session :
+heureTrans=>15:02
+donn session :
+lg=>FR
+donn session :
+signature=>14a2b931aa860d21d48ac57878832892
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>98.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>
+donn session :
+nomprenom=>fouad chaqroun
+donn session :
+id_commande=>CM8979
+donn session :
+numTrans=>272616  
+donn session :
+numautorisation=>021626
+donn session :
+dateTran=>02/03/2020
+donn session :
+heureTrans=>16:22
+donn session :
+lg=>FR
+donn session :
+signature=>2d13eac0d520ff995b53f97acc202514
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>6,000.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>
+donn session :
+nomprenom=>fouad chaqroun
+donn session :
+id_commande=>CM8979
+donn session :
+numTrans=>272616  
+donn session :
+numautorisation=>021626
+donn session :
+dateTran=>02/03/2020
+donn session :
+heureTrans=>16:22
+donn session :
+lg=>FR
+donn session :
+signature=>2d13eac0d520ff995b53f97acc202514
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>6,000.00
+donn session :
+idmsg=>1ok
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+dateofcmd=>2320102
+donn session :
+codecmr=>1112020
+donn session :
+repauto=>05
+donn session :
+emailrd=>mbenkachcha@naps.ma
+donn session :
+nomprenom=>mery ben
+donn session :
+id_commande=>1000000115
+donn session :
+numTrans=>203175  
+donn session :
+numautorisation=>021707
+donn session :
+dateTran=>02/03/2020
+donn session :
+heureTrans=>17:08
+donn session :
+signature=>53a2f4bfd4ca97e6e05b60ed2ceaa906
+donn session :
+numCarte=>545678xxxxxx5678
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>100.00
+donn session :
+idmsg=>3ko
+donn session :
+lg=>FR
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+dateofcmd=>2320102
+donn session :
+codecmr=>1112020
+donn session :
+repauto=>00
+donn session :
+emailrd=>mbenkachcha@naps.ma
+donn session :
+nomprenom=>mery ben
+donn session :
+id_commande=>1000000116
+donn session :
+numTrans=>207549  
+donn session :
+numautorisation=>021709
+donn session :
+dateTran=>02/03/2020
+donn session :
+heureTrans=>17:09
+donn session :
+signature=>503885dd5b0eee827ddaea0762de1a5
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>100.00
+donn session :
+idmsg=>3ko
+donn session :
+lg=>FR
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+dateofcmd=>2320102
+donn session :
+codecmr=>1112020
+donn session :
+repauto=>00
+donn session :
+emailrd=>mbenkachcha@naps.ma
+donn session :
+nomprenom=>mery ben
+donn session :
+id_commande=>1000000117
+donn session :
+numTrans=>204102  
+donn session :
+numautorisation=>021711
+donn session :
+dateTran=>02/03/2020
+donn session :
+heureTrans=>17:11
+donn session :
+signature=>8d1e4a06f42e0919a694e14f1e2b9b12
+donn session :
+numCarte=>523456xxxxxx3456
+donn session :
+typecarte=>MASTERCARD
+donn session :
+montant=>100.00
+donn session :
+idmsg=>1ok
+donn session :
+lg=>FR
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+dateofcmd=>2320102
+donn session :
+codecmr=>1180092
+donn session :
+repauto=>00
+donn session :
+emailrd=>mbenkachcha@naps.ma
+donn session :
+nomprenom=>mery ben
+donn session :
+id_commande=>100000118
+donn session :
+numTrans=>209263  
+donn session :
+numautorisation=>021713
+donn session :
+dateTran=>02/03/2020
+donn session :
+heureTrans=>17:14
+donn session :
+signature=>1be1bc904e31bf61672fa628d9d4158b
+donn session :
+numCarte=>434567xxxxxx4567
+donn session :
+typecarte=>VISA
+donn session :
+montant=>100.00
+donn session :
+idmsg=>1ok
+donn session :
+lg=>FR
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+donn session :
+dateofcmd=>2320102
+donn session :
+codecmr=>1112020
+donn session :
+repauto=>00
+donn session :
+emailrd=>mbenkachcha@naps.ma
+donn session :
+nomprenom=>mery ben
+donn session :
+id_commande=>1000001110
+donn session :
+numTrans=>205204  
+donn session :
+numautorisation=>021720
+donn session :
+dateTran=>02/03/2020
+donn session :
+heureTrans=>17:21
+donn session :
+signature=>c12c253ad5615955696a4331fd7b950b
+donn session :
+numCarte=>434567xxxxxx4567
+donn session :
+typecarte=>VISA
+donn session :
+montant=>100.00
+donn session :
+idmsg=>1ok
+donn session :
+lg=>FR
+donn session :
+nom_cmr=>NAPS
+
+passage1 : passage1
+
+
+
+
+
+
+
+
+
+
+passage1 : passage1
+
+passage1 : passage1
+
+passage1 : passage1
+
+passage1 : passage1
+
+passage1 : passage1
+
+passage1 : passage1
+
+passage1 : passage1
+
+passage1 : passage1
+
+passage1 : passage1
+
+passage1 : passage1
+
+passage1 : passage1
+
+passage1 : passage1
+
+passage1 : passage1
+
+passage1 : passage1
+
+passage1 : passage1
+
+passage1 : passage1
+
+passage1 : passage1
+
+passage1 : passage1
+
+passage1 : passage1
+
+passage1 : passage1
+
+passage1 : passage1
+
+passage1 : passage1
+
+passage1 : passage1
+
+passage1 : passage1
+
+passage1 : passage1
+
+passage1 : passage1
+
+passage1 : passage1
+
+passage1 : passage1
+
+passage1 : passage1

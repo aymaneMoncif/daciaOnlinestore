@@ -1,0 +1,904 @@
+.row_1i {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 40px 0;
+}
+
+  .shwoSteps svg {
+    fill: white;
+    /* transform: rotate(270deg); */
+    transform: rotate(450deg);
+    right: 5px;
+    position: absolute;
+  }
+
+  .lineButtons {
+    display: flex;
+    justify-content: center;
+    width: var(--rn-width1);
+    margin: auto;
+  }
+  .etapsContainer {
+    height: 46px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: stretch;
+    overflow: hidden;
+  }
+
+  .etapBTN:first-child {
+    clip-path: polygon(7% 0, 92% 0, 100% 50%, 92% 100%, 0% 100%, 0 0%);
+  }
+  .etapBTN:last-child {
+    clip-path: polygon(0% 0, 100% 0, 100% 100%, 85% 100%, 0% 100%, 8% 50%);
+  }
+  .etapBTN {
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    width: calc(100% - 17px);
+    margin-right: -0.6%;
+    margin-left: -0.5%;
+    text-align: center;
+    border: none;
+    clip-path: polygon(0% 0, 92% 0, 100% 50%, 92% 100%, 0% 100%, 8% 50%);
+    background-color: #000000;
+    background-repeat: no-repeat;
+    transition: background-position-y ease-in-out 250ms;
+    cursor: pointer;
+    font-family: 'DaciaBlock';
+  }
+
+  .etapBTN.active{
+    background-color: var(--yellow);
+    color: black;
+  }
+  .etapBTN.inactive{
+    background-color: var(--gray3);
+    color: white;
+  }
+/*---------------backToTop-------------------*/
+.backToTop_container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 10px 0;
+  }
+  .backToTop{
+    width: var(--rn-width1);
+    margin: 0 var(--um);
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    font-family: 'RenaultGroupSemibold';
+  }
+  .backToTop a{
+    color: var(--black);
+    font-family: 'RenaultGroupSemibold';
+    text-decoration: underline;
+  }
+  .backToTop svg{
+    margin: auto;
+    margin-bottom: -2px;
+    margin-left: 10px;
+  }
+
+.breadcrumbs_bar1 {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    padding: 10px 0;
+    font-size: 15px;
+    width: 80%;
+    border-bottom: solid 1px var(--gray2);
+}
+
+.breadcrumbs_bar1 a {
+    font-family: 'DaciaBlock';
+    color: var(--black);
+}
+
+.breadcrumbs_bar1 p {
+    font-family: monospace;
+    padding: 0 10px;
+    color: var(--yellow);
+}
+
+/*/------------------ breadcrumb ------------/*/
+.breadcrumb_Container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+}
+.breadcrumb{
+    border-bottom: 1px solid var(--gray2);
+    border-radius: 0 !important;
+    justify-content: flex-start !important;
+}
+
+.breadcrumb a, .retour a{
+    font-family: 'NouvelRRegular';
+    font-size: 13px;
+    color: #000000;
+}
+.breadcrumb svg{
+    width: 26px;
+    height: 10px;
+    fill: currentcolor;
+    color: var(--yellow);
+    font-family: 'DaciaBlock';
+}
+/*/------------------ breadcrumb(retour) ------------/*/
+.retour .PRECEDENT, .retour .SUIVANT{
+display: flex;
+align-items: center;
+}
+.retour .PRECEDENTSVG, .retour .SUIVANTSVG{
+width: 33px;
+height: 19px;
+fill: currentcolor;
+color: var(--yellow);
+stroke-width: 0.5;
+}
+.retour .PRECEDENTSVG{
+transform: scaleX(-1);
+}
+.retour .SUIVANTSVG{
+transform: scaleX(1);
+}
+.retour a{
+font-family: 'RenaultGroupSemibold';
+font-size: 17px;
+}
+
+.back_btn_1 {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    font-size: 15px;
+    width: 80%;
+    margin: auto;
+}
+
+.back_btn_1 p {
+    font-family: monospace;
+    padding: 0 10px 0 0;
+    color: var(--yellow);
+}
+
+.back_btn_1 a {
+    font-family: 'DaciaBlock';
+    color: var(--black);
+}
+
+.page_sub_title {
+    text-align: center;
+    font-family: 'DaciaBlock';
+    color: var(--gray3);
+}
+
+.page_form .content form .bottomSection {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.page_form .content form .bottomSection .lefside {
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+    margin: auto;
+}
+
+.page_form .content form .bottomSection .righside {
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+    margin: auto;
+}
+
+.page_form .content form .bottomSection .righside p {
+    font-family: 'DaciaBlock';
+    font-size: 8px;
+    color: var(--gray3);
+}
+
+.page_form .content form .bottomSection .righside span {
+    font-weight: bold;
+}
+
+.page_form .content form .message {
+    width: 99%;
+    margin: auto;
+}
+
+@media (max-width: 900px) {
+    .page_title_main {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .breadcrumbs_bar1 {
+        width: 90%;
+    }
+
+    .page_title_main {
+        font-size: 20px;
+    }
+
+
+
+    .back_btn_1 {
+
+        width: 90%;
+
+    }
+
+
+
+}
+
+
+
+@media (max-width: 375px) {
+
+    .page_title_main {
+        font-size: 16px;
+    }
+
+    .breadcrumbs_bar1 {
+        font-size: 11px;
+    }
+
+}
+
+/* form page       */
+
+
+
+.page_form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 40px 0;
+    align-items: center;
+}
+
+.page_form .body {
+    box-sizing: border-box;
+    width: var(--rn-width1);
+    margin: 0 var(--um);
+    box-sizing: border-box;
+}
+
+.page_form .body .closeBtn {
+    position: absolute;
+    color: var(--gray2);
+    right: 20px;
+    top: 10px;
+    font-size: 30px;
+    font-family: monospace;
+    cursor: pointer;
+}
+
+.page_form .body .content {
+    display: flex;
+}
+
+.page_form .body .leftSide {
+    width: 50%;
+    background: var(--white);
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.page_form .body .rightSide {
+    width: 50%;
+    height: auto;
+    padding: 20px 0 20px 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.page_form .body .rightSide img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.page_form .body .rightSide p {
+    font-family: 'DaciaBlock';
+    font-size: 12px;
+    color: var(--gray3);
+}
+
+.page_form .body .rightSide p span {
+    font-weight: bold;
+}
+
+.page_form .body .footer {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page_form .body .submitBtn {
+    color: var(--white);
+    background: #4E5844;
+    font-family: "DaciaBlock";
+    border: none;
+    padding: 10px 10px;
+    margin: 15px 0;
+    cursor: pointer;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+.page_form .body .submitBtn:hover {
+    color: var(--white) !important;
+    background-color: #646b52;
+    border: none;
+}
+
+.page_form form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+}
+
+.page_form form input {
+    border: 0;
+    border-bottom: var(--gray3) solid 1px;
+    padding: 15px 0;
+    margin-bottom: 10px;
+    font-family: 'DaciaBlock';
+}
+
+.page_form form input:focus {
+    border: 0;
+}
+
+.page_form .checkbox_wrap {
+    display: flex;
+    align-items: flex-start;
+    margin: 5px 0;
+}
+
+.page_form .checkbox_wrap .checkBox {
+    border: double 1px var(--gray2);
+    width: 15px;
+    height: 15px;
+    margin: 0 10px 0 0;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.label p {
+    font-family: 'DaciaBlock';
+    margin-left: 31px;
+    margin-top: -13px;
+}
+.page_form .checkbox_wrap .label {
+    width: 100%;
+    font-family: "DaciaBlock";
+    font-size: 13px;
+    color: var(--black);
+}
+
+.page_form .checkbox_wrap .checked {
+    background: var(--black);
+    outline: solid var(--gray3) 1px;
+    border: solid var(--black) 1px !important;
+}
+
+form .note_label {
+    color: var(--gray3);
+    font-family: "DaciaBlock";
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.page_form form .error {
+    color: red;
+    font-size: 12px;
+    font-family: "DaciaBlock";
+}
+
+.page_form form p.error {
+    color: red;
+    font-size: 12px;
+    font-family: "DaciaBlock";
+    margin: 6px 0px;
+}
+
+.page_form .checkbox_wrap .checkBoxError {
+    border: double 1px red !important;
+}
+
+.page_form .hide {
+    display: none;
+}
+
+.page_form .thanksMsg {
+    font-family: "DaciaBlock";
+    font-size: 20px;
+    margin: 0 0 30px 0;
+    text-align: center;
+}
+
+.page_form .thanksMsg2 {
+    text-align: center;
+    font-family: "DaciaBlock";
+    font-size: 15px;
+}
+
+.page_form .part2 .leftSide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.page_form .part2 .leftSide img {
+    width: 90px;
+    margin: 0 0 30px 0;
+}
+
+.lefside .checkbox_wrap input {
+    padding: 0;
+    height: 0;
+    width: 0;
+    margin-bottom: 0;
+    cursor: pointer;
+    opacity: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.lefside .checkbox_wrap {
+    display: block;
+    margin-bottom: 1px;
+}
+
+.lefside .checkbox_wrap label {
+    position: relative;
+    cursor: pointer;
+}
+
+.lefside .checkbox_wrap label.label:before {
+    content: '';
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 1.5px solid black;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    padding: 7.5px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 12px;
+    border-radius: 50%;
+}
+
+.lefside .checkbox_wrap input:checked+label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: 3px;
+    width: 11px;
+    height: 11px;
+    background-color: black;
+    transform: rotate(45deg);
+    border-radius: 50%;
+}
+
+
+
+.page_form .body .leftSide.hide {
+    display: none;
+}
+
+.label .lireSpan {
+    white-space: nowrap;
+}
+
+
+/*----test Drive----*/
+.testDrive_container {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    font-family: 'DaciaBlock';
+    justify-content: space-evenly;
+    width: 60%;
+    height: 39px;
+    margin-top: 10px;
+}
+.testDrive_container p {
+    font-size: 12px;
+    margin: 0;
+    color: #4E5844;
+}
+.checkbox_testDrive {
+    margin: 0 !important;
+    position: relative !important;
+}
+
+#testDrive_input{
+    display: none;
+}
+
+.checkbox_testDrive:before {
+    content: '';
+    -webkit-appearance: none;
+    background-color: white; /* Replace with a specific color or define --white */
+    border: 1px solid #626262;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    padding: 6px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    left: -1px;
+    bottom: 2px;
+}
+input:checked + .checkbox_testDrive:after {
+    content: '\2713';
+    font-size: 12px;
+    color: black;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 900px) {
+
+    .item_card {
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 849px) {
+    .label .lireSpan {
+        margin-left: 30px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .label .lireSpan {
+        margin-left: 5px;
+    }
+
+    .main_container {
+        padding-bottom: 60px;
+    }
+
+    .breadcrumbs_bar1 {
+        width: 90%;
+    }
+
+    .page_title_main {
+        font-size: 20px;
+        margin-top: 30px;
+    }
+
+    .page_form {
+        margin: 10px 0;
+    }
+
+    .page_form .body .rightSide p {
+        font-size: 11px;
+    }
+
+    .page_form form {
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .page_form form input {
+        padding: 12px 0;
+        margin-bottom: 3px;
+    }
+
+    form .note_label {
+        font-size: 11px;
+    }
+
+    .page_form .checkbox_wrap .label {
+        font-size: 11px;
+    }
+
+    .page_form .checkbox_wrap .checkBox {
+        width: 12px;
+        height: 12px;
+        margin: 0px 6px 0 0;
+    }
+
+    .page_form .body .leftSide {
+        width: 100%;
+        padding-bottom: 15px;
+    }
+
+    .page_form .part2 .leftSide img {
+        width: 25%;
+        margin: 25px 0;
+    }
+
+    .page_form .body .rightSide {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .page_form .thanksMsg {
+        font-size: 22px;
+        margin: 0 0 25px 0;
+    }
+
+    .page_form .thanksMsg2 {
+        font-size: 20px;
+       margin: 0 0 10px 0;
+    }
+}
+
+@media (max-width: 425px) {
+    .testDrive_container {
+        width: 75%;
+        font-size: 13px;
+    }
+    .retour a {
+        font-family: 'RenaultGroupSemibold';
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .main_container {
+        padding-bottom: 50px;
+    }
+
+    .commandez_btn1 {
+        margin: 10px 0;
+    }
+
+    .item_card {
+        width: calc(100% - 10px);
+        margin-bottom: 20px;
+    }
+
+    .page_form {
+        margin: 0px 0;
+    }
+
+    .page_form .body {
+        margin-top: 10px;
+    }
+
+    .page_form .body .content {
+        flex-direction: column;
+    }
+
+    .page_form .body .closeBtn {
+        right: 15px;
+        top: 5px;
+        font-size: 25px;
+    }
+
+    .page_form .body .header {
+        padding: 15px 0;
+    }
+
+    .page_form .body .leftSide {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    .page_form form input {
+        padding: 12px 0;
+        margin-bottom: 3px;
+        font-size: 12px;
+    }
+
+    .page_form .body .rightSide {
+        width: 100%;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    .page_form .body .submitBtn {
+        padding: 7px 30px;
+        margin: 10px 0;
+        font-size: 12px;
+    }
+
+    .page_form .thanksMsg2 {
+        font-size: 12px;
+        width: 95%;
+        margin-bottom: 10px;
+    }
+
+    .page_form .thanksMsg {
+        font-size: 20px;
+        margin: 0 0 15px 0;
+    }
+
+    .page_form .part2 .leftSide img {
+        width: 22%;
+        margin: 22px 0;
+    }
+}
+
+@media (max-width: 375px) {
+    .testDrive_container {
+        width: 80%;
+    }
+    .testDrive_container p {
+        font-size: 11px;
+    }
+    .page_form .checkbox_wrap .label {
+        font-size: 11px;
+    }
+
+    .item_card .price {
+        margin-top: 2px;
+    }
+
+    .item_card .title {
+        margin: 10px 0 0 0;
+    }
+
+    .item_card {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .back_btn_1 {
+        font-size: 12px;
+    }
+
+    .breadcrumbs_bar1 {
+        font-size: 11px;
+    }
+
+
+
+}
+
+
+
+
+
+.hidden_input1 {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    margin: 0;
+    padding: 0 !important;
+}
+
+
+.main_container {
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.page_form form .message {
+    width: 99%;
+    margin: auto;
+}
+
+
+@media (max-width: 1024px) {
+    .page_form .body {
+        width: 90%;
+    }
+
+    .page_sub_title {
+        width: 90%;
+        margin: auto;
+    }
+
+}
+
+.desktopDisplay {
+
+    display: flex !important;
+
+}
+
+.mobileDisplay {
+
+    display: none !important;
+
+}
+
+@media (max-width: 425px) {
+/*------back to top---------*/
+.backToTop a {
+    color: var(--black);
+    font-size: small;
+  }
+}
+
+@media (max-width: 768px) {
+
+    .desktopDisplay {
+
+        display: none !important;
+
+    }
+
+    .mobileDisplay {
+
+        display: block !important;
+
+    }
+
+    .page_form .content form .bottomSection .righside {
+
+        width: 100%;
+
+        margin: 10px 0 0 0;
+
+    }
+
+
+
+    .page_form .content form .bottomSection .lefside {
+
+        width: 100%;
+
+        margin: 0;
+
+    }
+
+    .page_form .content form .bottomSection {
+
+        flex-direction: column;
+
+    }
+
+    .lefside .checkbox_wrap label.label:before {
+        padding: 7px;
+    }
+
+    .lefside .checkbox_wrap input:checked+label:after {
+        top: 3px;
+        left: 3px;
+        width: 10px;
+        height: 10px;
+    }
+
+}

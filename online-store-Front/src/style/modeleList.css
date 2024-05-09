@@ -1,0 +1,587 @@
+.shwoSteps svg {
+    fill: white;
+    /* transform: rotate(270deg); */
+    transform: rotate(450deg);
+    right: 5px;
+    position: absolute;
+}
+
+.lineButtons {
+    display: flex;
+    justify-content: center;
+    width: var(--rn-width1);
+    margin: auto;
+}
+.etapsContainer {
+    height: 46px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: stretch;
+    overflow: hidden;
+}
+
+.etapBTN:first-child {
+    clip-path: polygon(7% 0, 92% 0, 100% 50%, 92% 100%, 0% 100%, 0 0%);
+}
+.etapBTN:last-child {
+    clip-path: polygon(0% 0, 100% 0, 100% 100%, 85% 100%, 0% 100%, 8% 50%);
+}
+.etapBTN {
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    width: calc(100% - 17px);
+    margin-right: -0.6%;
+    margin-left: -0.5%;
+    text-align: center;
+    border: none;
+    clip-path: polygon(0% 0, 92% 0, 100% 50%, 92% 100%, 0% 100%, 8% 50%);
+    background-color: #000000;
+    background-repeat: no-repeat;
+    transition: background-position-y ease-in-out 250ms;
+    cursor: pointer;
+    font-family: 'DaciaBlock';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.etapBTN.active{
+    background-color: var(--yellow);
+    color: black;
+}
+.etapBTN.inactive{
+    background-color: var(--gray3);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+.row_i {
+    position: absolute;
+    width: 100%;
+    top: 150px;
+}
+
+.row_3i {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 25px 2%;
+    flex-wrap: wrap;
+}
+
+.card_s3 {
+    box-shadow: 0px 0px 4px 0px black;
+    border-radius: 5px;
+    border: solid 5px var(--gray3);
+    height: var(--cardHeight);
+    width: var(--rn-width3);
+    margin: 0 var(--um);
+    box-sizing: border-box;
+}
+
+.row_2i {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 40px 0;
+}
+
+.card_s2 {
+    box-shadow: 0px 0px 4px 0px black;
+    border-radius: 5px;
+    border: solid 5px var(--gray2);
+    height: var(--cardHeight);
+    width: var(--rn-width2);
+    margin: 0 var(--um);
+    box-sizing: border-box;
+}
+
+.row_2-5i {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 40px 0;
+}
+
+.row_1i {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 40px 0;
+}
+
+.card_s1 {
+    box-shadow: 0px 0px 4px 0px black;
+    border-radius: 5px;
+    border: solid 5px var(--black);
+    height: var(--cardHeight);
+    width: var(--rn-width1);
+    margin: 0 var(--um);
+    box-sizing: border-box;
+}
+
+
+
+
+
+/*/------------------breadcrumb ------------/*/
+.breadcrumb_Container{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      margin: 0;
+}
+
+.breadcrumb{
+    border-bottom: solid 1px var(--gray2);
+    height: 60px;
+    width: var(--rn-width1);
+    margin: 0 var(--um);
+    box-sizing: border-box;
+    background-color: white !important;
+    margin-bottom: 0 !important;
+}
+
+/*---------------Gamme renault-------------------*/
+.gamme_Renault{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 4px 0;
+}
+.vehicule_type_container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 40px 0;
+}
+.vehicule_type{
+    width: var(--rn-width4);
+    margin: 0 var(--um);
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    font-family: DaciaBlock;
+}
+.vehicule_type .type_button1, .vehicule_type .type_button2 {
+    background: transparent;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 3px solid transparent;
+    cursor: pointer;
+    font-family: 'NouvelRRegular';
+}
+.vehicule_type .type_button1:hover, .vehicule_type .type_button2:hover {
+    font-family: 'DaciaBlock';
+}
+.vehicule_type .type_button1.active, .vehicule_type .type_button2.active {
+    border-bottom: 2px solid var(--yellow);
+    font-family: 'DaciaBlock';
+    color: var(--black);
+}
+
+/*---------------cars_card-------------------*/
+.card{
+    padding: 20px;
+    border: 1px solid #dbdbdb69;
+    border-radius: 5px;
+}
+.card:hover {
+    box-shadow: 0px 0px 5px 1px #4e584417;
+    border: 1px solid #4e584438;
+}
+.card-body {
+    margin-top: 32px;
+}
+.card-title {
+  font-family: 'DaciaBlockExtendedBold';
+  margin: 17px 0;
+  font-weight: bold;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.cars_card{
+    /*width: var(--rn-width3);*/
+    width: 32%;
+    /*margin: 0 var(--um);*/
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  DaciaBlock;
+}
+
+.showMorecarsBTN{
+    display: none;
+}
+
+.cars_card .card-img-top{
+    width: 100%;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+
+.cars_card .card-text {
+  font-family: 'DaciaBlock';
+  margin-top: -6px;
+  margin-bottom: 7px;
+  font-size: 16px;
+}
+
+.cars_card .cardButton {
+  color: var(--black);
+  display: flex;
+  align-items: flex-end;
+  gap: 7px;
+  font-family: 'DaciaBlock';
+}
+
+.hybrid {
+    margin-top: 7px;
+}
+
+.hybrid .hybrid_text {
+    color: #828282;
+    font-family: 'NouvelRRegular';
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+.hybrid .hybrid_full {
+    border: 2px solid #0086cf;
+    color: #0086cf;
+    text-align: left;
+    display: inline;
+    padding: 5px 6px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.cars-section1, .cars-section2 {
+    display: none;
+}
+
+.cars-section1.active, .cars-section2.active {
+    display: block;
+}
+.cars-section1, .cars-section2 {
+    width: var(--rn-width1);
+    margin: 0 var(--um);
+    box-sizing: border-box;
+}
+.todispear {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 40px 0;
+}
+
+/*---------------backToTop-------------------*/
+.backToTop{
+    width: var(--rn-width1);
+    margin: 0 var(--um);
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    font-family: RenaultGroupSemibold;
+}
+
+.backToTop a{
+    color: black;
+    font-family: RenaultGroupSemibold;
+    text-decoration: underline;
+}
+
+.backToTop svg{
+    margin: auto;
+    margin-bottom: -2px;
+    margin-left: 10px;
+}
+
+
+
+/*-----------------------------------------------------------------------------------*/
+/*---------------------------------- Responsive -------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+
+@media (min-width: 801px) {
+    .cars-section-tablet{
+        display: none;
+    }
+}
+
+/*------------------------------------*/
+/*--------------- tablet -------------*/
+/*------------------------------------*/
+
+@media (max-width: 800px) {
+    .gamme_Renault {
+        margin-bottom: -40px;
+    }
+
+/*/------------- mainTitle ----------/*/
+    .mainTitle{
+      margin: 0 var(--um);
+      box-sizing: border-box;
+      text-align: center;
+    }
+
+    .mainTitle .title {
+      font-size: 29px;
+      margin-top: 14px;
+    }
+
+    .mainTitle .reverstitle {
+      font-size: 29px;
+      margin-top: 0px;
+      margin-bottom: -15px;
+    }
+
+    .mainTitle .title.exeption {
+      margin-top: 0px;
+    }
+
+    .mainTitle .semititle {
+      font-family: RenaultGroupSemibold;
+      margin-bottom: 7px;
+      color: var(--gray3);
+    }
+
+
+/*--------------- cars cards -------------*/
+    .card{
+        border: 0px;
+    }
+    .cars_card {
+      width: 45%;
+      margin: 0 var(--um);
+    }
+
+    .cars-section-tablet{
+      width: var(--rn-width1);
+      margin: 0 var(--um);
+      box-sizing: border-box;
+    }
+    .vehicule_type_container, .todispear{
+      display: none;
+    }
+    .cars-section1, .cars-section2 {
+      display: block;
+    }
+    .collapsing {
+      transition: height 0.2s ease;
+    }
+
+    .collapse {
+      display: none;
+      transition: display 0s ease-out, height 0.2s ease;
+    }
+
+    .collapse.show{
+      display: block;
+    }
+    .btn.btn-link.collapsed, .btn.btn-link {
+      background: transparent;
+      border-top: 0px;
+      border-left: 0px;
+      border-right: 0px;
+      border-bottom: 1px solid var(--gray2) !important;
+      cursor: pointer;
+      width: 100%;
+      font-weight: 100;
+      text-align: left;
+      display: flex;
+      align-items: center;
+      padding: 10px 0;
+      color: black !important;
+    }
+
+    .btn.btn-link {
+      border-bottom: 2px solid var(--yellow) !important;
+      font-family: 'DaciaBlock' !important;
+      font-weight: 600;
+      border-top: 0px;
+    }
+
+    /* Rotate the icon when the collapse is open */
+    .card-header.bg-black .rotate-icon {
+        transform: rotate(180deg);
+        color: var(--yellow);
+    }
+
+    /* Rotate the icon when the collapse is closed */
+    .card-header .collapsed .rotate-icon {
+        transform: rotate(0deg);
+        color: var(--black);
+    }
+    .card-header.bg-black{
+      background: transparent !important;
+    }
+
+    /* Rotate the icon when the collapse is open */
+      #headingTwo .rotate-icon {
+        transform: rotate(180deg);
+        color: var(--yellow);
+      }
+
+    /* Rotate the icon when the collapse is closed */
+    #headingTwo .collapsed .rotate-icon {
+        transform: rotate(0deg);
+        color: var(--black);
+    }
+
+    .rotate-icon {
+        transition: transform 0.5s ease-in-out;
+        margin-left: auto;
+        display: flex;
+    }
+
+    .row_3i {
+        display: flex;
+        width: 100%;
+        margin: 40px 0;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 30px 0;
+    }
+
+    .mainTitle button {
+      padding: 0px 46px;
+    }
+}
+
+@media (max-width: 671px) {
+    .cars_card {
+      width: 100%;
+    }
+
+    /*--etaps--*/
+    .lineButtonsMobile{
+        display: block;
+    }
+    .lineButtons{
+        display: none;
+    }
+
+    .card-body .cardButton svg {
+        width: 20px !important;
+        height: 14px !important;
+        margin-left: 1px;
+        margin-top: 6px;
+    }
+}
+
+
+
+/*------------------------------------*/
+/*--------------- phone1 -------------*/
+/*------------------------------------*/
+@media (max-width: 425px) {
+/*-----------.mainTitle .title -------------*/
+    .mainTitle .title {
+      font-size: 20px;
+      margin-top: 0px;
+    }
+
+    .row_1i {
+      margin-bottom: 0px;
+      margin-top: 15px;
+    }
+
+/*-------cars cards---------*/
+    .cars-section1, .cars-section2 {
+      margin: 0;
+    }
+
+    .cars_card {
+      width: 100%;
+      margin: 10px 0px;
+    }
+
+    .cars_card .hybrid .hybrid_full {
+      padding: 5px 11px;
+      font-size: 12px;
+      font-family: 'DaciaBlock';
+    }
+
+    .cars_card .hybrid .hybrid_text {
+      font-size: 15px;
+      margin-top: 22px;
+      margin-bottom: 7px;
+      font-family: 'NouvelRRegular';
+    }
+
+    .cars_card .card-title {
+      font-family: 'DaciaBlock';
+      font-size: 18px;
+      margin: 15px 0px 0px 0px;
+    }
+
+    .cars_card .card-text {
+      font-family: NouvelRRegular;
+      margin: 10px 0px 10px 0px;
+    }
+
+    .cars_card .cardButton {
+      font-size: 13px;
+    }
+
+    .technologies_card .card3 .card-body .card-title {
+      margin-top: 14px;
+    }
+
+/*--- to show just 3 cars ---*/
+    .cars-section2 .cars_card {
+      display: block;
+    }
+    .cars-section1 .cars_card {
+      display: block;
+      padding: 15px;
+    }
+
+    .showMorecarsBTN{
+      display: block;
+      background-color: transparent;
+      border: 1px solid black;
+      color: rgb(0, 0, 0);
+      font-weight: bold;
+      font-size: 16px;
+      height: 46px;
+      font-family: DaciaBlock;
+      padding: 0px;
+      width: -webkit-fill-available;
+    }
+
+    .row_3i {
+      margin: 10px 0;
+    }
+
+    .mb-0{
+        margin: 0px 0px;
+    }
+
+    .gamme_Renault {
+      margin-bottom: 0px;
+    }
+
+/*------back to top---------*/
+    .backToTop a {
+      color: black;
+      font-size: small;
+    }
+}

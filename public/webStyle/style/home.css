@@ -1,0 +1,871 @@
+:root{
+    --black: #000000 !important;
+    --yellow: #ede04a !important;
+    --lightYellow: #f8eb4c !important;
+    --white: #ffffff !important;
+ }
+
+ #icon{
+    fill: var(--black);
+ }
+
+a:hover{
+    text-decoration: none !important;
+}
+
+/*/--------------header_image-------------/*/
+.page_headerTitle{
+    width: var(--rn-width1);
+    margin: 0 var(--um);
+    box-sizing: border-box;
+    text-align: left;
+  }
+  .page_headerTitle .title {
+    margin: 0px 0px 60px 0px;
+    padding: 0px;
+    text-align: center;
+}
+  .page_headerTitle .title .title_text {
+    font-size: 34px;
+    font-family: DaciaBlock;
+    margin: 0px;
+    text-transform: uppercase;
+    color: white;
+    margin-top: -20px;
+    line-height: 1.3;
+    letter-spacing: 2px;
+}
+.page_headerTitle .title .subtitle_text {
+    color: white;
+    font-family: DaciaBlock;
+    font-size: 23px;
+    letter-spacing: 1px;
+}
+  .header_image {
+    height: 530px;
+    width: 100%;
+    box-sizing: border-box;
+    background-image: url("../assets/header_images/slider-online-store.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+/*/------------------ breadcrumb ------------/*/
+    .breadcrumb_Container{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+    }
+    .breadcrumb {
+        display: flex;
+        height: 60px;
+        width: var(--rn-width1);
+        margin: 0 var(--um);
+        box-sizing: border-box;
+        background-color: white !important;
+        margin-bottom: 0 !important;
+        font-family: DaciaBlock;
+        flex-direction: row;
+        align-items: center;
+    }
+    .breadcrumb a{
+        font-family: 'DaciaBlock';
+        font-size: 13px;
+        color: #000000;
+    }
+    .breadcrumb svg{
+        width: 26px;
+        height: 10px;
+        fill: currentcolor;
+        color: #ff671b;
+        font-family: 'DaciaBlock';
+    }
+
+/*/------------- mainTitle ----------/*/
+  .mainTitle{
+      margin: 0 var(--um);
+      box-sizing: border-box;
+      text-align: center;
+      font-family: 'DaciaBlock';
+    }
+    .mainTitle .title {
+        font-size: 35px;
+        font-family: 'DaciaBlock';
+        margin-bottom: 30px;
+    }
+    .mainTitle .title.exeption {
+      margin-top: 0px;
+    }
+    .mainTitle .semititle {
+        font-size: 16px;
+        margin-bottom: 0px;
+        width: 64%;
+        margin: auto;
+        font-family: DaciaBlock;
+        color: var(--gray3);
+    }
+
+
+/*/------------- Mini cards pourquoi renault ----------/*/
+    .row6i{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 10px 0;
+    }
+    .minicard-title {
+        line-height: 1;
+        margin-top: 10px;
+    }
+    .M-auto-renault_containerT{
+        display: none;
+    }
+    #carousel5 .owl-stage {
+        display: flex;
+        justify-content: center;
+    }
+
+    #carousel5.owl-item {
+        width: auto; /* Set the width to auto to allow responsiveness */
+        margin-right: 10px; /* Adjust margin as needed */
+    }
+
+    #carousel5 .owl-item.active,
+    #carousel5 .owl-item.cloned{
+        width: auto !important;
+    }
+
+    .M-auto-renault_container{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 20px 0;
+    }
+    .M-auto-renault{
+        max-width: var(--rn-width1);
+        margin: 0 auto var(--um) auto;
+        box-sizing: border-box;
+        text-align: center;
+        font-family: DaciaBlock;
+    }
+    .M-auto-renault .title {
+        font-size: 40px;
+        font-weight: bold;
+        font-family: DaciaBlock;
+        margin-bottom: 14px;
+    }
+    .M-auto-renault .para {
+        font-size: 16px;
+        margin-bottom: 0px;
+        width: 64%;
+        margin: auto;
+        font-family: DaciaBlock;
+        color: var(--gray3);
+    }
+    .M-auto-renault .minicard-desc {
+        font-family: DaciaBlock;
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    .mini-card{
+        width: 20%;
+        margin: 0 var(--um);
+        box-sizing: border-box;
+        position: relative;
+    }
+    .mini-card img{
+        width: 33%;
+    }
+    .minicard-button {
+        height: 46px;
+        width: var(--rn-width4);
+        margin-top: 35px;
+        box-sizing: border-box;
+        font-family: DaciaBlock;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.5s, color 0.5s;
+        background-color: var(--black);
+        color: rgb(255, 255, 255);
+    }
+    .minicard-button:hover{
+        background-color: var(--yellow);
+        color: rgb(0, 0, 0);
+    }
+
+
+/*---- comande vehicule button ----*/
+.button_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button_zone{
+    width: var(--rn-width1);
+    margin: 0 var(--um);
+    box-sizing: border-box;
+}
+.comande_vehicule {
+    height: 46px;
+    width: var(--rn-width3);
+    box-sizing: border-box;
+    font-family: DaciaBlock;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s;
+    background-color: #4E5844;
+    color: white;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.comande_vehicule:hover {
+    background-color: #646b52;
+    color: white;
+}
+
+
+/*---- POURQUOI ACHETER EN LIGNE ----*/
+.prqEnLigne_conatiner.mobile{
+  display: none;
+}
+.prqEnLigne_conatiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0;
+}
+.prqEnLigne_zone {
+    width: var(--rn-width1);
+    margin: 0 var(--um);
+    box-sizing: border-box;
+    background-color: #dad9d782;
+    padding: 35px;
+}
+.icons_text_container {
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.svg_containerANDtext{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.svg_containerANDtext .text{
+    font-family: 'DaciaBlock';
+    line-height: 1.2;
+    margin: 0;
+}
+.svg_containerANDtext .svg_container {
+    background-color: #4E5844;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.svg_containerANDtext .svg_container svg{
+    fill: var(--white) !important;
+}
+
+
+/*---------------- Garanties -------------------*/
+  .twoCards{
+    display: flex;
+  }
+  .Garanties{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 40px 0;
+  }
+  .Garanties_card_zone {
+    width: var(--rn-width1);
+    margin: 0 var(--um);
+    box-sizing: border-box;
+    font-family: DaciaBlock;
+    display: flex;
+  }
+  .Garanties_card_hide{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0;
+    /*flex-wrap: wrap;*/
+  }
+  .Garanties_card{
+    width: 100%;
+    margin: 0 var(--um);
+    box-sizing: border-box;
+    font-family: DaciaBlock;
+  }
+  .Garanties_card .card3 .card-body .card-title {
+    font-size: 20px;
+    font-family: DaciaBlock;
+  }
+  .Garanties_card .card3 .card-body .card-text {
+    font-size: 14px;
+    font-family: DaciaBlock;
+    color: #5d5d5d;
+  }
+  .Garanties_card .card3 hr {
+    margin: 0;
+    width: 70px;
+    background-color: #ff671b;
+    border: none;
+    height: 2px;
+  }
+  .card3 .card-body > div {
+    margin-top: auto;
+    display: flex;
+  }
+  .card3 .card-body > div a {
+    margin-right: 15px;
+  }
+  .card3 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .card3 .card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+
+/*--------------------questions-section--------------------*/
+.row_1i {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 40px 0 20px 0;
+    align-items: center;
+}
+.questions-section{
+    width: var(--rn-width1);
+    margin: 0 var(--um);
+    box-sizing: border-box;
+}
+.card {
+  margin-bottom: 7px;
+}
+.btn-link {
+    font-family: DaciaBlock;
+    color: rgb(255, 255, 255) !important;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    width: 100% !important;
+    justify-content: space-between !important;
+}
+.btn-link.collapsed{
+  font-family: DaciaBlock;
+  color: rgb(0, 0, 0) !important;
+  font-size: 15px;
+}
+.card-header{
+  background-color: white !important;
+  padding: 0.1px 0.25rem !important;
+}
+.card-header.bg-black {
+  background-color: #646b52 !important;
+}
+
+.bg-black {
+  background-color: #646b52;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.rotate-icon {
+  transition: transform 0.5s ease-in-out;
+  margin-left: auto;
+  display: flex;
+}
+
+.card-header.bg-black .rotate-icon {
+  transform: rotate(180deg);
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+}
+
+.card-header .rotate-icon {
+  transform: rotate(0deg);
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+}
+.btn-link.focus, .btn-link:focus {
+  text-decoration: none !important;
+  box-shadow: none;
+}
+.questions{
+    width: 15%;
+}
+
+
+/*---------------backToTop-------------------*/
+  .backToTop{
+    width: var(--rn-width1);
+    margin: 0 var(--um);
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    font-family: DaciaBlock;
+  }
+  .backToTop a{
+    color: black;
+    font-family: DaciaBlock;
+    text-decoration: underline;
+  }
+  .backToTop svg{
+    margin: auto;
+    margin-bottom: -2px;
+    margin-left: 10px;
+  }
+
+
+
+
+
+.collapse{
+    display: none;
+}
+.collapse.show{
+    display: block;
+    border: 1px solid #dadada;
+    padding: 13px;
+    font-family: 'DaciaBlock';
+    font-size: 13px
+}
+#accordion .card{
+    border: 1px solid #dadada;
+    font-size: 15px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*---------------------------------- Responsive -------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+/*------------------------------------*/
+/*--------------- tablet -------------*/
+/*------------------------------------*/
+@media (max-width: 800px) {
+
+.Garanties_card_zone {
+  flex-direction: column;
+}
+
+/*---------------breadcrumb---------------------*/
+.breadcrumb svg {
+  width: 29px;
+  height: 11px;
+}
+.breadcrumb a{
+  font-size: 12px;
+}
+
+/*-----------headerTitle -------------*/
+  .page_headerTitle .title .title_text {
+    font-size: 40px;
+  }
+  .page_headerTitle .title .subtitle_text {
+    font-size: 21px;
+  }
+
+/*/------------- mainTitle ----------/*/
+    .mainTitle{
+      margin: 0 var(--um);
+      box-sizing: border-box;
+      text-align: center;
+    }
+    .mainTitle .title {
+      font-size: 29px;
+      margin-top: 14px;
+    }
+    .mainTitle .reverstitle {
+      font-size: 29px;
+      margin-top: 0px;
+      margin-bottom: -15px;
+    }
+    .mainTitle .title.exeption {
+      margin-top: 0px;
+    }
+    .mainTitle .semititle {
+        font-size: 14px;
+        width: 90%;
+    }
+
+/*/------------- form ----------/*/
+    .form {
+        width: 550px;
+    }
+    .dropbtn {
+        padding: 10px 8px;
+    }
+    .button_form {
+        height: 46px;
+        width: 70%;
+    }
+    .dropdown-content {
+        min-width: 228px;
+        top: 47px;
+    }
+    .dropdown_content_range{
+        top: 47px;
+    }
+    .dropdown {
+        border: 0.5px solid var(--gray2);
+        border-width: 0.5px; /* Set the border width */
+    }
+
+/*/------------- minicard ----------/*/
+.prqEnLigne_conatiner.mobile{
+  display: flex;
+}
+.prqEnLigne_conatiner{
+  display: none;
+}
+.M-auto-renault {
+    margin-top: 25px;
+  }
+  .M-auto-renault_container{
+    display: none;
+  }
+  .M-auto-renault_containerT{
+    display: block;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .mini-card {
+    width: var(--rn-width6);
+    margin: 0 var(--um);
+    text-align: center;
+    padding: 0px;
+  }
+  .mini-card img {
+    width: 26% !important;
+    margin: auto !important;
+  }
+  .M-auto-renault .minicard-desc {
+    font-size: 14px;
+  }
+  .minicard-button {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    border: none;
+    width: 250px;
+  }
+  .minicard-button-div{
+    text-align: center;
+    width: 100%;
+  }
+  #carousel5 .owl-nav {
+    position: absolute;
+    top: 22%;
+    width: 100%;
+    transform: translateY(-50%);
+  }
+  #carousel6 .owl-prev, #carousel6 .owl-next {
+    top: 0;
+    font-size: 27px;
+  }
+
+  #carousel5 .owl-prev, #carousel6 .owl-prev {
+    left: -10px;
+    position: absolute;
+    font-size: 25px;
+  }
+  #carousel5 .owl-next, #carousel6 .owl-next {
+    right: -10px;
+    position: absolute;
+    font-size: 25px;
+  }
+
+/*--------------- stickercard -------------*/
+.card-text-btns {
+    width: 55%;
+    margin: 15px;
+    box-sizing: border-box;
+  }
+  .image-zone img {
+    width: 140%;
+    margin-left: -50px;
+  }
+  .showcars .title-cards-details {
+    font-size: 24px;
+  }
+  .card-btns .card-btn1, .card-btns .card-btn2 {
+    margin: 0 5px;
+    font-size: 15px;
+  }
+
+}
+
+
+
+/*------------------------------------*/
+/*--------------- phone1 -------------*/
+/*------------------------------------*/
+@media (max-width: 566px) {
+/*---------------change the image of the header (phone)---------------------*/
+    .breadcrumb svg {
+        width: 24px;
+        height: 9px;
+    }
+    .breadcrumb a{
+        font-size: 11px;
+    }
+
+/*---------------change the image of the header (phone)---------------------*/
+.header_image {
+  background-image: url("../assets/header_images/slider-online-store.jpg");
+}
+
+/*-----------headerTitle -------------*/
+    .page_headerTitle .title .title_text {
+        font-size: 27px;
+    }
+    .page_headerTitle .title .subtitle_text {
+        font-size: 13px;
+        width: 279px;
+        margin: auto;
+    }
+/*-----------.mainTitle .title -------------*/
+    .mainTitle .title {
+        font-size: 21px;
+        margin-top: 20px;
+    }
+    .row_1i {
+        margin-bottom: 0px;
+        margin-top: 15px;
+    }
+
+/*----------- Form -------------*/
+    .form {
+        width: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: -255px;
+    }
+    .form > * {
+        width: calc(52% - 8px);
+        margin-bottom: 0px;
+    }
+    .dropdown_content_range {
+        right: 0px;
+    }
+    .dropdown-content {
+        min-width: 199px;
+    }
+
+/*/------------- cars cards ----------/*/
+    .row_3i {
+        margin: 10px 0;
+    }
+    .cars_card .cardButton svg {
+        width: 8px !important;
+        height: 18px !important;
+        margin-left: 12px;
+    }
+    .row_3i > .cars_card:nth-child(n+4) {
+        display: none;
+    }
+    .comande_vehicule {
+        width: 93%;
+        margin: 0 var(--um);
+    }
+/*/------------- M-auto-renault ----------/*/
+    .mainTitle .semititle{
+        margin-bottom: 10px;
+        font-size: 11px;
+        width: 100%;
+    }
+    .M-auto-renault_containerT {
+        margin: -15px 0;
+    }
+    .mainTitle {
+        margin: 0 var(--um);
+    }
+    .M-auto-renault {
+        max-width: var(--rn-width1);
+        margin: 0 var(--um);
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .minicard-title {
+        font-size: 15px;
+        margin: 0px;
+    }
+    .M-auto-renault .minicard-desc {
+        font-size: 11px;
+        margin-top: 8px;
+    }
+    .mini-card {
+      width: 138px;
+      height: 233px;
+  }
+    .mini-cards-container {
+        max-width: var(--rn-width1);
+        margin: 0 var(--um);
+        overflow: hidden;
+    }
+    .minicard-button{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .estimation-Button  {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+/*------back to top---------*/
+    .backToTop a {
+      color: black;
+      font-size: small;
+    }
+
+/* ------------- financez ---------- */
+.financez_sticker{
+    flex-direction: column-reverse;
+}
+.image_section, .text_section {
+    height: auto;
+    width: auto;
+    margin: 0 var(--um);
+    box-sizing: border-box;
+    text-align: center;
+}
+.text_section {
+    padding: 1px 0 23px 0px;
+}
+.text_section .title {
+    font-size: 20px;
+    margin: 10px 0px;
+}
+.text_section .subtitle {
+    font-size: 11.5px;
+    font-family: 'DaciaBlock';
+}
+.text_section .card-btn2 {
+    width: 100%;
+}
+/*---------------sticker car--------------*/
+    .showcars {
+        padding: 21px 0;
+    }
+    .description {
+        font-family: DaciaBlock;
+        margin: 0px;
+        line-height: 1;
+    }
+    .showcars {
+        flex-direction: column;
+    }
+    .image-zone img {
+        width: 183%;
+        margin-left: -65px;
+    }
+    .card-btns {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .card-text-btns {
+        width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .card-btns .card-btn1 {
+        margin: 0px;
+        border: 1px solid var(--gray2);
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .card-btns .card-btn2 {
+        margin: 0;
+        font-size: 15px;
+        width: 100%;
+    }
+    .showcars .title-cards-details {
+        font-size: 19px;
+    }
+    .showcars .subtitle {
+        font-size: 13px;
+        margin: 10px;
+    }
+
+/*/------------ questions part----------------/*/
+.card-body {
+    padding: 0.5rem !important;
+    font-size: 13px;
+  }
+  .btn-link {
+    text-align: left !important;
+    font-size: 13px !important;
+  }
+  .card {
+    margin-bottom: 1px;
+  }
+
+
+  .twoCards {
+    display: flex;
+    flex-direction: column;
+  }
+  .Garanties_card {
+    margin: 0;
+  }
+
+}
+
+@media (max-width: 425px) {
+  .mini-card {
+    width: 160px;
+    height: 233px;
+  }
+}
+@media (max-width: 375px) {
+  .mini-card {
+    width: 145px;
+    height: 233px;
+  }
+}
+
+@media (max-width: 320px) {
+  .mini-card {
+    width: 227px;
+    height: 211px;
+  }
+
+    /*-----------headerTitle -------------*/
+    .page_headerTitle {
+      width: auto;
+      margin-top: 250px;
+    }
+    .page_headerTitle .title .title_text {
+      font-size: 22px;
+      text-align: left;
+    }
+    .page_headerTitle .title .subtitle_text {
+      font-size: 12px;
+      text-align: left;
+      width: 279px;
+    }
+}

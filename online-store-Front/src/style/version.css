@@ -1,0 +1,414 @@
+
+
+/*---------------- technologies -------------------*/
+
+  .list_Version .card_title{
+    font-family: 'DaciaBlockExtendedBold';
+    text-transform: uppercase;
+    margin: 2px 0;
+    font-size: 20px;
+  }
+  .list_Version  .apartirde{
+    font-family: 'NouvelRRegular';
+    margin: 2px 0;
+  }
+  .list_Version .card_Prix {
+    font-family: 'DaciaBlock';
+    font-size: 25px;
+    margin: 2px 0;
+    color: #646b52;
+  }
+  .list_Version .card_équipements {
+    font-family: 'DaciaBlock';
+    padding: 0;
+    margin: 0 0 20px 0;
+  }
+  .list_Version .card_équipements p{
+    font-family: 'DaciaBlock';
+    font-size: 20px;
+    margin: 8px 0;
+  }
+
+  .list_Version .card_équipements li {
+    font-family: 'DaciaBlock';
+    list-style: none;
+    font-size: 14px;
+  }
+
+  .list_Version .apartirde {
+    margin: 2px 0;
+    font-family: 'DaciaBlock';
+    color: #646b52;
+}
+
+  .list_Version .remise_button, .list_Version .remiseReprise_button{
+    height: 46px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    font-family: 'DaciaBlock';
+    width: 100%;
+    font-size: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .list_Version .remise_button{
+    background-color: #dadada;
+    color: var(--black) ;
+    border: 1px solid #dadada;
+  }
+  .list_Version .remiseReprise_button{
+    color: var(--white);
+    background-color: #4E5844;
+  }
+  .list_Version .remise_button:hover {
+    color: var(--black);
+    background-color: var(--white);
+    border: 1px solid var(--gray1);
+  }
+  .list_Version .remiseReprise_button:hover{
+    background-color: #646b52;
+    color: white !important;
+  }
+  .list_Version .buttons{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: auto;
+  }
+
+
+  .list_Version .card3 .card-img-top {
+    width: 100%;
+  }
+  .card-body{
+    margin-top: 23px;
+  }
+  .list_Version .card3 .card-body .card-title {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: DaciaBlock;
+  }
+  .list_Version .card3 .card-body .card-text {
+    font-size: 17px;
+    font-family: NouvelRRegular;
+    margin: 12px 0;
+  }
+  .list_Version .card3 .card-body .btn {
+    color: var(--black);
+    font-weight: 600;
+    font-family: DaciaBlock;
+  }
+  .list_Version .card3 hr {
+    margin: 10px 0;
+    width: 95px;
+    background-color: #dadada;
+    border: none;
+    height: 1px;
+  }
+  .card3 .card-body > div {
+    /*margin-top: auto;*/
+    display: flex;
+  }
+  .card3 .card-body > div a {
+    margin-right: 15px;
+  }
+  .list_Version{
+    height: 100%;
+  }
+  .card3 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .card3 .card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .oldPrix {
+    font-family: 'DaciaBlock';
+    text-decoration: line-through;
+  }
+
+
+  /*---------------- versioncards -------------------*/
+  .sevices_card_hide {
+    display: none;
+  }
+
+  .owl-stage {
+    align-items: stretch !important;
+  }
+  .owl-carousel .owl-item {
+    height: auto !important;
+  }
+  .item{
+    height: 100%;
+  }
+
+  #carousel3 .owl-nav button.owl-next{
+    margin-right: -40px;
+  }
+  #carousel3 .owl-nav button.owl-prev{
+    margin-left: -40px;
+  }
+
+  #carousel3 .owl-nav button.owl-prev,
+  #carousel3 .owl-nav button.owl-next {
+    background-color: #dadada !important;
+    width: 35px;
+    height: 80px;
+  }
+
+  #carousel3.owl-carousel .owl-nav {
+    position: absolute;
+    top: 45% !important;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 0 !important;
+    font-size: 39px !important;
+    color: #000 !important;
+    height: 0px !important;
+    align-items: center;
+  }
+
+  #carousel3 .owl-dots {
+    display: none !important;
+  }
+
+  #carousel3 .owl-nav button.owl-prev span {
+    left: -15px !important;
+    font-family: 'DaciaBlockLight';
+  }
+
+  #carousel3 .owl-nav button.owl-prev span,
+  #carousel3 .owl-nav button.owl-next span {
+    font-family: 'DaciaBlockLight';
+    bottom: 204px;
+    color: #4E5844;
+  }
+
+  #carousel3 .owl-nav button.owl-next span {
+    right: -15px !important;
+  }
+
+  .sevices_card .card2 .card2-img.services {
+    height: inherit;
+  }
+
+  .owl-carousel3-container {
+    width: var(--rn-width1);
+    margin: 0 var(--um);
+    box-sizing: border-box;
+  }
+
+  #carousel3 .owl-stage {
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+  }
+
+  #carousel3.owl-item {
+    width: auto; /* Set the width to auto to allow responsiveness */
+    margin-right: 10px; /* Adjust margin as needed */
+  }
+
+  #carousel3 .owl-item.active,
+  #carousel3 .owl-item.cloned {
+    margin-right: 10px; /* Adjust margin as needed */
+  }
+
+  #carousel3 .owl-item {
+    margin-right: 0px !important;
+    margin-left: 10px !important;
+  }
+
+/*/------------- mainTitle ----------/*/
+  .mainTitle{
+    margin: 0 var(--um);
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'DaciaBlock';
+  }
+  .mainTitle .reverstitle {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'DaciaBlock';
+    margin-top: 14px;
+  }
+
+  .mainTitle .title.exeption {
+    margin-top: 0px;
+  }
+  .mainTitle .semititle {
+    font-family: 'DaciaBlock';
+    margin-bottom: 0px;
+    color: var(--gray3);
+  }
+
+.hybrid {
+  margin-top: 7px;
+}
+
+.card-body .hybrid .hybrid_text {
+    color: #828282;
+    font-family: 'NouvelRRegular';
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+.card-body .hybrid .hybrid_full {
+    border: 2px solid #ff671b;
+    color: #ff671b;
+    text-align: left;
+    display: inline;
+    padding: 5px 6px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+/*---------------backToTop-------------------*/
+  .backToTop_container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 10px 0;
+  }
+  .backToTop{
+    width: var(--rn-width1);
+    margin: 0 var(--um);
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    font-family: DaciaBlock;
+  }
+  .backToTop a{
+    color: var(--black);
+    font-family: DaciaBlock;
+    text-decoration: underline;
+  }
+  .backToTop svg{
+    margin: auto;
+    margin-bottom: -2px;
+    margin-left: 10px;
+  }
+
+
+  /*-----------------------------------------------------------------------------------*/
+  /*---------------------------------- Responsive -------------------------------------*/
+  /*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 1024px) {
+    .owl-carousel3-container {
+        width: 85%;
+    }
+}
+  /*------------------------------------*/
+  /*--------------- tablet -------------*/
+  /*------------------------------------*/
+@media (max-width: 800px) {
+ /*---------------- versioncards -------------------*/
+    .list_Version .card3 .card-img-top {
+      width: 100%;
+    }
+
+    .list_Version .card3 .card-body .card-text {
+      font-size: 15px;
+      text-align: left;
+    }
+
+    .list_Version .card3 .card-body .card-title {
+      font-size: 16px;
+      text-align: left;
+      margin-bottom: 18px;
+    }
+
+}
+
+
+/*------------------------------------*/
+/*--------------- phone1 -------------*/
+/*------------------------------------*/
+
+
+  @media (max-width: 659px) {
+    .carousel_title h1 {
+      font-size: 32px;
+    }
+    .carousel_title h3 {
+      font-size: 14.3px;
+    }
+    .row_6i {
+      flex-wrap: wrap;
+      margin-top: 0px;
+      gap: 25px;
+    }
+    .queRecherchez_vous {
+      margin: 0;
+    }
+  }
+
+@media (max-width: 425px) {
+/*------list_Version---------*/
+    .list_Version .card3 .card-body .card-title {
+      margin-top: 14px;
+    }
+    .list_Version {
+      margin-bottom: 25px !important;
+    }
+    .mainTitle .reverstitle {
+      font-size: 19px !important;
+      width: 215px;
+      margin: auto;
+    }
+    .mainTitle .semititle {
+      font-size: 12px;
+    }
+    .list_Version .card3 .card-body .card-text {
+      font-size: 14px;
+      text-align: left;
+    }
+    .list_Version .card3 .card-body .btn {
+      color: var(--black);
+      font-family: 'DaciaBlock';
+    }
+
+    #carousel3 .owl-nav button.owl-prev, #carousel3 .owl-nav button.owl-next {
+        background-color: #dadada !important;
+        width: 27px;
+        height: 60px;
+    }
+
+    #carousel3 .owl-nav button.owl-next {
+        margin-right: -28px;
+    }#carousel3 .owl-nav button.owl-prev {
+        margin-LEFT: -28px;
+    }
+    /*#carousel3 .owl-item {
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }*/
+  /*------buttons---------*/
+    .mainTitle button {
+      padding: 0px;
+      width: -webkit-fill-available;
+    }
+
+  /*------back to top---------*/
+    .backToTop a {
+      color: var(--black);
+      font-size: small;
+    }
+
+  }
+
+

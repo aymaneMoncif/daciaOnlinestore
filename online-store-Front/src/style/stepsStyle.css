@@ -1,0 +1,273 @@
+:root{
+    --black: #000000 !important;
+    --orange: #ff671b !important;
+    --green: #646b52 !important;
+    --lightorange: #f8eb4c !important;
+    --white: #ffffff !important;
+ }
+
+a:hover{
+    text-decoration: none !important;
+}
+
+.row_1i {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 40px 0;
+}
+
+
+/*---------steps--------*/
+.lineButtonsMobile .shwoSteps{
+  height: 46px;
+  border: 1px solid #4E5844;
+  background-color: #4E5844;
+  color: var(--white);
+  font-family: 'DaciaBlock';
+  transition: background-color 1s ease;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100%;
+  margin: 6px 0;
+  position: relative;
+}
+.lineButtonsMobile{
+  display: none;
+}
+.etapsContainerMobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.5s ease;
+}
+
+.etapsContainerMobile.open {
+  height: auto;
+}
+
+.etapBTNMobile {
+  background-color: #4E5844;
+  width: 100%;
+  color: white;
+  height: 40px;
+  font-family: 'DaciaBlock';
+  margin: -4px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.etapBTNMobile.active{
+  background-color: #646b52;
+  width: 100%;
+  color: var(--white);
+  height: 40px;
+  font-family: 'DaciaBlock';
+  margin: -4px 0;
+}
+.etapBTNMobile.inactive{
+  background-color: #f2f2f2;
+  width: 100%;
+  color: var(--black);
+  height: 40px;
+  font-family: 'DaciaBlock';
+  margin: -4px 0;
+  cursor: auto;
+}
+.shwoSteps svg {
+  fill: white;
+  transform: rotate(450deg);
+  right: 5px;
+  position: absolute;
+  transition: transform 0.5s ease;
+}
+.shwoSteps.open svg {
+  transform: rotate(270deg);
+}
+
+.lineButtons {
+  display: flex;
+  justify-content: center;
+  width: var(--rn-width1);
+  margin: auto;
+}
+.etapsContainer {
+  height: 46px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: stretch;
+  overflow: hidden;
+}
+
+.etapBTN:first-child {
+  clip-path: polygon(7% 0, 92% 0, 100% 50%, 92% 100%, 0% 100%, 0 0%);
+}
+.etapBTN:last-child {
+  clip-path: polygon(0% 0, 100% 0, 100% 100%, 85% 100%, 0% 100%, 8% 50%);
+}
+.etapBTN {
+  display: inline-block;
+  position: relative;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+  width: calc(100% - 17px);
+  margin-right: -0.6%;
+  margin-left: -0.5%;
+  text-align: center;
+  border: none;
+  clip-path: polygon(0% 0, 92% 0, 100% 50%, 92% 100%, 0% 100%, 8% 50%);
+  background-color: #4E5844;
+  background-repeat: no-repeat;
+  transition: background-position-y ease-in-out 250ms;
+  cursor: pointer;
+  font-family: DaciaBlock;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.etapBTN.active{
+  background-color: var(--green);
+  color: rgb(255, 255, 255);
+}
+.etapBTN.inactive{
+  background-color: #f2f2f2;
+  color: rgb(0, 0, 0);
+}
+
+/*/------------------ MentionsLegales ------------/*/
+.MentionsLegales {
+  font-size: 10px;
+  font-family: 'DaciaBlockLight';
+  text-align: left;
+  margin-top: 20px;
+  color: var(--gray2);
+}
+.MentionsLegales span {
+  color: var(--gray3);
+}
+/*/------------------ breadcrumb ------------/*/
+.breadcrumb_Container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+}
+.breadcrumb{
+    border-bottom: 1px solid var(--gray2);
+    border-radius: 0 !important;
+    justify-content: flex-start !important;
+}
+.breadcrumb, .retour {
+    display: flex;
+    height: 60px;
+    width: var(--rn-width1);
+    margin: 0 var(--um);
+    box-sizing: border-box;
+    background-color: white !important;
+    margin-bottom: 0 !important;
+    font-family: DaciaBlock;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.breadcrumb a, .retour a{
+    font-family: 'DaciaBlock';
+    font-size: 13px;
+    color: #000000;
+}
+.breadcrumb svg{
+    width: 26px;
+    height: 10px;
+    fill: currentcolor;
+    color: var(--orange);
+    font-family: 'DaciaBlock';
+}
+/*/------------------ breadcrumb(retour) ------------/*/
+.retour .PRECEDENT, .retour .SUIVANT{
+display: flex;
+align-items: center;
+}
+.retour .PRECEDENTSVG, .retour .SUIVANTSVG{
+width: 33px;
+height: 19px;
+fill: currentcolor;
+color: var(--orange);
+stroke-width: 0.5;
+}
+.retour .PRECEDENTSVG{
+transform: scaleX(-1);
+}
+.retour .SUIVANTSVG{
+transform: scaleX(1);
+}
+.retour a{
+font-family: 'DaciaBlock';
+font-size: 17px;
+}
+
+
+
+/*-----------------------------------------------------------------------------------*/
+/*---------------------------------- Responsive -------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 800px) {
+/*/------------- mainTitle ----------/*/
+    .mainTitle{
+      margin: 0 var(--um);
+      box-sizing: border-box;
+      text-align: center;
+    }
+    .mainTitle .title {
+      font-size: 29px;
+      margin-top: 14px;
+    }
+    .mainTitle .reverstitle {
+      font-size: 29px;
+      margin-top: 0px;
+      margin-bottom: -15px;
+    }
+    .mainTitle .title.exeption {
+      margin-top: 0px;
+    }
+    .mainTitle .semititle {
+      font-family: DaciaBlock;
+      margin-bottom: 7px;
+      color: var(--gray3);
+    }
+}
+
+@media (max-width: 671px) {
+    /*--etaps--*/
+    .lineButtonsMobile{
+        display: block;
+    }
+    .lineButtons{
+        display: none;
+    }
+}
+
+@media (max-width: 425px) {
+    .retour a {
+      font-family: 'DaciaBlock';
+      font-size: 12px;
+    }
+    /*-----------.mainTitle .title -------------*/
+    .mainTitle .title {
+        font-size: 20px;
+        margin-top: 0px;
+    }
+    .row_1i {
+        margin-bottom: 0px;
+        margin-top: 15px;
+    }
+}

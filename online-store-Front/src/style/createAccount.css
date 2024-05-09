@@ -1,0 +1,710 @@
+:root{
+    --black: #000000 !important;
+    --yellow: #ede04a !important;
+    --lightYellow: #f8eb4c !important;
+    --white: #ffffff !important;
+ } 
+
+  .row_1i {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 40px 0;
+    align-items: center;
+}
+  .card_s1 {
+    box-shadow: 0px 0px 4px 0px black;
+    border-radius: 5px;
+    border: solid 5px var(--black);
+    height: var(--cardHeight);
+    width: var(--rn-width1);
+    margin: 0 var(--um);
+    box-sizing: border-box;
+  }
+
+
+
+a:hover{
+    text-decoration: none !important;
+}
+     
+button:focus{
+    border: none !important;
+    outline: none !important;
+}
+
+/*-------------- car details And Carousel ------------*/
+    .cardetailsAndCarousel {
+        width: var(--rn-width1);
+        margin: 0 var(--um);
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+    }
+/*------ car details -------*/
+    .carDetails {
+        width: 35%;
+        box-sizing: border-box;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+    .carDetails .recapitulatif {
+        height: 55px;
+        width: 100%;
+        background-color: #646b52;
+        color: var(--white);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'DaciaBlock';
+    }
+    .carDetails .recapitulatif p{
+        margin: 0;
+    }
+    .version2{
+        padding: 15px 10px;
+        border: 1px solid var(--gray2);
+        position: relative;
+    }
+    .version2 img{
+        width: 100%;
+    }
+    .version2::before {
+        content: '';
+        position: absolute;
+        top: 80%;
+        left: 20%;
+        transform: translate(-48%, -50%);
+        background-color: black;
+        height: 1px;
+        width: 150px;
+        margin: 10px 0;
+    }
+    .version2 .title{
+        margin: 0px 0;
+        font-family: 'DaciaBlock';
+    }
+    .version2 .nomComplet_prix {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 33px;
+    }
+    .version2 .nomComplet {
+        margin: 0;
+        font-family: 'DaciaBlock';
+    }
+    .version2 .prix{
+        margin: 0;
+        font-family: 'DaciaBlock';
+    }
+
+    .remise{
+        padding: 15px 10px;
+        border: 1px solid #646b52;
+        background-color: #646b52;  
+        color: var(--white);
+        position: relative;
+    }
+    .remise::before {
+        content: '';
+        position: absolute;
+        top: 41%;
+        left: 20%;
+        transform: translate(-48%, -50%);
+        background-color: var(--white);
+        height: 1px;
+        width: 150px;
+        margin: 10px 0;
+    }
+    .remise .title{
+        margin: 0px 0;
+        font-family: 'DaciaBlock';
+    }
+    .remise .remisename_prix{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 33px;
+    }
+    .remise .remisename {
+        margin: 0;
+        font-family: 'DaciaBlock';
+    }
+    .remise .prix{
+        margin: 0;
+        font-family: 'DaciaBlock';
+    }
+
+    .design{
+        padding: 15px 10px;
+        border: 1px solid var(--gray2);
+        position: relative;
+    }
+    .design::before {
+        content: '';
+        position: absolute;
+        top: 35%;
+        left: 20%;
+        transform: translate(-48%, -50%);
+        background-color: black;
+        height: 1px;
+        width: 150px;
+        margin: 10px 0;
+    }
+    .design .title{
+        margin: 0px 0;
+        font-family: 'DaciaBlock';
+    }
+    .design .nomComplet_prix {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 33px;
+    }
+    .design .nomComplet {
+        margin: 0;
+        font-family: 'DaciaBlock';
+    }
+    .design .prix{
+        margin: 0;
+        font-family: 'DaciaBlock';
+    }
+
+    .Frais{
+        padding: 15px 10px;
+        border: 1px solid var(--gray2);
+        position: relative;
+    }
+    .Frais .title{
+        margin: 0px 0;
+        font-family: 'DaciaBlock';
+    }
+    .Frais .nomComplet_prix {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Frais .nomComplet {
+        margin: 0;
+        font-family: 'DaciaBlock';
+    }
+    .Frais .prix{
+        margin: 0;
+        font-family: 'DaciaBlock';
+    }
+
+    .Accessoires{
+        padding: 15px 10px;
+        border: 1px solid var(--gray2);
+        position: relative;
+    }
+    .Accessoires::before {
+        content: '';
+        position: absolute;
+        top: 41%;
+        left: 20%;
+        transform: translate(-48%, -50%);
+        background-color: black;
+        height: 1px;
+        width: 150px;
+        margin: 10px 0;
+    }
+    .Accessoires .title{
+        margin: 0px 0;
+        font-family: 'DaciaBlock';
+    }
+    .Accessoires .nomComplet_prix{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 33px;
+    }
+    .Accessoires .nomComplet {
+        margin: 0;
+        font-family: 'DaciaBlock';
+    }
+    .Accessoires .prix{
+        margin: 0;
+        font-family: 'DaciaBlock';
+    }
+
+    .totalPrix{
+        padding: 20px 10px;
+        border: 1px solid var(--gray1);
+        position: relative;
+        background-color: var(--gray1);
+    }
+    .totalPrix .title{
+        margin: 0px 0;
+        font-family: 'DaciaBlock';
+    }
+    .totalPrix .nomComplet_prix {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .totalPrix .nomComplet {
+        margin: 0;
+        font-family: 'DaciaBlock';
+    }
+    .totalPrix .prix{
+        margin: 0;
+        font-family: 'DaciaBlock';
+        font-size: 21px;
+    }
+    
+/*----------form-zone-------*/
+    .todispear3{
+        width: 62%;
+    }
+    .todispear3 .title{
+        margin: auto;
+        font-family: "DaciaBlock";
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 8px;
+    }
+    .todispear3 .sous-title{
+        text-align: center;
+        font-family: 'DaciaBlock';
+        color: var(--gray3);
+    }
+    .todispear3 input {
+        border: 0;
+        border-bottom: var(--gray3) solid 1px;
+        padding: 15px 0;
+        margin-bottom: 10px;
+        font-family: 'DaciaBlock';
+        width: 100%;
+    }
+    #testDrive_input {
+        display: none;
+    }
+    .checkbox_testDrive {
+        margin: 0 !important;
+        position: relative !important;
+    }
+    .checkbox_testDrive:before {
+        content: '';
+        -webkit-appearance: none;
+        background-color: white;
+        border: 1px solid #626262;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+        padding: 6px;
+        display: inline-block;
+        position: relative;
+        vertical-align: middle;
+        cursor: pointer;
+        left: -1px;
+        bottom: 2px;
+    }
+    input:checked + .checkbox_testDrive:after {
+        content: '\2713';
+        font-size: 12px;
+        color: black;
+        display: block;
+        position: absolute;
+        top: 1px;
+        left: 2px;
+    }
+    form .note_label {
+        color: var(--gray3);
+        font-family: 'DaciaBlock';
+        font-size: 12px;
+        margin: 20px 0;
+    }
+    .todispear3 form .checkbox_wrap {
+        display: block;
+        margin-bottom: 1px;
+    }
+    .todispear3 form .checkbox_wrap input {
+        padding: 0;
+        height: 0;
+        width: 0;
+        margin-bottom: 0;
+        cursor: pointer;
+        opacity: 0;
+        margin: 0;
+        padding: 0;
+    }
+    .todispear3 form .checkbox_wrap .label {
+        width: 100%;
+        font-family: 'DaciaBlock';
+        font-size: 15px;
+        color: var(--black);
+        position: relative;
+        cursor: pointer;
+    }
+    .todispear3 form .checkbox_wrap label.label:before {
+        content: '';
+        -webkit-appearance: none;
+        background-color: transparent;
+        border: 1.5px solid black;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+        padding: 7.5px;
+        display: inline-block;
+        position: relative;
+        vertical-align: middle;
+        cursor: pointer;
+        margin-right: 12px;
+        border-radius: 50%;
+    }
+    .todispear3 form .checkbox_wrap input:checked+label:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 6px;
+        left: 3px;
+        width: 11px;
+        height: 11px;
+        background-color: black;
+        transform: rotate(45deg);
+        border-radius: 50%;
+    }
+    .label .lireSpan {
+        white-space: nowrap;
+    }
+    .label p {
+        font-family: 'DaciaBlock';
+        margin-left: 32px;
+        margin-top: -13px;
+    }
+    .todispear3 .testDrive_container {
+        display: flex;
+        align-items: center;
+        background-color: var(--yellow);
+        font-family: 'DaciaBlock';
+        justify-content: space-evenly;
+        width: 48%;
+        height: 39px;
+        margin-top: 25px;
+    }
+    .titleOfForm{
+        margin-bottom: 35px;
+    }
+    .creatButton {
+        height: 46px;
+        width: 40%;
+        background-color: #4E5844;
+        color: var(--white);
+        font-family: 'DaciaBlock';
+        margin-top: 25px;
+        transition: background-color 0.5s ease, color 0.5s ease;
+        cursor: pointer;
+    }
+    .creatButton:hover{
+        background-color: #646b52;
+        color: var(--white);
+        border: none;
+    }
+
+   
+/*------------------- Info ----------------------*/
+.infoConatiner{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 10px 0;
+    align-items: center;
+}
+.info {
+    font-family: 'RenaultGroupSemibold';
+    color: var(--gray3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 22px;
+}
+.info img{
+    width: 28px;
+    margin-bottom: 10px;
+}
+.info2 img{
+    width: 28px;
+    margin-right: 5px;
+}
+.info2 {
+    font-family: 'RenaultGroupSemibold';
+    color: var(--gray3);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-right: 10px;
+}
+
+
+
+
+/*-------------------------------------------*/
+/*---------------messagepage-------------------*/
+/*-------------------------------------------*/
+.todispear3 .felisitasion_part1{
+    position: relative;
+}
+.todispear3 .felisitasion_part2 {
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.todispear3 .felisitasion_part1 .sous-title {
+    text-align: center;
+    font-family: 'DaciaBlock';
+    color: var(--gray3);
+    line-height: 1.5;
+}
+.todispear3 .felisitasion_part1::after {
+    content: "";
+    width: 50%;
+    position: absolute;
+    transform: translate(-48%, -50%);
+    background-color: var(--gray2);
+    height: 0.2px;
+    margin: 30px 0;
+    right: 12px;
+}
+.todispear3 .felisitasion_part1 .title, .todispear3 .felisitasion_part2 .title{
+    margin: auto;
+    font-family: "DaciaBlock";
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+.emailsvg_Space {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+.renvoiMailBtn{
+    height: 46px;
+    width: 40%;
+    background-color: var(--black);
+    color: var(--white);
+    font-family: 'DaciaBlock';
+    margin-top: 18px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    cursor: pointer;
+}
+.renvoiMailBtn:hover{
+    background-color: var(--white);
+    color: var(--black);
+    border: 1px solid var(--gray3);
+}
+.felisitasion_part2 .remarque {
+    display: flex;
+    flex-direction: column;
+    font-family: 'DaciaBlock';
+    background-color: var(--gray1);
+    margin: 60px 0 0 0;
+    padding: 23px;
+    align-items: center;
+    text-align: center;
+    gap: 18px;
+    line-height: 1.5;
+}
+
+
+  
+  
+  
+  
+/*-----------------------------------------------------------------------------------*/
+/*---------------------------------- Responsive -------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+@media (max-width: 1024px) {
+    .version2::before {
+        width: 120px;
+        top: 74%;
+    }
+    .design::before, .Accessoires::before, .remise::before  {
+        width: 120px;
+        top: 36%;
+    }
+    .remise .prix, .design .prix, .Accessoires .prix, .version2 .prix, .Frais .prix {
+        font-size: 15px;
+    }
+    .remise .remisename, .design .nomComplet, .Accessoires .nomComplet, .version2 .nomComplet, .Frais .nomComplet {
+        font-size: 14px;
+    }
+
+    .todispear .testDrive_container{
+        width: 70%;
+    }
+}
+/*------------------------------------*/
+/*--------------- tablet -------------*/
+/*------------------------------------*/
+@media (max-width: 800px) {
+/*---------------breadcrumb---------------------*/
+    .breadcrumb svg {
+        width: 29px;
+        height: 11px;
+    }
+    .breadcrumb a{
+        font-size: 12px;
+    }
+/*/------------- mainTitle ----------/*/
+    .mainTitle{
+      margin: 0 var(--um);
+      box-sizing: border-box; 
+      text-align: center;
+    }
+    .mainTitle .title {
+      font-size: 29px;
+      margin-top: 14px;
+    }
+    .mainTitle .reverstitle {
+      font-size: 29px;
+      margin-top: 0px;
+      margin-bottom: -15px;
+    }
+    .mainTitle .title.exeption {
+      margin-top: 0px;
+    }
+    .mainTitle .semititle {
+        font-size: 14px;
+        width: 90%;
+    }
+    .creatButton {
+        width: 100%;
+    }
+
+/*/------------- cardetailsAndCarousel ----------/*/
+    .cardetailsAndCarousel {
+        flex-direction: column;
+        width: 95%;
+    }
+    .carDetails {
+        width: 100%;
+    }
+    .todispear {
+        width: 100%;
+    }
+    .version2::before {
+        left: 10%;
+        top: 87%;
+        transform: translate(-51%, -50%);
+    }
+    .design::before, .Accessoires::before, .remise::before  {
+        left: 10%;
+        transform: translate(-51%, -50%);
+    }
+    .totalPrix {
+        margin-bottom: 20px;
+    }
+
+    .felisitasion_part2 .remarque {
+        margin-bottom: 20px;
+    }
+}
+  
+  
+  
+/*------------------------------------*/
+/*--------------- phone1 -------------*/
+/*------------------------------------*/
+@media (max-width: 671px) {  
+/*--etaps--*/
+    .lineButtonsMobile{
+        display: block;
+    }
+    .lineButtons{
+        display: none;
+    }
+}
+@media (max-width: 600px) {
+
+    .row_1i {
+        margin-bottom: 0px;
+        margin-top: 30px;
+    }
+  
+/*------back to top---------*/
+    .todispear input {
+        padding: 15px 0;
+        margin-bottom: 4px;
+        font-size: 15px;
+    }
+
+}
+
+
+@media (max-width: 425px) {
+    .todispear .title {
+        font-size: 24px;
+        margin-top: 30px;
+    }
+
+    .retour a {
+        font-family: 'RenaultGroupSemibold';
+        font-size: 12px;
+    }
+
+    .todispear .testDrive_container {
+        width: 75%;
+        font-size: 13px;
+    }
+    .version2::before {
+        left: 19%;
+        top: 80%;
+    }
+    .design::before, .Accessoires::before, .remise::before {
+        left: 18%;
+        transform: translate(-50%, -50%);
+    }
+    .todispear form .checkbox_wrap .label {
+        font-size: 12px;
+    }
+}
+@media (max-width:375px) {
+    .todispear .title {
+        font-size: 22px;
+    }
+    .design::before, .Accessoires::before, .remise::before {
+        left: 21%;
+        transform: translate(-50%, -50%);
+    }
+}
+@media (max-width: 320px) {
+    .todispear .title {
+        font-size: 20px;
+    }
+    .version2::before {
+        left: 25%;
+        top: 76%;
+        transform: translate(-51%, -50%);
+    }
+    .design::before, .Accessoires::before, .remise::before {
+        left: 25%;
+        transform: translate(-50%, -50%);
+    }
+    .version2 .prix {
+        font-size: 13px;
+    }
+    .version2 .nomComplet, .Frais .nomComplet {
+        font-size: 13px;
+    }
+
+    /*-----------headerTitle -------------*/
+    .page_headerTitle {
+      width: auto;
+      margin-top: 250px;
+    }
+    .page_headerTitle .title .title_text {
+      font-size: 22px;
+      text-align: left;
+    }
+    .page_headerTitle .title .subtitle_text {
+      font-size: 12px;
+      text-align: left;
+      width: 279px;
+    }
+
+    .todispear .testDrive_container {
+        width: 80%;
+        font-size: 11px;
+    }
+
+    .todispear form .checkbox_wrap .label {
+        font-size: 11px;
+    }
+}

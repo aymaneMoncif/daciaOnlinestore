@@ -1,0 +1,251 @@
+/*/------------- mainTitle ----------/*/
+.page_title_main {
+    font-size: 27px;
+    font-weight: bold;
+    font-family: 'DaciaBlock';
+    text-align: center;
+}
+
+.page_sub_title {
+    text-align: center;
+    font-family: 'DaciaBlock';
+    color: var(--gray3);
+}
+
+
+/*/------------------ cards ------------/*/
+.main_container {
+    padding-bottom: 100px;
+    position: relative;
+} 
+  
+.accessoires_container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 40px 0;
+    align-items: center;
+}  
+  
+.items_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: var(--rn-width1);
+    margin: 0 var(--um);
+    box-sizing: border-box;
+    gap: 15px;
+}
+
+.items_list .footer {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.items_list .footer .submitBtn {
+    color: var(--white);
+    background: var(--black);
+    border: 1px solid var(--black);
+    font-family: "DaciaBlock";
+    padding: 10px 10px;
+    margin: 28px 0;
+    cursor: pointer;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+.items_list .footer .submitBtn:hover {
+    color: var(--black);
+    background-color: var(--white);
+    border: 1px solid var(--black);
+}
+
+.image_checkbox{
+    display: flex;
+    position: relative;
+}
+
+.accessoireLabel {
+    position: absolute;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 2px;
+    cursor: pointer;
+    right: 12px;
+    top: 17px;
+    border-radius: 5px;
+}
+.accessoireLabel:hover{
+    border: 1px solid rgba(0, 0, 0, 0.783);
+}
+.accessoireLabel::after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 8px;
+    transform: translate(-50%, -50%);
+    width: 7px;
+    height: 14px;
+    border: 3px solid #ff671b;
+    border-top: none;
+    border-left: none;
+    opacity: 0;
+    transform: rotate(39deg);
+}
+.accessoireInput{
+    display: none;
+}
+.accessoireInput:checked + .accessoireLabel::after{
+    opacity: 1;
+}
+
+.item_card { 
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+}
+  
+.item_card img {
+    width: 100%;
+}
+  
+.item_card .title {
+    font-family: "DaciaBlock";
+    margin: 15px 0 0 0;
+}
+  
+.item_card .price {
+    font-family: "DaciaBlock";
+    display: flex;
+    align-items: flex-start;
+}
+  
+.item_card .price span {
+    font-size: 10px;
+    margin-top: 2px;
+}
+  
+.commandez_btn1 {
+    display: flex;
+    align-items: center;
+    margin: 15px 0 0 0;
+    cursor: pointer;
+}
+  
+.commandez_btn1 a {
+    font-family: "DaciaBlock";
+    color: var(--black);
+    margin: 0 10px 0 0;
+    cursor: pointer;
+}
+  
+.commandez_btn1 p {
+    color: var(--yellow);
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: 900;
+} 
+  
+
+  
+@media (max-width: 900px) {
+    .item_card {
+      width: calc(50% - 10px);
+      margin-bottom: 20px;
+    }
+  
+    .accessoires_container .page_title {
+        font-size: 25px;
+    }
+
+    .page_title_main {
+        font-size: 25px;
+    }
+}
+  
+@media (max-width: 768px) {
+/*------back to top---------*/
+    .backToTop a {
+        color: black;
+        font-size: small;
+    }
+
+    .main_container {
+        padding-bottom: 60px;
+    }
+  
+    .breadcrumbs_bar1 {
+        width: 90%;
+    }
+  
+    .accessoires_container {
+      width: 100%;
+    }
+  
+    .accessoires_container .page_title {
+        font-size: 20px;
+    }
+}
+  
+@media (max-width: 500px) {
+  
+    .commandez_btn1 {
+        margin: 10px 0;
+    }
+  
+    .item_card {
+        width: calc(100% - 10px);
+        margin-bottom: 20px;
+    }
+}
+ 
+@media (max-width: 425px) {
+    .retour a {
+        font-family: 'RenaultGroupSemibold';
+        font-size: 12px;
+    }
+
+    .items_list {
+        display: flex;
+        width: var(--rn-width1);
+        margin: 0 var(--um);
+        box-sizing: border-box;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+  
+@media (max-width: 375px) {
+  
+    .item_card .price {
+        margin-top: 2px;
+    }
+  
+    .accessoires_pagination {
+        margin-top: 0px;
+        scale: 0.8;
+    }
+  
+    .item_card .title {
+        margin: 10px 0 0 0;
+    }
+  
+    .item_card {
+        width: 100%;
+        font-size: 13px;
+    }
+  
+    .accessoires_container .page_title {
+        font-size: 16px;
+    }  
+
+
+    .page_title_main {
+        font-size: 16px;
+    }
+}
