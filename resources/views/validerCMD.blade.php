@@ -438,7 +438,6 @@
 
     // ------- payer en ligne -----
     $('#payer').click(function(){
-
         //récupération des éléments de la commande
         var nomprenom =$('#nomprenom').val();
         var idcommande=$('#idcommande').val();
@@ -462,8 +461,6 @@
 
         var  mxgateway= new MXGateway(cmr, gal,clepub,langue);
 
-
-
         //cryptage trame 1
         var encrypteddata1=mxgateway.cryptageTrame1(nomprenom, idcommande, montant, email,detailoperation);
         //Cryptage trame 2
@@ -473,21 +470,21 @@
         //cryptage trame 4
         var encrypteddata4=mxgateway.cryptageTrame4(tel, address, city, state, "MA", postcode);
 
-
         //génération lien de paiement
         var lien_gateway =mxgateway.generateLien(encrypteddata1, encrypteddata2,encrypteddata3,encrypteddata4);
 
-        console.log("lien_gateway : ", lien_gateway);
-        window.top.location.href=lien_gateway;
-
-        //redirection vers la page de paiement
-        //if (nomprenom=="" || idcommande=="" || montant=="0" || montant=="" || montant=="0.00"  || montant=="0.0"  || gal=="" || successURL=="" || clepub=="" || cmr=="" || gal=="" )
-        //{
-        //    $('#chmpoblg').show();
-        //}else{
-        //    $('#chmpoblg').hide();
-        //    window.top.location.href=lien_gateway;
-        //}
+        // redirection vers la page de paiement
+        if (nomprenom=="" || idcommande=="" || montant=="0" || montant=="" || montant=="0.00"  || montant=="0.0"  || gal=="" || successURL=="" || clepub=="" || cmr=="" || gal=="" )
+        {
+            $('#chmpoblg').show();
+        }else{
+            var sessionData = {
+                userId: 'user123',
+                transactionId: 'trans456',
+            };
+            $('#chmpoblg').hide();
+            window.top.location.href = lien_gateway;
+        }
     });
 </script>
 

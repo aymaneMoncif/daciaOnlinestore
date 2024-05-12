@@ -5,6 +5,7 @@ use App\Http\Controllers\ClientController;
 use App\Http\Controllers\CommandeController;
 use App\Http\Controllers\DossierAchatController;
 use App\Http\Controllers\PaiementController;
+use App\Http\Controllers\cardpay\cardPaymentController;
 use Illuminate\Support\Facades\Route;
 use TCG\Voyager\Facades\Voyager;
 
@@ -47,7 +48,15 @@ Route::middleware(['auth'])->group(function () {
     //add signature
     Route::patch('/apport/{id}/update', [ApportController::class, 'updateSignature'])->name('custom.signature.update');
 
+    Route::match(['get','post'],'/successURL', [cardPaymentController::class, 'confirmpaie'])->name('confirmpaie');
+    Route::match(['get','post'],'/envoimailconfirmation', [cardPaymentController::class, 'envoimailconfirmation'])->name('envoimailconfirmation');
+    Route::get('/msgconfirm/{idmsg?}/{email?}', [cardPaymentController::class, 'msgconfirm'])->name('msgconfirm');
+
 });
+
+
+
+
 
 Route::get('/show-pdf', 'App\Http\Controllers\PdfController@showPdf')->name('show.pdf');
 Route::get('/download-pdf', 'App\Http\Controllers\PdfController@downloadPdf')->name('download.pdf');
@@ -62,18 +71,16 @@ Route::get('/test', function () {
 });
 
 
+
+
 Route::get('/failURL', function () {
     return view('test');
 });
-Route::get('/successURL', function () {
-    return view('confirmation/confirmpaie');
-});
-Route::get('/envoimailconfirmation', function () {
-    return view('confirmation/envoimailconfirmation');
-});
+
 Route::get('/msgconfirm', function () {
     return view('confirmation/msgconfirm');
 });
+
 
 
 require __DIR__.'/auth.php';

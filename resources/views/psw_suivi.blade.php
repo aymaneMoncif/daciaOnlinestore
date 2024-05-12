@@ -94,7 +94,7 @@
                         </div>
                     </div>
                     @if(Auth::check() && Auth::user()->id !== null)
-                        <button class="ConsultBTN" onclick="window.location.href='{{ route('sendIdCommande', Auth::user()->id) }}'">Consulter ma commande</button>
+                        <button class="ConsultBTN" onclick="window.location.href='{{ route('sendIdCommande')}}'">Consulter ma commande</button>
                     @endif
                 </div>
             </div>

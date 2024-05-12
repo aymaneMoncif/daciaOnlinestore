@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\cardpay\cardPaymentController;
 use App\Http\Controllers\ClientController;
 use App\Http\Controllers\CommandeController;
 use App\Http\Controllers\CsrfTokenController;
@@ -27,7 +28,7 @@ Route::middleware(['auth:sanctum,client'])->get('/user', function (Request $requ
 
 Route::apiResource('/modeles', ModeleController::class);
 
-Route::post('/store-guest', [guestController::class, 'StoreGuest'])->name('store.guest');
+Route::post('/store-guest',  [guestController::class, 'StoreGuest'])->name('store.guest');
 Route::post('/update-guest', [guestController::class, 'UpdateGuest'])->name('update.guest');
 
 Route::get('/csrf-token', [CsrfTokenController::class, 'getCsrfToken']);
@@ -39,6 +40,8 @@ Route::apiResource('/client', ClientController::class);
 Route::apiResource('/Commande', CommandeController::class);
 
 Route::post('/simulateur', [CommandeController::class, 'StoreSimulateur'])->name('store.simulateur');
+
+
 
 /*Route::get('/user-id', function () {
     $userId = auth()->id();

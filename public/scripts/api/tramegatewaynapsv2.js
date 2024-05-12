@@ -17,7 +17,7 @@
  @param  timeoutURL : time out {String}
  @param  lien_paie : lien de paiement {String}
 **/
-function MXGateway(cmr, galerie,clepub,langue="F", successURL="", failURL="", timeoutURL="",lien_paie ="https://pa2.naps.ma:8441/GW_PAIEMENT/faces/vues/paiement/gateway.xhtml") 
+function MXGateway(cmr, galerie,clepub,langue="F", successURL="", failURL="", timeoutURL="",lien_paie ="https://pa2.naps.ma:8441/GW_PAIEMENT/faces/vues/paiement/gateway.xhtml")
 
 {
               this.cmr = cmr;
@@ -28,10 +28,10 @@ function MXGateway(cmr, galerie,clepub,langue="F", successURL="", failURL="", ti
               this.timeoutURL = timeoutURL;
               this.lien_paie = lien_paie;
               this.langue = langue;
-     
+
      /**
       @name : trame1
-      @function 
+      @function
       @param nomprenom : nom et prénom {String}
       @param idcommande : id commande {String}
       @param montant : montant {String}
@@ -51,7 +51,7 @@ this.data1 = 'nomprenom='+nomprenom+'&idcommande='+idcommande+'&montant='+montan
 
  /**
       @name : trame2
-      @function 
+      @function
       @param tel : numéro de telephone {numérique}
       @param address : addresse {String}
       @param city : ville {String}
@@ -60,7 +60,7 @@ this.data1 = 'nomprenom='+nomprenom+'&idcommande='+idcommande+'&montant='+montan
       @param postcode : code postal {String}
       @param  recallURL : recall URL {String}
       @param  detailoperation : operation detail {String}
-      
+
       @return data2 : trame2  {String}
       @description de la fonction : préparation de la trame2 contenant les parametres précédents.
      **/
@@ -72,14 +72,14 @@ this.data1 = 'nomprenom='+nomprenom+'&idcommande='+idcommande+'&montant='+montan
             this.postcode =postcode;
             this.recallURL=recallURL;
             this.detailoperation=detailoperation;
-            
-this.data2 = ""+'tel='+tel+'&address='+address+'&city='+city+'&state='+state+'&country='+country+'&postcode='+postcode+'&recallURL='+recallURL+'&detailoperation='+detailoperation+'&fin1'+""; 
+
+this.data2 = ""+'tel='+tel+'&address='+address+'&city='+city+'&state='+state+'&country='+country+'&postcode='+postcode+'&recallURL='+recallURL+'&detailoperation='+detailoperation+'&fin1'+"";
   return this.data2;
 };
 
  /**
       @name : cryptageTrame1
-      @function 
+      @function
       @param nomprenom : nom et prénom {String}
       @param idcommande : id commande {String}
       @param montant : montant {String}
@@ -97,7 +97,7 @@ this.data2 = ""+'tel='+tel+'&address='+address+'&city='+city+'&state='+state+'&c
 
  /**
       @name : cryptageTrame2
-      @function 
+      @function
       @param tel : numéro de telephone {String}
       @param address : address {String}
       @param city : ville {String}
@@ -106,7 +106,7 @@ this.data2 = ""+'tel='+tel+'&address='+address+'&city='+city+'&state='+state+'&c
       @param postcode : code post {String}
       @param recallURL : recall URL {String}
        @param detailoperation : detail operation  {String}
-      
+
       @return encrypteddata2 : la trame2 cryptée {String}
       @description de la fonction : cryptage de la trame 2.
      **/
@@ -119,7 +119,7 @@ this.data2 = ""+'tel='+tel+'&address='+address+'&city='+city+'&state='+state+'&c
 };
 /**
       @name : decryptage
-      @function 
+      @function
       @param trame_rep : trame de réponse{String}
       @param cle_priv : clé privée{String}
       @description de la fonction : décryptage de la trame  de réponse.
@@ -131,21 +131,21 @@ this.data2 = ""+'tel='+tel+'&address='+address+'&city='+city+'&state='+state+'&c
                 var decryptdata= decrypt.decrypt(data);
                 return decryptdata;
 
-        
+
 };
 /**
       @name : generateLien
-      @function 
+      @function
       @param encrypteddata1 : la trame 1 cryptée {String}
       @param encrypteddata2 : la trame 2 cryptée {String}
       @return lien_gateway : generation de lien de paiement {String}
       @description de la fonction : redirection vers la page de paiement MXGateway.
      **/
       this.generateLien = function(encrypteddata1, encrypteddata2) {
-          
+
           this.lien_gateway = this.lien_paie+"?data="+encodeURIComponent(encrypteddata1)+"&data1="+encodeURIComponent(encrypteddata2)+"&cmr="+this.cmr+"&gal="+this.galerie;
-                
- return this.lien_gateway;  
+
+ return this.lien_gateway;
 };
 }
 
