@@ -3,7 +3,7 @@
     --yellow: #ede04a !important;
     --lightYellow: #f8eb4c !important;
     --white: #ffffff !important;
- } 
+ }
 
   .row_1i {
     display: flex;
@@ -27,7 +27,7 @@
 a:hover{
     text-decoration: none !important;
 }
-     
+
 button:focus{
     border: none !important;
     outline: none !important;
@@ -131,7 +131,7 @@ button:focus{
     .version .nomComplet {
         margin: 0;
         font-family: 'DaciaBlock';
-        width: 75%;
+        width: 65%;
     }
     .version .prix{
         margin: 0;
@@ -259,7 +259,7 @@ button:focus{
     .partirde{
         font-family: 'DaciaBlock';
     }
-    
+
 /*----------carousel-------*/
     .todispear2{
         width: 62%;
@@ -347,7 +347,7 @@ button:focus{
         border: 1px solid #646b52;
     }
 
-   
+
 /*------------------- Info ----------------------*/
 .infoConatiner{
     display: flex;
@@ -386,7 +386,7 @@ button:focus{
   .backToTop{
     width: var(--rn-width1);
     margin: 0 var(--um);
-    box-sizing: border-box; 
+    box-sizing: border-box;
     text-align: center;
     align-items: center;
     font-family: RenaultGroupSemibold;
@@ -570,7 +570,7 @@ button:focus{
 /*/------------- mainTitle ----------/*/
     .mainTitle{
       margin: 0 var(--um);
-      box-sizing: border-box; 
+      box-sizing: border-box;
       text-align: center;
     }
     .mainTitle .title {
@@ -611,16 +611,16 @@ button:focus{
     .totalPrix {
         margin-bottom: 20px;
     }
-    
+
 
 }
-  
-  
-  
+
+
+
 /*------------------------------------*/
 /*--------------- phone1 -------------*/
 /*------------------------------------*/
-@media (max-width: 671px) {  
+@media (max-width: 671px) {
     /*--etaps--*/
     .lineButtonsMobile{
         display: block;
@@ -686,7 +686,7 @@ button:focus{
         margin-bottom: 0px;
         margin-top: 30px;
     }
-  
+
 /*------back to top---------*/
     .backToTop a {
       color: black;

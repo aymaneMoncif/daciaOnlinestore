@@ -70,7 +70,7 @@
             padding: 0 20px;
             justify-content: space-between;
             font-size: 20px;
-            font-weight: 500;   
+            font-weight: 500;
         }
         .valideAndIconTrue{
             color: #56b956e8;
@@ -164,20 +164,20 @@
                         @csrf
                         @method('PUT')
 
-                        <div class="panel-body">                  
-                            <div class="form-group  col-md-12 ">                            
+                        <div class="panel-body">
+                            <div class="form-group  col-md-12 ">
                                 <label class="control-label" for="name">Nombanque</label>
                                 <input required="" type="text" class="form-control" name="nombanque" placeholder="Nombanque" value={{$dataTypeContent->nombanque}}>
                             </div>
                             <!-- GET THE DISPLAY OPTIONS -->
-                                                
-                            <div class="form-group  col-md-12 ">                             
+
+                            <div class="form-group  col-md-12 ">
                                 <label class="control-label" for="name">Numerotransaction</label>
                                 <input required="" type="text" class="form-control" name="numerotransaction" placeholder="Numerotransaction" value={{$dataTypeContent->numerotransaction}}>
                             </div>
                             <!-- GET THE DISPLAY OPTIONS -->
-                                                
-                            <div class="form-group  col-md-12 ">                      
+
+                            <div class="form-group  col-md-12 ">
                                 <label class="control-label" for="name">Imagerecu</label>
                                 <div data-field-name="imagerecu">
                                     <a href="#" class="voyager-x remove-single-image" style="position:absolute;"></a>
@@ -186,8 +186,8 @@
                                 <input type="file" name="imagerecu" accept="image/*">
                             </div>
                             <!-- GET THE DISPLAY OPTIONS -->
-                               
-                            <div class="form-group  col-md-12 ">                        
+
+                            <div class="form-group  col-md-12 ">
                                 <label class="control-label" for="commande_id">Commandes</label>
                                     <select class="form-control" id="commande_id" name="commande_id" required>
                                         <option value="">none</option>
@@ -199,8 +199,8 @@
                                 </select>
                             </div>
                             <!-- GET THE DISPLAY OPTIONS -->
-                                                
-                            <div class="form-group  col-md-12 ">                             
+
+                            <div class="form-group  col-md-12 ">
                                 <label class="control-label" for="client_id">Client</label>
                                     <select class="form-control" id="client_id" name="client_id" required>
                                         <option value="">none</option>
@@ -212,19 +212,19 @@
                                 </select>
                             </div>
                             <!-- GET THE DISPLAY OPTIONS -->
-                                    
-                            <div class="form-group  col-md-12 ">                         
+
+                            <div class="form-group  col-md-12 ">
                                 <label class="control-label" for="name">Type Paiement</label>
-                                <input type="text" class="form-control" name="type_paiement" placeholder="Type Paiement" value="">
+                                <input type="text" class="form-control" name="type_paiement" placeholder="Type Paiement" value={{ $dataTypeContent->type_paiement }}>
                             </div>
                             <!-- GET THE DISPLAY OPTIONS -->
-                                                
+
                             <div class="form-group  col-md-12 ">
                                 <label class="control-label" for="name">Signature</label>
                                 <input type="text" class="form-control" name="signature" placeholder="Signature" value={{ $dataTypeContent->signature }}>
                             </div>
 
-                            <div class="form-group  col-md-12 ">                                   
+                            <div class="form-group  col-md-12 ">
                                 <label class="control-label" for="name"><strong>Comptable Validation</strong></label><br>
                                 <div class="radio-inputs">
                                     <label class="radio">

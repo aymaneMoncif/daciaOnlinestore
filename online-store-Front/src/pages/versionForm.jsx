@@ -24,11 +24,11 @@ export default function VersionForm({selectedVersionImage, selectedRemiseType, h
                 console.error('Error fetching CSRF token:', error);
             }
         };
-        fetchCsrfToken(); 
+        fetchCsrfToken();
     }, [context.userInfo]);
-        
 
-    //** Fetch CSRF token from Laravel backend **// 
+
+    //** Fetch CSRF token from Laravel backend **//
     const[nom,setNom]= useState("");
     const[prenom,setPrenom]= useState("");
     const[email,setEmail]= useState("");
@@ -93,7 +93,7 @@ export default function VersionForm({selectedVersionImage, selectedRemiseType, h
             setTeleError("");
             setTele(value);
         }
-    };  
+    };
     const handleEmailChange = (e) => {
         const value = e.target.value;
         if (!value.match(/^[\w-]+(\.[\w-]+)*@([\w-]+\.)+[a-zA-Z]{2,7}$/)) {
@@ -124,11 +124,11 @@ export default function VersionForm({selectedVersionImage, selectedRemiseType, h
             'testDrive': testDrive,
             'Etape': etape,
         };
-        
+
         try {
             const acceptConditionsCheckbox = document.getElementById('acceptConditions');
             const contactPermissionCheckbox = document.getElementById('contactPermission');
-            
+
             // Check if checkboxes are checked
             if (!acceptConditionsCheckbox.checked) {
                 setConditionsError("Veuillez accepter les conditions générales d'utilisation");
@@ -138,7 +138,7 @@ export default function VersionForm({selectedVersionImage, selectedRemiseType, h
                 setContactError("Veuillez accepter d'être contacté par e-mail, SMS et Téléphone");
                 return;
             }
-    
+
             // Proceed with form submission
             const response = await axiosClient.post('/api/store-guest', {
                 nom: nom,
@@ -159,7 +159,7 @@ export default function VersionForm({selectedVersionImage, selectedRemiseType, h
             const userId = response.data.guest.id;
 
             const updatedGuestInfo = { ...guestInfo, id: userId };
-            
+
             setGuestInfo(updatedGuestInfo);
             handleStepDone('VersionForm');
             handleStepInsertion();
@@ -180,8 +180,8 @@ export default function VersionForm({selectedVersionImage, selectedRemiseType, h
         }
     };
 
-    return(        
-        <>    
+    return(
+        <>
             <div class="row_1i">
                 <div class="mainTitle">
                     <p class="title">Découvrez votre prix remisé</p>
@@ -193,7 +193,7 @@ export default function VersionForm({selectedVersionImage, selectedRemiseType, h
                 <div className="body" id="formPart1">
                     <div className="content">
 
-                        <form method="post"> 
+                        <form method="post">
                             <div className="bottomSection">
                                 <div className="lefside">
                                 <input placeholder="Nom *" type="text" id="nom" name="nom" onChange={handleRequiredChange} />
@@ -208,20 +208,20 @@ export default function VersionForm({selectedVersionImage, selectedRemiseType, h
                                 {villeError && <span style={{color:'red',fontFamily: 'DaciaBlock', fontSize: '12px'}}>{villeError}</span>}
 
                                 <div className="testDrive_container">
-                                    <input type="checkbox" id="testDrive_input" name="testDrive" onChange={handleTestDriveChange}/>     
+                                    <input type="checkbox" id="testDrive_input" name="testDrive" onChange={handleTestDriveChange}/>
                                     <label htmlFor="testDrive_input" className="checkbox_testDrive"></label>
                                     <svg xmlns="http://www.w3.org/2000/svg" id="Calque_1" data-name="Calque 1" viewBox="0 0 100 100" width="25" height="25" fill='#4E5844'>
                                         <path className="cls-1" d="M69.14,69.14H30.86v5.01c0,1.84-1.63,3.38-3.47,3.38h-10.21c-1.84,0-3.27-1.53-3.27-3.38v-22.82c0-3.07,1.33-7.37,5.21-10.34l-5.41-2.35v-3.58h8.06c2.86-7.67,5.51-12.59,11.64-12.59h33.17c6.12,0,8.78,4.91,11.64,12.59h8.06v3.58l-5.41,2.35c3.88,2.97,5.21,7.26,5.21,10.34v22.82c0,1.84-1.43,3.38-3.27,3.38h-10.21c-1.84,0-3.47-1.53-3.47-3.38v-5.01ZM77.3,43.65H22.7c-2.14,1.13-4.63,5.42-4.63,7.68v22.1h8.61v-8.39h46.65v8.39h8.57v-22.1c0-2.25-2.45-6.55-4.59-7.68ZM30.96,59.21c-5.51-1.53-8.57-2.66-8.57-6.86v-4.5h12.55v3.68h-8.98v.41c0,1.33,0,1.94,5,3.48v3.79ZM65.97,26.57h-31.95c-4.8,0-6.74,4.2-9.19,13.1h50.32c-2.45-8.9-4.39-13.1-9.19-13.1ZM51.48,47.85l2.35,4.5-2.35,4.1h-3.27l-2.35-4.1,2.35-4.5h3.27ZM74.04,51.95v-.41h-8.98v-3.68h12.56v4.5c0,4.2-3.06,5.32-8.57,6.86v-3.79c5-1.53,5-2.15,5-3.48Z"/>
                                     </svg>
                                     <p className="testDrive">Je profite de mon test drive gratuit</p>
                                 </div>
-                                
+
                                 <p className="note_label">* Champs obligatoires</p>
 
                                 <div className="checkbox_wrap" id="checkbox_wrap_lu">
                                 <input className="input_condition" type="checkbox" id="acceptConditions" name="acceptConditions" onChange={handleRequiredChange} />
                                 <label htmlFor="acceptConditions" className="label">
-                                    J'ai lu et j'accepte les conditions générales d'utilisation 
+                                    J'ai lu et j'accepte les conditions générales d'utilisation
                                     <span className="lireSpan">
                                         <a className="linkcondition" href="https://renault.m-automotiv.ma/pages/informations_legales?/fr/pages/informations_legales" >( Lire ) </a>
                                     </span>
@@ -229,7 +229,7 @@ export default function VersionForm({selectedVersionImage, selectedRemiseType, h
                                 {conditionsError && <span style={{color:'red',fontFamily: 'DaciaBlock', fontSize: '12px'}}>{conditionsError}</span>}
                             </div>
 
-                            
+
 
                             <div className="checkbox_wrap" id="checkbox_wrap_sms">
                                 <input className="input_condition" type="checkbox" id="contactPermission" name="contactPermission" required />
@@ -243,22 +243,17 @@ export default function VersionForm({selectedVersionImage, selectedRemiseType, h
                                 </label>
                                 {contactError && <span style={{color:'red',fontFamily: 'DaciaBlock', fontSize: '12px'}}>{contactError}</span>}
                             </div>
-                                
+
                             </div>
                                 <div className="righside">
                                     <img style={{marginBottom: '15px'}} src={`http://localhost:8000/storage/${selectedVersionImage.replace(/\\/g, '/')}`} alt="" />
                                     <p>
-                                        <span>Pour Renault, la protection de vos données personnelles est importante.<br/></span>Par
-                                        le biais de ce formulaire, RENAULT COMMERCE MAROC collecte vos données personnelles dans le
-                                        cadre de la gestion des clients conformément à la délibération N° 32-2015 du 13/02/2015
-                                        portant modèle de déclaration type concernant les traitements de données à caractère
-                                        personnel. Ce traitement a fait l’objet d’une déclaration auprès de la CNDP sous le numéro
-                                        D-GC-419/2017. Ces données sont confidentielles et pourront être communiquées à RENAULT
-                                        (maison mère en France) conformément à la demande de transfert déposée auprès de la CNDP
-                                        sous le numéro D-419/2017 en date du 05.11.2020. Vous pouvez exercer vos droits d’accès, de
-                                        rectification et d’opposition conformément aux dispositions de la loi 09-08 en vous
-                                        adressant à : RENAULT COMMERCE MAROC - Direction Clients et Qualité, 44 avenue Khalid Ibnou
-                                        El Oualid, Ain Sebaa, Casablanca.
+                                        <span>Par le biais de ce formulaire, <br/></span>
+                                        MOROCCO AUTOMOTIVE RETAIL collecte vos données personnelles dans le cadre de la gestion des clients conformément à
+                                        la délibération N° 32-2015 du 13/02/2015 portant modèle de déclaration type concernant les traitements de données à
+                                        caractère personnel. Ce traitement a fait l'objet d'une déclaration auprès de la CNDP sous le numéro D-GC-1038/2023.
+                                        Vous pouvez exercer vos droits d'accès, de rectification et d'opposition conformément aux dispositions de la loi 09-08
+                                        en vous adressant à : MOROCCO AUTOMOTIVE RETAIL, 44 avenue Khalid Ibnou El Oualid, Ain Sebaa, Casablanca.
                                     </p>
                                 </div>
                             </div>
@@ -268,10 +263,10 @@ export default function VersionForm({selectedVersionImage, selectedRemiseType, h
                         </form>
                     </div>
 
-                    
+
 
                 </div>
             </div>
         </>
-    )   
+    )
 }

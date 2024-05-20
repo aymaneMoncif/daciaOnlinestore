@@ -1,437 +1,143 @@
-﻿    <!DOCTYPE html>
-    <html>
+﻿@extends('layout')
 
-    <head>
-        <meta charset="utf-8" />
-        <meta name="format-detection" content="telephone=no">
-        <link href="../css/bootstrap.min.css" rel="stylesheet" />
-        <script src="../js/jquery.min.js"></script>
-        <style type="text/css">
-            #myTable tr:nth-child(even) {
-                background: #f4f4f4
+@section('headScript')
+    <script type="text/javascript" src="{{asset('scripts/api/jquery.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('scripts/api/jsencrypt.js')}}"></script>
+    <script type="text/javascript" src="{{asset('scripts/api/tramegatewaynapsv4.js')}}"></script>
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            console.log('idmsg : ');
+            var idmsg = "{{ $idmsg }}"; // Encapsulate PHP variable in quotes
+            var email = "{{ $email }}"; // Encapsulate PHP variable in quotes
+
+            var msg = "Transaction non aboutie. Merci de réessayer.";
+            switch (idmsg) {
+                case "0":
+                    $('#msg').html("Transaction effectuée avec succès. L'accusé de paiement n'a pas été envoyé.");
+                    $('#OK').hide();
+                    $('#ko').show();
+                    break;
+                case "1ok":
+                    $('#msg').html("Transaction effectuée avec succès.<br/> Un accusé de paiement a été envoyé à l'adresse: " + email);
+                    $('#OK').show();
+                    break;
+                case "2":
+                    $('#msg').html("Transaction non aboutie. Merci de réessayer.");
+                    $('#OK').hide();
+                    $('#ko').show();
+                    break;
+                case "3ko":
+                    $('#msg').html("Transaction non aboutie. Merci de réessayer.");
+                    $('#OK').hide();
+                    $('#ko').show();
+                    break;
+                default:
+                    $('#msg').html(msg); // Default message
+                    $('#OK').hide();
+                    $('#ko').show();
             }
+        });
+    </script>
 
-            #myTable tr:nth-child(odd) {
-                background: #fff
-            }
+@stop
 
-            #myTable tr td {
-                width: 200px;
-                padding: 5px;
-                border: 1px solid #ccc;
-                text-align: left;
-            }
-
-            .tdgras {
-                font-weight: bold;
-                font-family: Calibri;
-                font-size: 15px;
-            }
-
-            * {
-                font-family: Calibri;
-            }
-
-            .buttonlg {
-                background: #DF6537;
-                border: 1px solid #DF6537;
-                /*border-radius: 6px;*/
-                width: 70px;
-                height: 40px;
-                color: #fff;
-                font-family: calibri;
-                font-size: 17px;
-                margin-top: -5px;
-                margin-left: 1px;
-                text-align: center;
-            }
-
-            .buttonlghaut {
-                background: #fff;
-                border: 1px solid #fff;
-                /*border-radius: 6px;*/
-                width: 110px;
-                height: 40px;
-                color: #fff;
-                font-family: calibri;
-                font-size: 12px;
-                /* margin-top: -5px;*/
-                margin-left: 1px;
-                text-align: center;
-                color: #000;
-            }
-
-            .col-xs-12 {
-                text-align: center;
-            }
-
-            .row {
-                margin-top: 0px !important;
-                margin-left: -20px !important;
-            }
-        </style>
-        <script type="text/javascript">
-            function msgnumerofr($idmsg) {
-                var msg = "Transaction non aboutie. Merci de r&eacute;essayer.";
-                switch (num) {
-                    case "0":
-                        msg = "Transaction effectu&eacute;e avec succ&egrave;s.L'accus&eacute; de paiement n'a pas &eacute;t&eacute; envoy&eacute;.";
-                        break;
-                    case "1ok":
-                        msg = "Transaction effectu&eacute;e avec succ&egrave;s.<br/> Un accus&eacute; de paiement a &eacute;t&eacute; envoy&eacute;  &agrave;  l'adresse:<br/> ";
-                        break;
-                    case "2":
-                        msg = "Transaction non aboutie. Merci de r&eacute;essayer.";
-                        break;
-                    case "3ko":
-                        msg = "Transaction non aboutie. Merci de r&eacute;essayer.";
-                }
-                return msg;
-            }
-        </script>
-
-        <script>
-            function init() {
-                var lg = 'FR';
-
-                if (lg == "EN") {
-                    $('#liengw').html("This page is unfortunately not available");
-                } else {
-                    $('#liengw').html("Cette page n'est malheureusement pas disponible");
-                }
-
-                var reg = /[?&]+([^=&]+)=?([^&]*)/gi,
-                href = window.location.search;
-
-                getUrlVars = function() {
-                    var map = {};
-                        href.replace(reg, function(match, key, value) {
-                        key = decodeURIComponent(key);
-                        value = value ? decodeURIComponent(value) : true;
-                        map[key] ? map[key] instanceof Array ? map[key].push(value) : map[key] = [map[key], value] : map[key] = value;
-                    });
-                    return map;
-                }
-
-                getUrlVar = function(param) {
-                    var reg = new RegExp("&" + param + "=([^&]*)", "gi"),
-                    res;
-                    href.replace(reg, function(match, value) {
-                        value = value ? decodeURIComponent(value) : true;
-                        res ? res instanceof Array ? res.push(value) : res = [res, value] : res = value;
-                    });
-                    return res;
-                }
-
-                c = '';
-                o = getUrlVars();
+@section('popUp')
+<!-------------------------------------------------------->
+<div class="overlay"></div>
+<div class="popUp_commandeValid">
+    <div class="close">
+        <a href="/">X</a>
+    </div>
 
 
-                var dataent = o['idmsg'];
-                var emailent = o['email'];
-
-
-                var data = "<?php echo $idmsg; ?>";
-                var email = "<?php echo $email; ?>";
-
-                if (data.indexOf('1ok') != -1 && data.length == 3) {
-                    $('#liengw').html(msglg(data) + "<u>" + email + "</u>");
-                    $('#iconload').hide();
-                    $('#iconvalid').show();
-                    $('#detailtrs').show();
-                    $('#bttntelech').show();
-                    $('#bttnexit').show();
-                    $('#iconerror').hide();
-                    $('#iconops').hide();
-                } else {
-                    if (data.indexOf('3ko') != -1 && data.length == 3) {
-                        $('#liengw').html(msglg(data));
-                        $('#iconload').hide();
-                        $('#iconvalid').hide();
-                        $('#detailtrs').hide();
-                        $('#bttntelech').hide();
-                        $('#bttnexit').hide();
-                        $('#iconerror').show();
-                        $('#iconops').hide();
-                    } else {
-                        if (lg == "EN") {
-                            $('#liengw').html("This page is unfortunately not available");
-                        } else {
-                            $('#liengw').html("Cette page n'est malheureusement pas disponible..");
-                        }
-                        $('#iconload').hide();
-                        $('#iconops').show();
-                        $('#iconerror').hide();
-                        $('#iconvalid').hide();
-                    }
-                }
-            }
-            window.onload = init;
-        </script>
-
-        <style type="text/css">
-            @media screen and (max-width: 992px) {
-                body {
-                    /* position: fixed;*/
-                    font-size: 27px !important;
-                }
-
-                #footer {
-                    bottom: 0;
-                    margin-top: 350px;
-                    position: fixed;
-                    bottom: 0;
-                    left: 0;
-                    height: 195px;
-                    width: 100%;
-                    padding-left: 15px;
-                    padding-right: 15px;
-                }
-
-                #bttneng {
-                    margin-right: 0px !important;
-                }
-
-                #powerlog {
-                    margin-right: 0px !important;
-                }
-
-                #divlng {
-                    text-align: right !important;
-                }
-
-                .tdgras {
-                    font-size: 22px !important;
-                }
-
-                #rowpadding {
-                    padding: 15px !important;
-                }
-            }
-
-            @media screen and (max-width: 600px) {
-                body {
-                    /* position: fixed;*/
-                    font-size: 27px !important;
-                }
-
-                #footer {
-                    bottom: 0;
-                    margin-top: 350px;
-                    position: fixed;
-                    bottom: 0;
-                    left: 0;
-                    height: 195px;
-                    width: 100%;
-                    padding-left: 15px;
-                    padding-right: 15px;
-                }
-
-                #bttneng {
-                    margin-right: 0px !important;
-                }
-
-                #powerlog {
-                    margin-right: 0px !important;
-                }
-
-                #divlng {
-                    text-align: right !important;
-                }
-
-                .tdgras {
-                    font-size: 22px !important;
-                }
-
-                .resp {
-                    font-size: 24px !important;
-                }
-
-                .respp {}
-
-                #rowpadding {
-                    padding: 15px !important;
-                }
-            }
-        </style>
-
-    </head>
-
-    <body style="height: 100%;width: 100%; overflow: hidden;overflow-y: scroll !important;">
-        <div class="container-fluid" style="width: 100% !important;" id="contenu">
-            <div class="row" style="background: #000;padding-top: 25px;padding-bottom: 25px;">
-                <div class="col-xs-12 col-md-4">
-                </div>
-                <div class="col-xs-12 col-md-4">
-                </div>
-                <div class="col-xs-12 col-md-4 col-md-offset-6">
-                    <img src="../images/poweredBy.png" style=" float: right;" id="powerlog">
-                </div>
-            </div>
-            <div class="row" style="background:#df6537; padding:5px">
-                <div class="col-xs-12">
-                </div>
+    <div class="CMDsuivi" style="width: 100%">
+        <div id="ko" style="display: none">
+            <div style="display: flex;margin: 45px 0;justify-content: center;">
+                <svg xmlns="http://www.w3.org/2000/svg" id="Calque_1" data-name="Calque 1" viewBox="0 0 100 100" width="50" height="50">
+                    <path class="cls-1" d="M44.24,5.52h12.25c10.68,0,18.09,7.55,18.09,18.37,0,6.69-2.56,11.53-14.1,22.36-2.27,2.14-2.71,2.71-2.71,3.7s.43,1.57,2.71,3.7c11.54,10.82,14.1,15.66,14.1,22.36,0,10.83-7.4,18.37-18.09,18.37h-12.25c-10.67,0-18.08-7.55-18.08-18.37,0-6.69,2.56-11.53,14.1-22.36,2.28-2.14,2.71-2.71,2.71-3.7s-.43-1.57-2.71-3.7c-11.54-10.82-14.1-15.66-14.1-22.36,0-10.83,7.4-18.37,18.08-18.37ZM55.78,88.69c6.98,0,12.53-5.84,12.53-12.96,0-6.12-1.71-8.97-11.96-19.22-2.57-2.56-3.71-4.41-3.71-6.55s1.14-3.99,3.71-6.55c10.25-10.25,11.96-13.1,11.96-19.22,0-7.12-5.55-12.96-12.53-12.96h-10.82c-6.98,0-12.54,5.84-12.54,12.96,0,6.12,1.71,8.97,11.97,19.22,2.56,2.56,3.7,4.41,3.7,6.55s-1.14,3.99-3.7,6.55c-10.26,10.25-11.97,13.1-11.97,19.22,0,7.12,5.56,12.96,12.54,12.96h10.82ZM61.9,75.16c0,4.27-2.85,7.68-8.12,7.68h-6.84c-5.27,0-8.12-3.42-8.12-7.68,0-5.13,4.7-10.26,11.54-16.38,6.84,6.12,11.54,11.25,11.54,16.38ZM39.97,29.31h20.79c-1.71,3.7-5.56,7.55-10.4,11.96-4.84-4.41-8.69-8.26-10.39-11.96Z"/>
+                </svg>
             </div>
 
-            <br><br>
-
-            <div class="row">
-                <div class="col-xs-12 col-md-8 col-md-offset-2" style="text-align:left;">
-                </div>
-            </div>
-            <div class="row" style="/*margin-top:40px*/">
-                <div class="col-xs-12 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
-                    <form name="frm1" id="frm1" method="POST" style="margin-bottom: 27px;">
-                        <div id="contenu" style="margin-top: 50px;border-radius: 5px;padding-left: 50px;box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);padding-right: 50px;margin: 0 auto;text-align: center;vertical-align: center;/* font-size: 16px; */padding-top: 10px;padding-bottom: 10px;">
-                            <img src="../images/valide.png" style=" display:none;width: 40px; height: 40px; " id="iconvalid">
-                            <img src="../images/close.png" style=" display:none;width: 40px; height: 40px; " id="iconerror">
-                            <img src="../images/ops.png" style=" display:none; width: 40px; height: 40px; " id="iconops">
-                            <img src="../images/loading3.gif" style="  width: 100px; height: 80px; " id="iconload">
-                            <br /><br />
-                            <p id="liengw" style=" width: 60%;margin: 0 auto;font-size: 20px ; font-family: calibri; /* margin-top: 54px; */ " class="resp">Traitement en cours. Veuillez patienter</p>
-                            <br />
-                            <div id="detailtrs" style=" display:none;">
-
-
-                                        <!-- version Fr -->
-                                        <div class="row">
-                                            <div class="col-xs-12 col-md-12 col-lg-12">
-                                                <table id="myTable" style="    border: 1px #0000003d solid; margin-bottom:20px;    float: left;" class="col-xs-12 col-md-12 col-lg-12">
-                                                    <tr>
-                                                        <td class="tdgras">Nom et <?php echo utf8_encode("Pr&eacute;nom") ?> </td>
-                                                        <td><?php echo $_SESSION['nomprenom']; ?></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="tdgras">Email </td>
-                                                        <td><?php echo $_SESSION['emailrd']; ?></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="tdgras"><?php echo utf8_encode("Commer&ccedil;ant "); ?></td>
-                                                        <td><?php echo $_SESSION['nom_cmr']; ?></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="tdgras"><?php echo utf8_encode("N&deg; commande "); ?> </td>
-                                                        <td style=""><?php echo $_SESSION['id_commande']; ?></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="tdgras"><?php echo utf8_encode("N&deg; transaction "); ?> </td>
-                                                        <td><?php echo $_SESSION['numTrans']; ?></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="tdgras"><?php echo utf8_encode("N&deg; autorisation "); ?> </td>
-                                                        <td><?php echo $_SESSION['numautorisation']; ?></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="tdgras">Date et Heure transaction </td>
-                                                        <td><?php echo $_SESSION['dateTran'] . " - " . $_SESSION['heureTrans']; ?></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="tdgras"><?php echo utf8_encode("Num&eacute;ro de carte "); ?></td>
-                                                        <td><?php echo $_SESSION['numCarte']; ?></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="tdgras">Type de carte </td>
-                                                        <td><?php echo $_SESSION['typecarte']; ?></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="tdgras">Montant TTC</td>
-                                                        <td><?php echo str_replace(",", " ", $_SESSION['montant']) . " DH "; ?></td>
-                                                    </tr>
-                                                </table>
-                                            </div>
-                                            <br />
-                                            <p style="font-size: 20px ;font-family: Calibri;" class="resp"><?php echo utf8_encode("Merci d'avoir utilis&eacute; la solution de paiement e-commerce by NAPS"); ?></p>
-                                        </div>
-
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <div class="row" style="height: 130px;">
-                <div class="col-xs-12 col-md-4 col-md-offset-5 col-lg-4 col-lg-offset-5">
-
-                    <!--  <a href="<php echo URL . "pdf/recu.php" ?>" ><button class="buttonlg" class="resp" id="bttntelech" style="display:none;float: right;    width: 130px;border-radius: 20px;" onclick="">
-                     echo "Download";
-                    else echo "T&eacute;l&eacute;charger";  ?> --></button>
-                    </a>
-                    <a href="#"><button class="buttonlg" class="resp" id="bttnexit" style="display:none;float: right;width: 130px;border-radius: 20px;margin-right: 10px;" onclick="window.location.href='../index.php';">
-                            <?php echo "Retour au site";  ?>
-                        </button>
-                    </a>
-                    <br /><br />
-                </div>
-            </div>
-            <div style="    bottom: -20px;/*height: 150px*/;position: fixed;width:100%;" id="footer">
-                <div class="row" style="padding: 0px;" id="rowpadding">
-                    <div class=" col-xs-4 col-xs-offset-2 col-md-4 col-md-offset-2" style="/*padding-bottom: 25px;*/">
-                    </div>
-                    <div class=" col-xs-2 col-md-2 col-lg-2">
-                    </div>
-                    <div class=" col-xs-0 col-md-1">
-                    </div>
-                    <div class="col-xs-2 col-md-2">
-                    </div>
-                </div>
-                <br />
-                <div class="row" style="background: #000;padding-top: 25px;padding-bottom: 25px;">
-                    <div class="col-xs-4 col-md-2 col-md-offset-2 ">
-                        <p style="color:#fff;font-size: 15px !important;font-family: calibri; ">
-                            <img src="../images/logosMaster.png" style="height:25px;">
-                        </p>
-                    </div>
-                    <div class="col-xs-4 col-md-4" style="color:#fff;text-align: center;">
-
-                        Copyright &copy; 2019 <img src="../images/logo_naps_footer.png"> <br />All right reserved
-                    </div>
-                    <div class="col-xs-2 col-xs-offset-2 col-md-3 col-md-offset-1">
-                        <p style="   ">
-                            <a href="https://www.naps.ma" target="_blank" style="color:#fff; font-size: 17px !important;font-family: calibri;">
-                                www.naps.ma
-                            </a>
-                        </p>
-                    </div>
-                </div>
+            <div style="display: flex;">
+                <p id="msg" style="margin: 0 auto;font-size: 20px !important; font-family: DaciaBlock;">
+                    <!--response-->Cette page n'est malheureusement pas disponible<!--response-->
+                </p>
             </div>
         </div>
-    </body>
 
-    <script>
-        function changelg(lg) {
-            jQuery.ajax({
-                type: "POST",
-                url: 'changelang.php',
-                data: 'lang=' + lg,
-                success: function(msg) {
-                    window.location.reload();
-                    //   $(this).css('text-decoration', "underline");
-                }
-            });
-            var langg = 'fr';
-            // alert(langg);
-        }
-    </script>
-    <script>
-        // $(document).ready( setfooter );
+        <div id="OK" style="display: none">
 
-        // $(window).resize(function()
-        // {
-        //         setfooter();
-        // });
+            <p id="msg" style="margin: 0 auto;font-size: 20px !important; font-family: DaciaBlock; display: flex;
+            justify-content: center;
+            text-align: center;">
+                Transaction effectuée avec succès. <br/> Un accusé de paiement a été envoyé à l'adresse: {{$data?->emailrd}}
+            </p>
 
-        // function setfooter()
-        // {
-        //         if ( $(window).height() > $("#contenu").outerHeight( true ) )
-        //         {
-        //                 footertop = $(window).height() - $("#footer").outerHeight( true );
-        //         }
-        //         else
-        //         {
-        //                 footertop = $("#contenu").outerHeight( true );
-        //         }
+            <div class="steps" >
+                <svg xmlns="http://www.w3.org/2000/svg" id="Calque_1" data-name="Calque 1" viewBox="0 0 100 100" width="50" height="50" style="margin: auto;">
+                    <path class="cls-1" d="M46.74,92.03h-6.36c-10.39-14.11-20.93-30.55-30.24-48.08l5.74-3.42c8.68,16.13,17.99,30.87,27.45,44.05,15.35-26.21,27.45-49.32,40.48-76.62l6.05,2.95c-13.96,29.32-26.36,52.89-43.11,81.11Z"/>
+                </svg>
+                <div class="step">
+                    <p class="stepNum active">1</p><span>Nom et prénom : {{$data?->nomprenom}}</span>
+                </div>
+                <div class="step">
+                    <p class="stepNum active">2</p><span>Email : {{$data?->emailrd}}</span>
+                </div>
+                <div class="step">
+                    <p class="stepNum active">3</p><span>Commerçant : {{$data?->nom_cmr}}</span>
+                </div>
+                <div class="step">
+                    <p class="stepNum active">4</p><span>N° commande : {{$data?->id_commande}}</span>
+                </div>
+                <div class="step">
+                    <p class="stepNum active">5</p><span>N° transaction : {{$data?->numTrans}}</span>
+                </div>
+                <div class="step">
+                    <p class="stepNum active">6</p><span>N° autorisation : {{$data?->numautorisation}}</span>
+                </div>
+                <div class="step">
+                    <p class="stepNum active">5</p><span>Date et Heure de la transaction : {{$data?->created_at}}</span>
+                </div>
+                <div class="step">
+                    <p class="stepNum active">7</p><span>Numéro de carte : {{$data?->numCarte}}</span>
+                </div>
+                <div class="step">
+                    <p class="stepNum active">8</p><span>Montant TTC : {{$data?->montant}} DHS</span>
+                </div>
+            </div>
 
-        //         $("#footer").css('margin-top', footertop + "px");
-        // }
-    </script>
+            <p style="font-size: 20px !important; font-family: DaciaBlock;" class="resp">Merci d'avoir choisi la solution de paiement e-commerce par NAPS.</p>
+        </div>
 
-</html>
+        <button class="ConsultBTN" onclick="window.location.href='{{ route('sendIdCommande')}}'">Suivant</button>
+
+    </div>
+
+
+    <div class="deconnecter">
+        <span>
+            <svg xmlns="http://www.w3.org/2000/svg" id="Calque_1" data-name="Calque 1" viewBox="0 0 100 100" width="20" height="20">
+                <path class="cls-1" d="M40.72,45.55c-.79.15-1.55.34-2.31.53.73.48,1.5.91,2.31,1.29v-1.82Z"></path>
+                <path class="cls-1" d="M60.01,47.37c.82-.38,1.59-.82,2.32-1.3-.76-.19-1.52-.37-2.32-.52v1.82Z"></path>
+                <path class="cls-2" d="M38.41,46.08c-14.87,3.71-22.98,15.09-22.98,33.58v11.19h5.73v-10.9c0-19.29,10.49-29.77,29.22-29.77s29.21,10.34,29.21,29.77v10.9h5.73v-11.19c0-18.62-7.99-29.89-22.98-33.58M62.33,46.07c5.13-3.38,8.02-9.15,8.02-16.74,0-12.58-7.41-20.27-19.99-20.27s-19.99,7.55-19.99,20.27c0,7.59,2.9,13.36,8.03,16.74M36.11,29.33c0-9.36,5.17-14.67,14.26-14.67s14.26,5.31,14.26,14.67-5.17,14.4-14.26,14.4-14.26-5.17-14.26-14.4Z"></path>
+            </svg>
+        </span>
+        <span>
+            <form method="POST" action="{{ route('logout') }}">
+                @csrf
+                <button type="submit" class="MDPoublie">Se déconnecter</button>
+            </form>
+        </span>
+    </div>
+
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+<script src={{ asset('scripts/myscript.js') }}></script>
+
+@stop
+

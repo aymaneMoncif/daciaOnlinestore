@@ -45,7 +45,7 @@
                 @endforeach
             </div>
 
-            <p class="SousReserve">**Sous réserve d'acceptation du dossier crédit par RCI Finance Maroc</p>
+            <p class="SousReserve">**Sous réserve d'acceptation du dossier crédit par Mobilize Financial services</p>
         </div>
 
         @if($Paiement)
@@ -57,7 +57,7 @@
                             <path class="cls-1" d="M46.74,92.03h-6.36c-10.39-14.11-20.93-30.55-30.24-48.08l5.74-3.42c8.68,16.13,17.99,30.87,27.45,44.05,15.35-26.21,27.45-49.32,40.48-76.62l6.05,2.95c-13.96,29.32-26.36,52.89-43.11,81.11Z"/>
                         </svg>
                         <p class="text"> Votre véhicule a bien été livré, <br>
-                            nous vous remercions pour votre confiance 
+                            nous vous remercions pour votre confiance
                             <br>
                             <br>
                             <br>
@@ -85,7 +85,7 @@
             </form>
         </span>
     </div>
-    
+
 </div>
 
 @stop

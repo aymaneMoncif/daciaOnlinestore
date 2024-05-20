@@ -6,7 +6,7 @@
     <div class="close">
         <a href="/">X</a>
     </div>
-    
+
     <div class="lineButtons">
         <div class="etapsContainer">
             <a href="{{ route('sendIdCommande') }}" class="etapBTN">1. Validation de la commande</a>
@@ -14,7 +14,7 @@
             @if($simulateur)
                 <a href="{{ route('sendInfoDA') }}" class="etapBTN">2. Dossier d'achat</a>
             @endif
-            
+
             <button class="etapBTN active">3. Paiement</button>
 
             @if(1 == $PaiementValidation)
@@ -22,10 +22,10 @@
             @else
                 <button class="etapBTN inactive">4. Livraison</button>
             @endif
-            
+
         </div>
     </div>
-    
+
 @if($commandeID)
     <div class="content">
 
@@ -63,7 +63,7 @@
                 @endforeach
             </div>
 
-            <p class="SousReserve">**Sous réserve d'acceptation du dossier crédit par MOBILIZE FINANCIAL SERVICES</p>
+            <p class="SousReserve">**Sous réserve d'acceptation du dossier crédit par Mobilize Financial services</p>
         </div>
 
         @if(!$Paiement)
@@ -110,7 +110,7 @@
 
                             <p class="text">
                                 Félicitations ! votre dossier est validé, pour continuer votre achat, <br>
-                                merci de choisir méthode de paiement souhaitée : 
+                                merci de choisir méthode de paiement souhaitée :
                             </p>
 
                             <div class="champ">
@@ -131,10 +131,10 @@
                                 <p>Nom de banque : <span>CRÉDIT DU MAROC</span></p>
                                 <p>RIB : <span>021 780 0000 027030093441 89</span></p>
                             </div>
-                            
+
                             <p class="text">
                                     Une fois effectué, vous etes sollicité a remplir les champs <br>
-                                    demandés ci-dessous pour continuer votre achat 
+                                    demandés ci-dessous pour continuer votre achat
                             </p>
 
                             <input type="text" name="nombanque" placeholder="Nom de la banque" id="nomBanque">
@@ -155,16 +155,16 @@
                             @error('imagerecu')
                                 <p class="text-danger" style="color: #ff0000bf;font-family: 'NouvelRRegular';">{{ $message }}</p>
                             @enderror
-                            
+
 
                             <button type="submit" class="EnvoyerBTN">Envoyer</button>
                         </form>
-                        
+
                     </div>
                 </div>
             </div>
-            
-       
+
+
 
         @elseif($Paiement && ($PaiementValidation == 0 || $PaiementValidation == 'refuser'))
             <div class="rightSide">
@@ -226,7 +226,7 @@
     </div>
 @else
     <div class="content">
-        <div style="margin: 40px auto;gap: 30px;display: flex;flex-direction: column;align-items: center;"> 
+        <div style="margin: 40px auto;gap: 30px;display: flex;flex-direction: column;align-items: center;">
             <p style="font-family: 'NouvelRBold';font-size: 20px;margin: auto;">
                 Votre réservation de 24 heures a expiré.<br> veuillez renouveler votre commande
             </p>
@@ -250,7 +250,7 @@
             </form>
         </span>
     </div>
-    
+
 </div>
 
 

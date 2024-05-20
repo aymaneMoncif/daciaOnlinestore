@@ -56,7 +56,7 @@
                 @endforeach
             </div>
 
-            <p class="SousReserve">**Sous réserve d'acceptation du dossier crédit par RCI Finance Maroc</p>
+            <p class="SousReserve">**Sous réserve d'acceptation du dossier crédit par Mobilize Financial services</p>
         </div>
 
         @if(!$DossierAchat && $allapport)

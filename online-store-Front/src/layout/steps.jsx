@@ -176,11 +176,14 @@ export default function Steps(){
                 <div className="backToTop">
                     <p className="MentionsLegales">
                     <span>Mentions légales :</span><br/>
-                        Tout a été fait pour que le contenu de ce configurateur soit exact et à jour à la date d’aujourd’hui.
-                        Dans le cadre de sa politique d’amélioration continue des produits, Renault se réserve le droit, à tout moment, d’apporter des modifications aux spécifications et aux véhicules et accessoires décrits et représentés.
-                        Ces modifications sont notifiées aux concessionnaires dans les meilleurs délais. Selon les pays de commercialisation, les versions peuvent différer, certains équipements peuvent ne pas être disponibles (en série, en options ou en accessoires).
-                        Selon version certains parties centrales de l'assise et du dossier, sont faites du cuir d'origine bovine. Veuillez consulter votre concessionnaire local pour recevoir les informations les plus récentes.
-                        En raison des limites techniques, les couleurs reprises sur ce configurateur peuvent légèrement différer des couleurs réelles de peinture ou des matières de garniture intérieure. Visuels non contractuels. Tous droits réservés.
+                        Dans le cadre de sa politique d’amélioration continue des produits, Renault se réserve le droit, à tout moment,
+                        d’apporter des modifications aux spécifications et aux véhicules et accessoires décrits et représentés.
+                        Ces modifications sont notifiées aux concessionnaires dans les meilleurs délais. Selon les pays de commercialisation,
+                        les versions peuvent différer, certains équipements peuvent ne pas être disponibles (en série, en options ou en accessoires).
+                        Selon version certains parties centrales de l'assise et du dossier, sont faites du cuir d'origine bovine.
+                        Veuillez consulter votre concessionnaire local pour recevoir les informations les plus récentes. En raison des limites techniques,
+                        les couleurs reprises sur ce configurateur peuvent légèrement différer des couleurs réelles de peinture ou des matières de garniture intérieure.
+                        Visuels non contractuels. Tous droits réservés.
                     </p>
                 </div>
             </div>

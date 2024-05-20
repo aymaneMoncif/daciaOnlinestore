@@ -311,7 +311,7 @@
                     </div>
 
                     <div class="footer_block">
-                        <p class="f_section_title">Acces rapide</p>
+                        <p class="f_section_title">Accès rapide</p>
                         <a href="https://www.dacia.ma">Visitez Dacia.ma</a>
                         <a href="https://dacia.m-automotiv.ma/fr/succursales">Trouver nos Succursales</a>
                     </div>
@@ -343,7 +343,7 @@
                 <div class="f_top_section_content_mobile mobileDisplay">
                     <div class="footer_m_block">
                         <p class="f_section_m_title">
-                            SERVICE CLIENT
+                            Service
                             <span>
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Calque_1" x="0px" y="0px" viewBox="0 0 74.94 100" style="enable-background:new 0 0 74.94 100;" xml:space="preserve">
                                     <style type="text/css">
@@ -366,30 +366,7 @@
 
                     <div class="footer_m_block">
                         <p class="f_section_m_title">
-                            RÉSEAU
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Calque_1" x="0px" y="0px" viewBox="0 0 74.94 100" style="enable-background:new 0 0 74.94 100;" xml:space="preserve">
-                                    <style type="text/css">
-                                    </style>
-                                    <g>
-                                        <g>
-                                            <g>
-                                                <polygon class="st0" points="16.08,2.44 8.2,9.84 50.98,50 8.2,90.16 16.08,97.56 58.86,57.4 66.74,50 58.86,42.6    "></polygon>
-                                            </g>
-                                        </g>
-                                    </g>
-                                </svg>
-                            </span>
-                        </p>
-                        <ul class="q_content">
-                            <li><a href="https://www.dacia.ma/">Visitez Dacia.ma</a></li>
-                            <li><a href="https://dacia.m-automotiv.ma/fr/succursales">Trouver nos Succursales</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="footer_m_block">
-                        <p class="f_section_m_title">
-                            OUTILS D'ACHAT
+                            Outils d'achat
                             <span>
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Calque_1" x="0px" y="0px" viewBox="0 0 74.94 100" style="enable-background:new 0 0 74.94 100;" xml:space="preserve">
                                     <style type="text/css">
@@ -407,6 +384,29 @@
                         <ul class="q_content">
                             <li><a href="https://dacia.m-automotiv.ma/index.php/fr/AllForm/brochure">Demander une brochure</a></li>
                             <li><a href="https://dacia.m-automotiv.ma/index.php/fr/AllForm/essai">Réserver un essai</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer_m_block">
+                        <p class="f_section_m_title">
+                            Accès rapide
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Calque_1" x="0px" y="0px" viewBox="0 0 74.94 100" style="enable-background:new 0 0 74.94 100;" xml:space="preserve">
+                                    <style type="text/css">
+                                    </style>
+                                    <g>
+                                        <g>
+                                            <g>
+                                                <polygon class="st0" points="16.08,2.44 8.2,9.84 50.98,50 8.2,90.16 16.08,97.56 58.86,57.4 66.74,50 58.86,42.6    "></polygon>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </span>
+                        </p>
+                        <ul class="q_content">
+                            <li><a href="https://www.dacia.ma/">Visitez Dacia.ma</a></li>
+                            <li><a href="https://dacia.m-automotiv.ma/fr/succursales">Trouver nos Succursales</a></li>
                         </ul>
                     </div>
 

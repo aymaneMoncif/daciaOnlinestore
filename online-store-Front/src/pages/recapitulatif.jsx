@@ -107,7 +107,7 @@ export default function Recapitulatif(){
                 {/*<!---------section 1----------->*/}
                 <div className="todispear2">
                     <div className="nouvelleCar">
-                        <p>Votre nouvelle Renault Clio</p>
+                        <p>Votre nouvelle {modele.nommodele}</p>
                     </div>
 
                     <div className="text">

@@ -1,13 +1,3 @@
-@php
-    $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-    //echo $actual_link."<br/>";
-    if(strpos($actual_link, "validationCommande")==true){
-        $liensuccess=str_replace('validationCommande', 'successURL', $actual_link);
-        $lienrecall=str_replace('validationCommande', 'recall.php', $actual_link);
-        $failurl=str_replace('validationCommande', 'failURL.php', $actual_link);
-    }
-@endphp
-
 @extends('layout')
 
 @section('headScript')
@@ -86,7 +76,7 @@
                 @endif
             </div>
 
-            <p class="SousReserve">**Sous réserve d'acceptation du dossier crédit par RCI Finance Maroc</p>
+            <p class="SousReserve">**Sous réserve d'acceptation du dossier crédit par Mobilize Financial services</p>
 
         </div>
 
@@ -121,9 +111,10 @@
                     <div class="typeVirement_cont">
 
                         <div class="typeVirement">
-                            <p class="type active">VIREMENT / VERSEMENT</p>
-                            <p class="type">PAIEMENT PAR CARTE</p>
+                            <p class="type active" id="virement">VIREMENT / VERSEMENT</p>
+                            <p class="type" id="card">PAIEMENT PAR CARTE</p>
                         </div>
+
                         <p class="Main_sous-title">
                             Une fois effectué, vous êtes sollicités à remplir les
                             champs demandés ci-dessous pour continuer votre achat.
@@ -142,100 +133,66 @@
                         </div>
                         <!--/*  loader */-->
 
-
-
-
-                        <div data-repeater-list="" style="display: none">
-                            <form>
-                                <div class="form-row">
-                                    <div class="form-group col-md-2">
-                                        <label>ID commerçant *&nbsp;&nbsp;&nbsp;:</label>
-                                    </div>
-                                    <div class="form-group col-md-4">
-                                        <input type="text" class="form-control" id="cmr" value="1010101">
-                                    </div>
-                                    <div class="form-group col-md-2">
-                                        <label style="margin-left: 30px">ID Galerie *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
-                                    </div>
-                                    <div class="form-group col-md-4">
-                                        <input type="text" class="form-control"  id="gal" value="9999">
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                        <div data-repeater-list="" style="display: none">
-                            <form>
+                        <!--/*  payment card */-->
+                        <form id="cardPContent" style="display: none">
+                            <div class="champ" style="display: none">
+                                <label>ID commerçant *&nbsp;&nbsp;&nbsp;:</label>
+                                <input type="text" id="cmr" value="2240803">
+                                <label style="margin-left: 30px">ID Galerie *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+                                <input type="text" id="gal" value="0190">
+                            </div>
+                            <div class="champ" style="display: none">
                                 <label>Clé publique * :</label>
-                                <textarea class="form-control" id="clepub">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAh2q4viqQwzVWCKT1KRPvsiixEoNm8dg95gE7h4OUVuERp9csLKYHM9I9EaQ/SUYwgBBLHOslpe5qbvX3x1oAcksO5BT8SYHmtbgUpH1yZjcU1lI2/M3qyRUb03NQaF6vgxCOLGlLpDQqdg0jxl4ySDYu3bcMQto6J2eRAnIPIZkC/h4GQMwhBheFEHf7uMCqj8uNkNf5yU1Js9/Yj8FGbS1fSYwQ1ZQ7Jr94eUhCuTgjFKYUxD18QIPgYEnYbir4mKagtnF8fv3S1+COsVlUXkix77KGW5SYMbeJJYtOVTs1/Cr+/8eHRf5al5249binOJxWLkANpsZtLNI60i9UUQIDAQAB</textarea>
-                            </form>
-                        </div>
-                        <div data-repeater-list="" style="margin-top: 30px;">
-                            <form>
-                                <label>Nom & Prénom * :</label>
-                                <input type="text" class="form-control" id="nomprenom">
+                                <textarea id="clepub">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0ICFCzkw9FEAV+khE023ZxDC/wsG8A2Any7a4UePXfTWE1+JXeHIoXLXwXGHa8JyrE49Y9DoWHIgNFdPXFUftT8+gdI75g2HPG2116d4yyAKpWfqWZkmbxkOa0UTEnBZP0WEU8uQI6XKKciBPlrAX1O9mVHqoLBCxUFS5img7xJmIyeVHtcHbd2eaKy4PdmqE5GsQfnt+x853ZJDA1iXhxJALylo2R5dV0644fijS5IzvyN8dQ0UJmyv0Hu3YLoWwVH0kfXhEhm/Ka3dXW1rcRnfArR75rD+cn49wpgXSbtFWqP0WOujdl07lq2U217O7VFnKveRIDk6dDsyC08wdwIDAQAB</textarea>
+                            </div>
+                            <div class="champ">
+                                <!--Nom & Prénom-->
+                                <input type="text" id="nomprenom" placeholder="Nom & Prénom*">
+                            </div>
+                            <div class="champ">
+                                <!--email-->
+                                <input type="text" id="email" placeholder="Email*">
+                            </div>
 
-                                <label>Email * :</label>
-                                <input type="text" class="form-control" id="email">
-                            </form>
-                        </div>
-                        <div data-repeater-list="" >
-                            <form>
-                                <label style="margin-left: 30px">ID command* :</label>
-                                <input type="text" class="form-control" id="idcommande">
+                            <div class="champ" style="display: none">
+                                <label style="margin-left: 30px">IDcommand:</label>
+                                <input type="text" id="idcommande" value={{$commandeID}}>
 
-                                <label style="margin-left: 30px">Montant * :</label>
-                                <input type="text" class="form-control" id="montant">
-                            </form>
-                        </div>
-                        <div data-repeater-list="" style="display: none">
-                            <form>
-                                <input type="text" class="form-control" id="langue">
-                                <input type="text" class="form-control" id="tel">
-                            </form>
-                        </div>
-                        <div data-repeater-list="" style="display: none">
-                            <form>
-                                <input type="text" class="form-control" id="failURL" value="http://localhost/API_PHP_4T/failURL.php">
-                                <input type="text" class="form-control" id="timeoutURL" >
-                            </form>
-                        </div>
-                        <div data-repeater-list="" style="display: none">
-                            <form>
-                                <input type="text" class="form-control" id="successURL" value="{{$liensuccess}}">
-                                <input type="text" class="form-control" id="address">
-                            </form>
-                        </div>
-                        <div data-repeater-list="" style="display: none">
-                            <form>
-                                <input type="text" class="form-control"  id="state">
-                                <input type="text" class="form-control" id="country">
-                            </form>
-                        </div>
-                        <div data-repeater-list="" style="display: none">
-                            <form>
-                                <input type="text" class="form-control" id="recallURL" value="">
-                                <input type="text" class="form-control" id="postcode">
-                            </form>
-                        </div>
-                        <div data-repeater-list="" style="display: none">
-                            <form>
-                                <input type="text" class="form-control" id="city" style=" margin-bottom: 25px; ">
-                                <input type="text" class="form-control" id="detailoperation" style=" margin-bottom: 25px; ">
-                            </form>
-                        </div>
-                        <div data-repeater-list="">
-                            <form>
-                                <div class="form-group col-md-12" style="margin-top: 20px;">
-                                    <button class="btn waves-effect waves-light btn-block btn-info" type="button" id="payer"  style="width: 110px;background-color: #f37121;border-color: #f37121!important;color: white !important;margin-top: -35px; border-radius: 30px;margin-bottom: 10px;font-size: 16px; font-family: Helvetica Neue,Helvetica,Arial,sans-serif">Valider</button>
-                                </div>
-                            </form>
-                        </div>
+                                <label style="margin-left: 30px">Montant:</label>
+                                <input type="text" id="montant" value="1000">
+                            </div>
+                            <div class="champ" style="display: none">
+                                <input type="text" id="langue">
+                                <input type="text" id="tel">
+                            </div>
+                            <div class="champ" style="display: none">
+                                <input type="text" id="failURL" value="http://localhost/API_PHP_4T/failURL.php">
+                                <input type="text" id="timeoutURL" >
+                            </div>
+                            <div class="champ" style="display: none">
+                                <input type="text" id="successURL" value="{{$liensuccess}}">
+                                <input type="text" id="address">
+                            </div>
+                            <div class="champ" style="display: none">
+                                <input type="text"  id="state">
+                                <input type="text" id="country">
+                            </div>
+                            <div class="champ" style="display: none">
+                                <input type="text" id="recallURL" value="">
+                                <input type="text" id="postcode">
+                            </div>
+                            <div class="champ" style="display: none">
+                                <input type="text"  id="city" style=" margin-bottom: 25px; ">
+                                <input type="text"  id="detailoperation" style=" margin-bottom: 25px; ">
+                            </div>
 
+                            <button class="EnvoyerBTN" type="button" id="payer">Valider</button>
 
+                        </form>
+                        <!--/*  payment card END */-->
 
-
-
-                        <form method="post" action="{{ route('aport.store') }}" enctype="multipart/form-data" style="display: none">
+                        <!--/*  VIREMENT / VERSEMENT */-->
+                        <form method="post" action="{{ route('aport.store') }}" enctype="multipart/form-data" id="virementContent">
                             @csrf
                             <input type="text" name="nombanque" placeholder="Nom de la banque" id="nomBanque">
                             @error('nombanque')
@@ -260,6 +217,7 @@
 
                             <button class="EnvoyerBTN" type="submit">Envoyer</button>
                         </form>
+                        <!--/*  VIREMENT / VERSEMENT END */-->
 
                     </div>
                 </div>
@@ -347,7 +305,7 @@
         </div>
 
     </div>
-    <p class="SousReserve mobile" style="display: none;">**Sous réserve d'acceptation du dossier crédit par RCI Finance Maroc</p>
+    <p class="SousReserve mobile" style="display: none;">**Sous réserve d'acceptation du dossier crédit par Mobilize Financial services</p>
 @else
     <div class="content">
         <div style="margin: 40px auto;gap: 30px;display: flex;flex-direction: column;align-items: center;">
@@ -385,107 +343,6 @@
     if({{ $comptableValidation }} == 1){
         var comptableValidation = {{ $comptableValidation }}
     }
-
-    //----loader-----\\
-    document.addEventListener('DOMContentLoaded', function() {
-        const form = document.querySelector('form');
-        const loader = document.getElementById('loader');
-
-        form.addEventListener('submit', function() {
-            loader.style.display = 'block';
-            form.style.display = 'none';
-        });
-    });
-
-    // -------signature logic-----
-    var modal = document.getElementById("myModal");
-
-    // Get the close button element inside the modal
-    if(modal){
-        var closeBtn = modal.querySelector(".close");
-    }
-    // When the user clicks on the close button, close the modal
-    if(closeBtn){
-        closeBtn.onclick = function() {
-            modal.style.display = "none";
-        }
-    }
-    // Function to open the modal
-    function openModal() {
-        modal.style.display = "block";
-    }
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-    }
-
-    var telechargerBtn = document.getElementById('telechargerBtn');
-    if(telechargerBtn){
-        telechargerBtn.addEventListener('click', function() {
-            // Show the loader when the button is clicked
-            document.querySelector('.loader').style.display = 'inline-block';
-
-            // Hide the loader after 60 seconds
-            setTimeout(function() {
-                document.querySelector('.loader').style.display = 'none';
-            }, 7000);
-        });
-    }
-    // -------signature logic ENDS-----
-
-
-    // ------- payer en ligne -----
-    $('#payer').click(function(){
-        //récupération des éléments de la commande
-        var nomprenom =$('#nomprenom').val();
-        var idcommande=$('#idcommande').val();
-        var montant=$('#montant').val();
-        var email =$('#email').val();
-        var langue =$('#langue').val();
-        var successURL =$('#successURL').val();
-        var recallURL =$('#recallURL').val();
-
-        var failURL =$('#failURL').val();
-        var timeoutURL =$('#timeoutURL').val();
-        var tel =$('#tel').val();
-        var address=$('#address').val();
-        var city=$('#city').val();
-        var state =$('#state').val();
-        var postcode =$('#postcode').val();
-        var clepub =$('#clepub').val();
-        var cmr =$('#cmr').val();
-        var gal =$('#gal').val();
-        var detailoperation =$('#detailoperation').val();
-
-        var  mxgateway= new MXGateway(cmr, gal,clepub,langue);
-
-        //cryptage trame 1
-        var encrypteddata1=mxgateway.cryptageTrame1(nomprenom, idcommande, montant, email,detailoperation);
-        //Cryptage trame 2
-        var encrypteddata2=mxgateway.cryptageTrame2(successURL, timeoutURL);
-        //cryptage trame 3
-        var encrypteddata3=mxgateway.cryptageTrame3(failURL, recallURL);
-        //cryptage trame 4
-        var encrypteddata4=mxgateway.cryptageTrame4(tel, address, city, state, "MA", postcode);
-
-        //génération lien de paiement
-        var lien_gateway =mxgateway.generateLien(encrypteddata1, encrypteddata2,encrypteddata3,encrypteddata4);
-
-        // redirection vers la page de paiement
-        if (nomprenom=="" || idcommande=="" || montant=="0" || montant=="" || montant=="0.00"  || montant=="0.0"  || gal=="" || successURL=="" || clepub=="" || cmr=="" || gal=="" )
-        {
-            $('#chmpoblg').show();
-        }else{
-            var sessionData = {
-                userId: 'user123',
-                transactionId: 'trans456',
-            };
-            $('#chmpoblg').hide();
-            window.top.location.href = lien_gateway;
-        }
-    });
 </script>
 
 <script src={{ asset('scripts/myscript.js') }}></script>

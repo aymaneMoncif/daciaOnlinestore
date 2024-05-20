@@ -443,7 +443,7 @@ export default function Layout(){
                             </div>
 
                             <div className="footer_block">
-                                <p className="f_section_title">Acces rapide</p>
+                                <p className="f_section_title">Accès rapide</p>
                                 <a href="https://www.dacia.ma">Visitez Dacia.ma</a>
                                 <a href="https://dacia.m-automotiv.ma/fr/succursales">Trouver nos Succursales</a>
                             </div>
@@ -474,7 +474,7 @@ export default function Layout(){
                         <div className="f_top_section_content_mobile mobileDisplay">
                             <div className="footer_m_block">
                                 <p className="f_section_m_title" onClick={()=>showFooter1()}>
-                                    SERVICE CLIENT
+                                    Service
                                     <span>
                                         <svg viewBox="0 0 74.94 100" style={{enableBackground: 'new 0 0 74.94 100'}} xmlSpace="preserve" width={'12px'} fill={'white'}>
                                             <style type="text/css">{/* Any styles can be placed here */}</style>
@@ -496,7 +496,7 @@ export default function Layout(){
 
                             <div className="footer_m_block">
                                 <p className="f_section_m_title" onClick={()=>showFooter2()}>
-                                    RÉSEAU
+                                    Accès rapide
                                     <span>
                                         <svg viewBox="0 0 74.94 100" style={{enableBackground: 'new 0 0 74.94 100'}} xmlSpace="preserve" width={'12px'} fill={'white'}>
                                             <style type="text/css">{/* Any styles can be placed here */}</style>
@@ -518,7 +518,7 @@ export default function Layout(){
 
                             <div className="footer_m_block">
                                 <p className="f_section_m_title" onClick={()=>showFooter3()}>
-                                    OUTILS D'ACHAT
+                                    Outils d'achat
                                     <span>
                                         <svg viewBox="0 0 74.94 100" style={{enableBackground: 'new 0 0 74.94 100'}} xmlSpace="preserve" width={'12px'} fill={'white'}>
                                             <style type="text/css">{/* Any styles can be placed here */}</style>

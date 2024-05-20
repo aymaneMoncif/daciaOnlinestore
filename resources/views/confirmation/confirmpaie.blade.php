@@ -1,11 +1,9 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
+﻿@extends('layout')
 
+@section('headScript')
     <script type="text/javascript" src="{{asset('scripts/api/jquery.min.js')}}"></script>
     <script type="text/javascript" src="{{asset('scripts/api/jsencrypt.js')}}"></script>
     <script type="text/javascript" src="{{asset('scripts/api/tramegatewaynapsv4.js')}}"></script>
-
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <script type="text/javascript">
@@ -63,8 +61,8 @@
             // alert(c);
 
             var data = o['data'];
-            var cle_priv='MIIEuwIBADANBgkqhkiG9w0BAQEFAASCBKUwggShAgEAAoIBAQCHari+KpDDNVYIpPUpE++yKLESg2bx2D3mATuHg5RW4RGn1ywspgcz0j0RpD9JRjCAEEsc6yWl7mpu9ffHWgBySw7kFPxJgea1uBSkfXJmNxTWUjb8zerJFRvTc1BoXq+DEI4saUukNCp2DSPGXjJINi7dtwxC2jonZ5ECcg8hmQL+HgZAzCEGF4UQd/u4wKqPy42Q1/nJTUmz39iPwUZtLV9JjBDVlDsmv3h5SEK5OCMUphTEPXxAg+BgSdhuKviYpqC2cXx+/dLX4I6xWVReSLHvsoZblJgxt4kli05VOzX8Kv7/x4dF/lqXnbj1uKc4nFYuQA2mxm0s0jrSL1RRAgMBAAECggEAd/HWm1JWkSGwB84c/PqUqGiUl0Jer76K7SyQTvMENIP8wH69uPqCjKsevn6OM9gA454K+h1qZnQsQAaMJz6YAKRtFydjY7S05qabWitnZhRJ16BQ5lF6MgwJbpzITvn3Wg8S71GA13wBVDlFQ9JxlTaxAl+9c4WaVwbMEa93qZh0h/epXTffnRTHpBHeyRU/56KeKs5FfNokOrzTq7tH86SaiiMsRHTNu2us52OnA/jVDSx+UN9h2wWwCpn+9G/HKwZOZCur0DinjqKwXqEt9YPUuiHwgm3FjfMq1PuvNS6qwUG8KyUeVANsq4429BLtJcD40jF38mqynAl4sUfm8QKBgQDJhfa3KFUXC52MvlIqaoKOAxVA22fST2AH62lKi+HKgNSqJlOYzPozSHEqSAgGEIJl7ICC0wOoPcEWKrm0AdzejXC6s0C8z40b95n0NsCg1NJNaRR535AU4e6hk2frl34dIdPudn6HnwWuJuc/IB6i6VuBslkavmJ7zKJQYogDdQKBgQCsBf1B7Fh7fCTX/KgEQ6CfqDTh9zHWsk+mTWC8gOuwKSrvRtHl0uinD9+MsQscisrt3bGPpJ2ThmYltmKnhg1fXLKawunVv9W5OJBzMm/BcpoDAHSt8/mBZ0CBrhQApy1kEkMSZvpcUyZ7e/V/eTzaalSdjk3YC+tifsDD/8R97QKBgQCERbHSNl7jaXRX1PQJcy+OFuf0Ug6rM/5MNHA/xeDGEhmENPPZ73CqCHp+zhi2Ik/0pm8Tb32PCDmcWx7Y0AAw85VydgWf6HsuSC585RM6fXYr6TTPabYgfssqsp4bPKxCYtnAQ3Z5fh80V8Sg4mw5cgHl9zIVI7FwoLhJGuM7oQJ/evfNElLg7WTQ8ZSqhmHRcE/Nfbo25kKQrVCi1h1SXZsQFfuKD7+0j7fJFcl5J+4PIfpX81a5TbvFSTAXVal95a1d/0NV5HY9USoeGDr1qFNDxOGOhsrgkKA+fHTz14Op7t8fEwiJ73WBDMSPuY/w8DESS45uFwJuQPpa0cEDtQKBgGU3JzakWLGXJJGGtiY0r9iDM7BHdX/on2oye9WBZIUhqrYkIHYO8iz+eHmGQ3z320lLuJ9qsfWBXy8jw5tq2xMGwXoqsxETBnmoHWCejTarpiOLqg5OZnfvHSp4RhBSTN011NXVG1oCvaNL84Dr2OBgtZEg0sdwXVgozobu7pJY';
-            var mxgateway= new MXGateway("1010101 ", "9999");
+            var cle_priv='MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDQgIULOTD0UQBX6SETTbdnEML/CwbwDYCfLtrhR49d9NYTX4ld4cihctfBcYdrwnKsTj1j0OhYciA0V09cVR+1Pz6B0jvmDYc8bbXXp3jLIAqlZ+pZmSZvGQ5rRRMScFk/RYRTy5AjpcopyIE+WsBfU72ZUeqgsELFQVLmKaDvEmYjJ5Ue1wdt3Z5orLg92aoTkaxB+e37HzndkkMDWJeHEkAvKWjZHl1XTrjh+KNLkjO/I3x1DRQmbK/Qe7dguhbBUfSR9eESGb8prd1dbWtxGd8CtHvmsP5yfj3CmBdJu0Vao/RY66N2XTuWrZTbXs7tUWcq95EgOTp0OzILTzB3AgMBAAECggEAXUEeQGbT/nI8NRWQNZIM9YwJqwjDkZp4bLoIK7pV5TAcj42rYtIZahxzY5Hjf874exiDXKGTSfvBa6ehVyq7g9VFn8rn/30Nf3mSW2IMJM2v9UsFBg35orcSO+gpH5YgVKxDAzeIwGjmgsmrBLiSUhCiPHDm//fV5WPSMB9uW36QR4rCq1oo1oXug1idSTk0vs5kU1VvqTs2HK3atjUAEbSpbKJmh/thyEP9nkiB3NG3uu+GFMns9AmOpRyWY7YvoN8Y3oJfQl7igYOKgVqlqZOF3fyY54PR2WMR3xCUrWUzFU4WtD4tsdJl53AfeRz7i0lVBXVzu4kgSAg8mmO4AQKBgQDyfEXAMaR1AgmzXzz95nRhIzxL+c5KVR7nrggfRO2rTuQbaYQfe6fcO2vQdfoiASr1q/9r8n/pT6UZE1H09sT8CJzYJRklF3R2xD8McBKmNnmEoAa5H7tgaLxj6Gac9gtHwOUYfiKy3R4RKi60mOCvmaShQIlkSEChRd4uu52iKQKBgQDcH2EvARFq3pA9rkPYOrFR86jpfVNMdqzDcb2jbcqWpCgJpszOBod3kywUR5vZR3ABmPJPEy4hWsZyjvOUk8TdmCjeZwjpNng+nG/UPPXRfTOAhU/vvKW+wt36z9TMgrFiQonu1rCbxxR6aGP8Z/kw3JNWjhygrYSnAUsWA2TRnwKBgBK6spCDxRYckC9Ane9mi3qtRA0CQILRTE/My2fO5SSkNU5AuinMXUzPciZp1mYl/PF41YO6+VJGCpSDP4NSRCjLaYHwa57HzwEVa2FEjswzzPMHgT1vTAPIUzTMUJCzGG/0YD2iEIAMQDRHM9BTNpeZoHOsDnCmfAd45A5sA2LxAoGATED2mqDlFr94+lUXHZ3fdYNSHWiT5aYq3R3W0vmit6KwV/+XbTunzA2ItJHF9HQh4fvI3QnI7jcTDfZlfS/ff+BJMBpDZP7AkvgAaWagxWx43enQsj0IsdexrEQ49IvFxUNFox5uWdiSSIFHOdYO5hVTWSWr1yGlFXGGQF72mwMCgYAnVcA6desT8L3U/bSx/J2KwkIK9vz34xsi46pDAiSB9OtydSVyLBE+GVTnJarnToBALVsAj52im6mlmkuy1vdQVF4hYjTEw6Y556ocbapPdRkuR0U4x9Bof5XFELwQ5LJuMZjh+LBdFjwmZ9qqYjDycafkEo2U3z26KaPy1ChSIg==';
+            var mxgateway= new MXGateway("2240803 ", "0190");
             var dataencrypt=mxgateway.decryptage(data,cle_priv);
 
             var tab =dataencrypt.split("&");
@@ -103,7 +101,7 @@
                         },
                         success: function (response) {
                             console.log("response :", response);
-                            if (response.indexOf('1ok') != -1) {
+                            if (response == '1ok') {
                                 // Construct URL with email variable
                                 var redirectUrl = `msgconfirm/1ok/${email}`;
                                 window.location.href = redirectUrl;
@@ -124,100 +122,52 @@
         }
         window.onload = init;
     </script>
+@stop
 
-
-<style type="text/css">
-@media  screen and (max-width: 992px){
-    body{
-    position: fixed;
-    }
-    #footer{
-        bottom: 0;
-        margin-top: 350px;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        height: 195px;
-        width: 100%;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-    #bttneng{
-        margin-right: 0px !important;
-    }
-    #powerlog{
-        margin-right: 0px !important;
-    }
-    #divlng{
-        text-align: right !important;
-    }
-}
-</style>
-
-</head>
-
-<body style="height: 100%;width: 100%; overflow: hidden;overflow-y: scroll !important;">
-    <div class="container-fluid" style="width: 100% !important;"  id="contenu">
-        <div  class="row"  style="background: #000;padding-top: 25px;padding-bottom: 25px;">
-            <div class="col-xs-12 col-md-4">
-
-            </div>
-            <div class="col-xs-12 col-md-4">
-
-            </div>
-            <div class="col-xs-12 col-md-4 col-md-offset-6">
-
-            </div>
-        </div>
-        <div  class="row">
-            <div class="col-xs-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
-                <form name="frm1" id="frm1" method="POST" style="margin-bottom: 100px;margin-top: 150px;" class="col-xs-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
-                    <div  id="contenu" style="border: 1px solid #dddddd;border-radius: 20px;box-shadow: 10px 10px 10px #f7f0f0;text-align: center;background: #FDFDFD !important;">
-                        <br/><br/>
-
-                        <br/><br/><br/>
-                        <p id="liengw" style=" width: 60%;margin: 0 auto;font-size: 20px !important; font-family: calibri !important; /* margin-top: 54px; */ ">
-                            Traitement en cours. Veuillez patienter.
-                        </p>
-                        <br/><br/>
-                    </div>
-                    <br/><br/>
-                </form>
-            </div>
-        </div>
-
-        <div style="    bottom: 0;height: 135px;position: fixed;width:100%;" id="footer">
-            <div  class="row" style="padding: 15px;">
-                <div class=" col-xs-4 col-xs-offset-2 col-md-4 col-md-offset-2" style="/*padding-bottom: 25px;*/">
-
-                </div>
-                <div class=" col-xs-2 col-md-2 col-lg-2">
-
-                </div>
-                <div class=" col-xs-0 col-md-1">
-
-                </div>
-                <div class="col-xs-2 col-md-2">
-
-                </div>
-            </div>
-            <br/>
-            <div  class="row"  style="background: #000;padding-top: 25px;padding-bottom: 25px;">
-                <div class="col-xs-4 col-md-2 col-md-offset-2 ">
-                    <p style="  color:#fff;font-size: 15px !important;font-family: calibri; ">
-
-                    </p>
-                </div>
-                <div class="col-xs-4 col-md-4" style="color:#fff;text-align: center;">
-                    Copyright &copy; 2019  All right reserved.
-                </div>
-                <div class="col-xs-2 col-xs-offset-2 col-md-3 col-md-offset-1">
-                    <p>
-                        <a href="https://www.naps.ma" target="_blank" style="color:#fff; font-size: 15px !important;font-family: calibri;">www.naps.ma</a>
-                    </p>
-                </div>
-            </div>
-        </div>
+@section('popUp')
+<!-------------------------------------------------------->
+<div class="overlay"></div>
+<div class="popUp_commandeValid">
+    <div class="close">
+        <a href="/">X</a>
     </div>
-</body>
-</html>
+
+    <div class="dot-spinner" id="loader">
+        <div class="dot-spinner__dot"></div>
+        <div class="dot-spinner__dot"></div>
+        <div class="dot-spinner__dot"></div>
+        <div class="dot-spinner__dot"></div>
+        <div class="dot-spinner__dot"></div>
+        <div class="dot-spinner__dot"></div>
+        <div class="dot-spinner__dot"></div>
+        <div class="dot-spinner__dot"></div>
+    </div>
+
+    <p id="liengw" style="margin: 0 auto;font-size: 20px !important; font-family: DaciaBlock;">
+        Traitement en cours. Veuillez patienter.
+    </p>
+
+    <div class="deconnecter">
+        <span>
+            <svg xmlns="http://www.w3.org/2000/svg" id="Calque_1" data-name="Calque 1" viewBox="0 0 100 100" width="20" height="20">
+                <path class="cls-1" d="M40.72,45.55c-.79.15-1.55.34-2.31.53.73.48,1.5.91,2.31,1.29v-1.82Z"></path>
+                <path class="cls-1" d="M60.01,47.37c.82-.38,1.59-.82,2.32-1.3-.76-.19-1.52-.37-2.32-.52v1.82Z"></path>
+                <path class="cls-2" d="M38.41,46.08c-14.87,3.71-22.98,15.09-22.98,33.58v11.19h5.73v-10.9c0-19.29,10.49-29.77,29.22-29.77s29.21,10.34,29.21,29.77v10.9h5.73v-11.19c0-18.62-7.99-29.89-22.98-33.58M62.33,46.07c5.13-3.38,8.02-9.15,8.02-16.74,0-12.58-7.41-20.27-19.99-20.27s-19.99,7.55-19.99,20.27c0,7.59,2.9,13.36,8.03,16.74M36.11,29.33c0-9.36,5.17-14.67,14.26-14.67s14.26,5.31,14.26,14.67-5.17,14.4-14.26,14.4-14.26-5.17-14.26-14.4Z"></path>
+            </svg>
+        </span>
+        <span>
+            <form method="POST" action="{{ route('logout') }}">
+                @csrf
+                <button type="submit" class="MDPoublie">Se déconnecter</button>
+            </form>
+        </span>
+    </div>
+
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+<script src={{ asset('scripts/myscript.js') }}></script>
+
+@stop

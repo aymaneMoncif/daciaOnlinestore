@@ -77,9 +77,9 @@ Route::get('/failURL', function () {
     return view('test');
 });
 
-Route::get('/msgconfirm', function () {
-    return view('confirmation/msgconfirm');
-});
+//Route::get('/msgconfirm', function () {
+//    return view('confirmation/msgconfirm');
+//});
 
 
 

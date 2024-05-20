@@ -3,8 +3,12 @@
 namespace App\Http\Controllers\cardpay;
 
 use App\Http\Controllers\Controller;
+use App\Models\cardpayment;
 use Illuminate\Http\Request;
+use App\Mail\apportMail;
+use App\Models\Aport;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Session;
 
 class cardPaymentController extends Controller{
@@ -31,85 +35,105 @@ class cardPaymentController extends Controller{
 
 
     //check the data
-    public function envoimailconfirmation(Request $request){
-        $repauto=$request->input('repauto');
+    public function envoimailconfirmation(Request $request)
+    {
+        // Extract data from the request
+        $codecmr = $request->input('codecmr');
+        $repauto = $request->input('repauto');
+        $numAuto = $request->input('numAuto');
+        $email = $request->input('email');
+        $nomprenom = $request->input('nomprenom');
+        $numTrans = $request->input('numTrans');
+        $numCarte = $request->input('numCarte');
+        $typecarte = $request->input('typecarte');
+        $montantNormale = $request->input('montant');
+        $signature = $request->input('signature');
+        $id_commande = $request->input('id_commande');
 
-        $email=$request->input('email');
+        // Format the montant value
+        $montant = number_format($montantNormale, 2);
 
-        $montant=$request->input('montant');
+        // Generate the hash for verification
+        $clepub = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0ICFCzkw9FEAV+khE023ZxDC/wsG8A2Any7a4UePXfTWE1+JXeHIoXLXwXGHa8JyrE49Y9DoWHIgNFdPXFUftT8+gdI75g2HPG2116d4yyAKpWfqWZkmbxkOa0UTEnBZP0WEU8uQI6XKKciBPlrAX1O9mVHqoLBCxUFS5img7xJmIyeVHtcHbd2eaKy4PdmqE5GsQfnt+x853ZJDA1iXhxJALylo2R5dV0644fijS5IzvyN8dQ0UJmyv0Hu3YLoWwVH0kfXhEhm/Ka3dXW1rcRnfArR75rD+cn49wpgXSbtFWqP0WOujdl07lq2U217O7VFnKveRIDk6dDsyC08wdwIDAQAB";
+        $msgahash = $id_commande . $clepub;
+        $hashagegenere = MD5($msgahash);
 
-        $id_commande=$request->input('id_commande');
-
-        $numTrans=$request->input('numTrans');
-        $numTrans = str_replace('signature',' ',$numTrans);
-
-        $nmtrx=$request->input('numAuto');
-        $numtrx = str_replace('signature',' ',$nmtrx);
-
-        $signature=$request->input('signature');
-
-        $clepub="MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAh2q4viqQwzVWCKT1KRPvsiixEoNm8dg95gE7h4OUVuERp9csLKYHM9I9EaQ/SUYwgBBLHOslpe5qbvX3x1oAcksO5BT8SYHmtbgUpH1yZjcU1lI2/M3qyRUb03NQaF6vgxCOLGlLpDQqdg0jxl4ySDYu3bcMQto6J2eRAnIPIZkC/h4GQMwhBheFEHf7uMCqj8uNkNf5yU1Js9/Yj8FGbS1fSYwQ1ZQ7Jr94eUhCuTgjFKYUxD18QIPgYEnYbir4mKagtnF8fv3S1+COsVlUXkix77KGW5SYMbeJJYtOVTs1/Cr+/8eHRf5al5249binOJxWLkANpsZtLNI60i9UUQIDAQAB";
-        $msgahash=$id_commande.$clepub;
-        $hashagegenere=MD5($msgahash);
-
-        $typecrt = substr($request->input('numCarte'), 0, 1);
-
-        $bincart = substr($request->input('numCarte'), 0, 6);
-        $bincmi=array('505823','601506','601586','602586','604851','621983','627695','639412');
-
-        if (in_array($bincart, $bincmi))
-        {
-
-        }else{
-            switch ($typecrt) {
-                case "4":
-                    $typecrt = "VISA";
-
-                break;
-                case "5":
-                    $typecrt = "MASTERCARD";
-
-                break;
-                case "6":
-                    $typecrt = "MAESTRO";
-                break;
-                default:
-                    $typecrt = "";
-                break;
-            }
+        // Check if payment is successful
+        if ($repauto == "00" && ($hashagegenere == $signature || $hashagegenere == "0" . $signature)) {
+            // Payment is successful,
+            $idmsg = "1ok";
+        } else {
+            // Payment failed,
+            $idmsg = "3ko";
         }
 
-        $montant=number_format($request->input('montant'),2);
+        // Create an array with the data to be stored in the database
+        $data = [
+            'codecmr' => $codecmr,
+            'repauto' => $repauto,
+            'numautorisation' => $numAuto,
+            'emailrd' => $email,
+            'nomprenom' => $nomprenom,
+            'numTrans' => $numTrans,
+            'numCarte' => $numCarte,
+            'typecarte' => $typecarte,
+            'montant' => $montant,
+            'signature' => $signature,
+            'id_commande' => $id_commande,
+            'nom_cmr' => 'NAPS',
+            'idmsg' => $idmsg,
+        ];
 
-        $codecmr=$request->input('codecmr');
-        $date=date("Y-m-d H:i:s");
-        $codecmr=$_POST['codecmr'];
+        // Create the card payment record
+        $Client = Auth::user();
 
+        $dataApport = [
+            'nombanque' => 'non',
+            'numerotransaction' => 'non',
+            'imagerecu' => 'non',
+            'type_paiement' => 'Par card',
+            'client_id' => $Client->id,
+        ];
 
-        if( $repauto == "91" && ($hashagegenere == $signature || $hashagegenere == "0".$signature) ) // paiement ok
-        { //update BD
-            //envoi mail
-            //envoi SMS
+        // Return JSON response based on payment status
+        if ($idmsg == "1ok") {
 
-            //$idmsg = "1ok";
+            // Insert new apport
+            $Aport = Aport::create($dataApport);
+
+            // Add id_apport to the existing data array
+            $data['id_apport'] = $Aport->id;
+
+            // Insert new payment
+            CardPayment::create($data);
+
+            // Send email with the password to the client
+            //Mail::to($email)->send(new apportMail($Client));
+
             return response()->json("1ok");
-        }
-        else //paiement ko
-        {
-            //update BD
-            //$idmsg ="3ko";
+        } else {
+            //insert new payment
+            CardPayment::create($data);
             return response()->json("3ko");
         }
     }
 
 
-    public function msgconfirm(Request $request){
 
-        dd($request);
+    public function msgconfirm(Request $request)
+    {
+        // Get the email address from the request
         $idmsg = $request->idmsg;
         $email = $request->email;
 
-        return view('confirmation.msgconfirm', compact('idmsg', 'email'));
+        //dd($idmsg);
+
+        // Query the CardPayment model to find data related to the email
+        $data = CardPayment::where('emailrd', $email)->first();
+
+        // Return the data to the view
+        return view('confirmation.msgconfirm', compact('data', 'idmsg', 'email'));
     }
+
 
 }

@@ -281,11 +281,11 @@ export default function Home(){
                     <div className="Garanties_card">
                         <div className="card3">
                             <div className="card-bodyhome">
-                                <p className="card-title">Acheter en ligne et limiter vos déplacements</p>
+                                <p className="card-title">Acheter En Ligne Et Limiter Vos Déplacements</p>
                                 <hr />
-                                <p className="card-text">Pour garantir la sécurité de ses clients et futurs clients,
-                                    <span style={{whiteSpace: 'nowrap'}}>M-AUTOMOTIV</span> assurent un processus d'achat de votre véhicule complètement digitalisé à travers la plateforme en ligne d'achat garantie par <span style={{whiteSpace: 'nowrap'}}>M-AUTOMOTIV</span> Maroc.
-                                    Toutes les démarches d'achat d'un véhicule sont présentées sur cette plateforme. les documents nécessaires à la vente peuvent être directement scannés au niveau de notre site afin que vous puissiez éviter les déplacements. Encore plus, nous vous assurons un pick up des documents et une livraison jusqu'à votre domicile si vous le souhaitez.</p>
+                                <p className="card-text"> Pour garantir la sécurité de ses clients et futurs clients,
+                                    <span style={{whiteSpace: 'nowrap'}}>M-AUTOMOTIV</span> ssure un processus d'achat de véhicule entièrement numérique via sa plateforme en ligne garantie par <span style={{whiteSpace: 'nowrap'}}>M-AUTOMOTIV</span> Maroc.
+                                    Toutes les étapes de l'achat sont disponibles sur cette plateforme. Les documents requis pour la vente peuvent être numérisés directement sur notre site, vous évitant ainsi les déplacements. De plus, nous proposons la collecte des documents et la livraison à domicile, si vous le souhaitez.</p>
                             </div>
                         </div>
                     </div>
@@ -294,7 +294,7 @@ export default function Home(){
                             <div className="card-bodyhome">
                                 <p className="card-title">Vivez votre propre expérience</p>
                                 <hr />
-                                <p className="card-text">Pour vous assurer une expérience customisée, <span style={{whiteSpace: 'nowrap'}}>M-AUTOMOTIV</span> mettent à votre disposition tout au long de ce parcours la possibilité de discuter avec votre conseiller commercial afin de vous rassurez sur vos choix tout au long de votre parcours.</p>
+                                <p className="card-text">Pour vous assurer une expérience personnalisée, <span style={{whiteSpace: 'nowrap'}}>M-AUTOMOTIV</span> mettent à votre disposition tout au long de ce parcours la possibilité de discuter avec votre conseiller commercial afin de vous rassurez sur vos choix tout au long de votre parcours.</p>
                             </div>
                         </div>
                     </div>
@@ -305,16 +305,16 @@ export default function Home(){
                             <div className="card-bodyhome">
                                 <p className="card-title">Comme si vous étiez au Showroom</p>
                                 <hr />
-                                <p className="card-text">Depuis le choix de votre véhicule jusqu'à sa livraison, nous vous assurons une expérience semblable à celle de nos showrooms comme si vous y étiez. Une vue intérieure et extérieure de nos véhicules vous est présentée ainsi qu'une large panoplie d'accessoires adaptés à votre offre. Vous pourrez aussi simuler votre financement à crédit sur notre simulateur MOBILIZE dédié.</p>
+                                <p className="card-text">Depuis le choix de votre véhicule jusqu'à sa livraison, nous vous garantissons une expérience similaire à celle de nos showrooms, comme si vous y étiez physiquement. Vous aurez accès à des vues intérieures et extérieures de nos véhicules, ainsi qu'à une large gamme d'accessoires adaptés à votre offre. De plus, vous pourrez simuler votre financement à crédit grâce à notre simulateur dédié, MOBILIZE.</p>
                             </div>
                         </div>
                     </div>
                     <div className="Garanties_card">
                         <div className="card3">
                             <div className="card-bodyhome">
-                                <p className="card-title">Sécurité <br /> et Transparence</p>
+                                <p className="card-title">Sécurité <br /> Et Transparence</p>
                                 <hr />
-                                <p className="card-text">Toutes les procédures mises en place sur cette plateforme respectent nos conditions de vente en vigueur et vous assurent une sécurité de vos données personnelles en suivant les règles adoptées par le CNDP. Vous serez en contact permanent avec nos équipes commerciales pour une transparence et un accompagnement tout au long de ce processus.</p>
+                                <p className="card-text">Toutes les procédures mises en place sur cette plateforme respectent nos conditions de vente actuelles et garantissent la sécurité de vos données personnelles conformément aux règles établies par le CNDP. Vous serez en contact permanent avec nos équipes commerciales pour bénéficier d'une transparence totale et d'un accompagnement tout au long de ce processus.</p>
                             </div>
                         </div>
                     </div>
@@ -511,18 +511,18 @@ export default function Home(){
                         </div>
                         <div id="collapsenine" className="collapse" aria-labelledby="headingnine" data-parent="#accordion">
                             <div className="card-bodyhome">
-                                <strong>Acheter en ligne et limiter vos déplacements</strong> <br />
-                                Pour garantir la sécurité de ses clients et futurs clients, <span style={{whiteSpace: 'nowrap'}}>M-AUTOMOTIV</span> assurent un processus d'achat de votre véhicule complètement digitalisé à travers la plateforme en ligne d'achat garantie par M-AUTOMOTIV. <br />
-                                Toutes les démarches d'achat d'un véhicule sont présentées sur cette plateforme. Les documents nécessaires à la vente peuvent être directement scannés au niveau de notre site afin que vous puissiez éviter les déplacements. Encore plus, nous vous assurons un pick up des documents et une livraison jusqu'à votre domicile si vous le souhaitez. <br />
+                                <strong>Acheter En Ligne Et Limiter Vos Déplacements</strong> <br />
+                                Pour garantir la sécurité de ses clients et futurs clients, <span style={{whiteSpace: 'nowrap'}}>M-AUTOMOTIV</span> assure un processus d'achat de véhicule entièrement numérique via sa plateforme en ligne garantie par <span style={{whiteSpace: 'nowrap'}}>M-AUTOMOTIV</span> Maroc<br />
+                                Toutes les étapes de l'achat sont disponibles sur cette plateforme. Les documents requis pour la vente peuvent être numérisés directement sur notre site, vous évitant ainsi les déplacements. De plus, nous proposons la collecte des documents et la livraison à domicile, si vous le souhaitez. <br />
 
-                                <strong>Vivez votre propre expérience</strong>   <br />
-                                Pour vous assurer une expérience customisée, <span style={{whiteSpace: 'nowrap'}}>M-AUTOMOTIV</span> mettent à votre disposition tout au long de ce parcours la possibilité de discuter avec votre conseiller commercial afin de vous rassurez sur vos choix tout au long de votre parcours. <br />
+                                <strong>Vivez Votre Propre Expérience</strong>   <br />
+                                Pour vous assurer une expérience personnalisée, <span style={{whiteSpace: 'nowrap'}}>M-AUTOMOTIV</span> met à votre disposition la possibilité de discuter avec votre conseiller commercial tout au long de votre parcours, afin de vous rassurer concernant vos choix. <br />
 
-                                <strong>Comme si vous étiez au Showroom</strong> <br />
-                                Depuis le choix de votre véhicule jusqu'à sa livraison, nous vous assurons une expérience semblable à celle de nos showrooms comme si vous y étiez. Une vue intérieure et extérieure de nos véhicules vous est présentée ainsi qu'une large panoplie d'accessoires adaptés à votre offre. Vous pourrez aussi simuler votre financement à crédit sur notre simulateur MOBILIZE dédié. <br />
+                                <strong>Comme Si Vous Étiez Au Showroom</strong> <br />
+                                Depuis le choix de votre véhicule jusqu'à sa livraison, nous vous garantissons une expérience similaire à celle de nos showrooms, comme si vous y étiez physiquement. Vous aurez accès à des vues intérieures et extérieures de nos véhicules, ainsi qu'à une large gamme d'accessoires adaptés à votre offre. De plus, vous pourrez simuler votre financement à crédit grâce à notre simulateur dédié, MOBILIZE. <br />
 
-                                <strong>Sécurité et Transparence</strong>  <br />
-                                Toutes les procédures mises en place sur cette plateforme respectent nos conditions de vente en vigueur et vous assurent une sécurité de vos données personnelles en suivant les règles adoptées par le CNDP. Vous serez en contact permanent avec nos équipes commerciales pour une transparence et un accompagnement tout au long de ce processus. <br />
+                                <strong>Sécurité Et Transparence</strong>  <br />
+                                Toutes les procédures mises en place sur cette plateforme respectent nos conditions de vente actuelles et garantissent la sécurité de vos données personnelles conformément aux règles établies par le CNDP. Vous serez en contact permanent avec nos équipes commerciales pour bénéficier d'une transparence totale et d'un accompagnement tout au long de ce processus. <br />
                             </div>
                         </div>
                     </div>

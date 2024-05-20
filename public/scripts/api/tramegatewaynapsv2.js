@@ -17,7 +17,7 @@
  @param  timeoutURL : time out {String}
  @param  lien_paie : lien de paiement {String}
 **/
-function MXGateway(cmr, galerie,clepub,langue="F", successURL="", failURL="", timeoutURL="",lien_paie ="https://pa2.naps.ma:8441/GW_PAIEMENT/faces/vues/paiement/gateway.xhtml")
+function MXGateway(cmr, galerie,clepub,langue="F", successURL="", failURL="", timeoutURL="",lien_paie =" https://gateway.naps.ma:8443/PASSERELLE/faces/vues/paiement/gatenaps.xhtml")
 
 {
               this.cmr = cmr;

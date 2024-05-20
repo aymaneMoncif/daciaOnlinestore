@@ -624,15 +624,15 @@ a.active{
   margin: var(--margin20) 0;
 }
 .f_section_title::after {
-  content: "";
-  position: absolute;
-  bottom: -5px;
-  left: 0;
-  width: 45px;
-  height: 1px;
-  background-color: var(--yellow);
-  display: block;
-}
+    content: "";
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    width: 45px;
+    height: 2px;
+    background-color: #f2f2f2;
+    display: block;
+  }
 
 .social_btns {
   box-sizing: border-box;
