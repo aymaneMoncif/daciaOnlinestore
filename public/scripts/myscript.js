@@ -167,9 +167,3 @@ virement.addEventListener('click', function(){
     virement.classList.add('active');
     card.classList.remove('active');
 });
-
-
-
-
-
-

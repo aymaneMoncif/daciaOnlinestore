@@ -288,7 +288,7 @@
             </svg>
         </span>
         <span>
-            <form method="POST" action="{{ route('logout') }}">
+            <form method="POST" action="{{ route('logoutUser') }}">
                 @csrf
                 <button type="submit" class="MDPoublie">Se déconnecter</button>
             </form>

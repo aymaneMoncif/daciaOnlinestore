@@ -54,7 +54,7 @@ class cardPaymentController extends Controller{
         $montant = number_format($montantNormale, 2);
 
         // Generate the hash for verification
-        $clepub = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0ICFCzkw9FEAV+khE023ZxDC/wsG8A2Any7a4UePXfTWE1+JXeHIoXLXwXGHa8JyrE49Y9DoWHIgNFdPXFUftT8+gdI75g2HPG2116d4yyAKpWfqWZkmbxkOa0UTEnBZP0WEU8uQI6XKKciBPlrAX1O9mVHqoLBCxUFS5img7xJmIyeVHtcHbd2eaKy4PdmqE5GsQfnt+x853ZJDA1iXhxJALylo2R5dV0644fijS5IzvyN8dQ0UJmyv0Hu3YLoWwVH0kfXhEhm/Ka3dXW1rcRnfArR75rD+cn49wpgXSbtFWqP0WOujdl07lq2U217O7VFnKveRIDk6dDsyC08wdwIDAQAB";
+        $clepub = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAh2q4viqQwzVWCKT1KRPvsiixEoNm8dg95gE7h4OUVuERp9csLKYHM9I9EaQ/SUYwgBBLHOslpe5qbvX3x1oAcksO5BT8SYHmtbgUpH1yZjcU1lI2/M3qyRUb03NQaF6vgxCOLGlLpDQqdg0jxl4ySDYu3bcMQto6J2eRAnIPIZkC/h4GQMwhBheFEHf7uMCqj8uNkNf5yU1Js9/Yj8FGbS1fSYwQ1ZQ7Jr94eUhCuTgjFKYUxD18QIPgYEnYbir4mKagtnF8fv3S1+COsVlUXkix77KGW5SYMbeJJYtOVTs1/Cr+/8eHRf5al5249binOJxWLkANpsZtLNI60i9UUQIDAQAB";
         $msgahash = $id_commande . $clepub;
         $hashagegenere = MD5($msgahash);
 
@@ -85,7 +85,7 @@ class cardPaymentController extends Controller{
         ];
 
         // Create the card payment record
-        $Client = Auth::user();
+        $Client = Auth::guard('client')->user();
 
         $dataApport = [
             'nombanque' => 'non',

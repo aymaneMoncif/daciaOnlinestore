@@ -11,33 +11,58 @@ use Illuminate\Support\Facades\Auth;
 
 class AuthenticatedSessionController extends Controller
 {
+    public function showUserLoginForm()
+    {
+        return view('UserLogin.index');
+    }
+
+    public function userLogin(Request $request)
+    {
+        $credentials = $request->only('email', 'password');
+
+        if (Auth::guard('client')->attempt($credentials)) {
+
+            return redirect('/SuiviCommande');
+        }
+
+        // Authentication failed, redirect back with error message
+        return redirect()->back()->withErrors(['email' => 'Invalid credentials']);
+    }
+
+    public function showAdminLoginForm()
+    {
+        return view('auth.admin-login');
+    }
+
     /**
      * Handle an incoming authentication request.
      */
-    public function store(LoginRequest $request): Response
+    /*public function store(LoginRequest $request): Response
     {
         $request->authenticate();
 
         $request->session()->regenerate();
 
         return response()->noContent();
-    }
+    }*/
 
     /**
      * Destroy an authenticated session.
      */
-    
 
-    public function destroy(Request $request): RedirectResponse
+
+    public function deconnect(Request $request): RedirectResponse
     {
-        Auth::guard('web')->logout();
 
-        $request->session()->invalidate();  
+        Auth::guard('client')->logout();
+
+        $request->session()->invalidate();
 
         $request->session()->regenerateToken();
 
-        return redirect('/');
+        return redirect('/login');
     }
+
 
 
 }

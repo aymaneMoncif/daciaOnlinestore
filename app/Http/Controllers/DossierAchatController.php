@@ -6,6 +6,7 @@ use App\Mail\dossierAchatMail;
 use App\Mail\NotifiAdministration\ChargeeRCI\newDossierAchat;
 use App\Mail\NotifiAdministration\Commercial\validationCredit;
 use App\Models\Aport;
+use App\Models\Client;
 use App\Models\Commande;
 use App\Models\DossierAchat;
 use App\Models\Paiement;
@@ -33,11 +34,11 @@ class DossierAchatController extends VoyagerBaseController
             ->where('client_id', $ClientID)
             ->where('created_at', '<=', Carbon::now()->subHours(24))
             ->first();
-    
+
         if ($commande) {
             // Update the status of the commande
             $commande->update(['Status_commande' => 'expired']);
-    
+
             // Return the updated commande
             return $commande;
         } else {
@@ -50,12 +51,13 @@ class DossierAchatController extends VoyagerBaseController
     public function sendInfo()
     {
 
-        $id = Auth::user()->id;
+        $client = Auth::guard('client')->user();
+        $id = $client->id;
 
         $commandeID = Commande::where('client_id', $id)->pluck('id')->first();
 
         $commande = Commande::find($commandeID);
-        
+
         //check if there is a simulation
         $simulateur = Simulateur::where('client_id', $id)->first();
 
@@ -64,14 +66,14 @@ class DossierAchatController extends VoyagerBaseController
         }
 
         $version = $commande?->Version;
-        $equipements = $commande?->equipements;       
+        $equipements = $commande?->equipements;
 
         $allapport = Aport::where('client_id', $id)->first();
 
         $isExpired = Commande::where('Status_commande', 'expired')
                     ->where('client_id', $id)
                     ->first();
-         
+
         $allDossierAchat = DossierAchat::where('client_id', $id)->first();
 
         if ($allDossierAchat) {
@@ -95,18 +97,18 @@ class DossierAchatController extends VoyagerBaseController
             $rib_Validation = null;
             $relevecnss_Validation = null;
 
-            
+
             $DossierAchat= null;
         }
 
         // Calculate $done
-        $done = ($modepaiement_Validation === 'valider' && 
-                $cin_Validation === 'valider' && 
-                $Attestationsalaire_Validation === 'valider' && 
-                $bulletinpaie_Validation === 'valider' && 
-                $relevebancaire_Validation === 'valider' && 
-                $justificatifdomiciliation_Validation === 'valider' && 
-                $rib_Validation === 'valider' && 
+        $done = ($modepaiement_Validation === 'valider' &&
+                $cin_Validation === 'valider' &&
+                $Attestationsalaire_Validation === 'valider' &&
+                $bulletinpaie_Validation === 'valider' &&
+                $relevebancaire_Validation === 'valider' &&
+                $justificatifdomiciliation_Validation === 'valider' &&
+                $rib_Validation === 'valider' &&
                 $relevecnss_Validation === 'valider');
 
         return view('dossierAchat', compact('commandeID','simulateur','isExpired','allapport','equipements','version','DossierAchat', 'modepaiement_Validation', 'cin_Validation', 'Attestationsalaire_Validation', 'bulletinpaie_Validation', 'relevebancaire_Validation', 'justificatifdomiciliation_Validation', 'rib_Validation', 'relevecnss_Validation', 'done'));
@@ -128,11 +130,12 @@ class DossierAchatController extends VoyagerBaseController
             'relevecnss' => 'required|image',
         ]);
 
-        
+
         // Get the authenticated user's ID
-        $idClient = Auth::user()->id;
-        $email = Auth::user()->email;
-        $Client = User::find($idClient);
+        $client = Auth::guard('client')->user();
+        $idClient = $client->id;
+        $email = $client->email;
+        $Client = Client::find($idClient);
 
         // Get the commande ID for the authenticated user
         $commandeID = Commande::where('client_id', $idClient)->pluck('id')->first();
@@ -155,7 +158,7 @@ class DossierAchatController extends VoyagerBaseController
         // Send email with the password
         //Mail::to($email)->send(new dossierAchatMail($Client));
 
-        
+
         //----//----    notif commercial & comptable    ----\\ ----\\
             $RCI = User::where('role_id', 6)->first();
 
@@ -169,7 +172,7 @@ class DossierAchatController extends VoyagerBaseController
 
             $idClient = $DossierAchat->client_id;
 
-            $user = User::where('id', $idClient)->first();
+            $user = Client::where('id', $idClient)->first();
 
             if (!$user) {
                 throw new \Exception('User not found.');
@@ -183,7 +186,7 @@ class DossierAchatController extends VoyagerBaseController
                 'prenom' => $user->prenom,
                 'DateDepot' => $DateDepot,
             ];
-            
+
             //try {
             //    if ($RCIEmail) {
             //        Mail::to($RCIEmail)->send(new newDossierAchat($emailData));
@@ -201,20 +204,22 @@ class DossierAchatController extends VoyagerBaseController
 
     public function sendInfoSuiviCMD()
     {
-        $id = Auth::user()->id;
+        $client = Auth::guard('client')->user();
+
+        $id = $client->id;
 
         $commandeID = Commande::where('client_id', $id)->pluck('id')->first();
 
         $commande = Commande::find($commandeID);
-        
+
         //check if there is a simulation
         $simulateur = Simulateur::where('client_id', $id)->first();
 
         $version = $commande?->Version;;
-        $equipements = $commande?->equipements;       
+        $equipements = $commande?->equipements;
 
         $allapport = Aport::where('client_id', $id)->first();
-        
+
         $isExpired = Commande::where('Status_commande', 'expired')
                     ->where('client_id', $id)
                     ->first();
@@ -256,23 +261,23 @@ class DossierAchatController extends VoyagerBaseController
             $PaiementValidation = 0;
         }
 
-        return view('psw_suivi', compact('commandeID','simulateur', 'isExpired', 'allapport', 'allPaiement', 'PaiementValidation', 'allDossierAchat', 'equipements', 'version', 'DossierAchat'));
+        return view('psw_suivi', compact('client','commandeID','simulateur', 'isExpired', 'allapport', 'allPaiement', 'PaiementValidation', 'allDossierAchat', 'equipements', 'version', 'DossierAchat'));
     }
 
 
     public function edit(Request $request, $id){
 
         $dataTypeContent = DossierAchat::findOrFail($id);
-        $users = User::all();
+        $users = Client::all();
         $commandes = Commande::all();
 
         return view('vendor.voyager.dossier_achats.edit', compact('dataTypeContent','users','commandes'));
-    } 
+    }
 
     public function update(Request $request, $id)
     {
         $DossierAchat = DossierAchat::find($id);
-        
+
         $data = $request->validate([
             'modepaiement' => 'nullable',
             'modepaiement_Validation' => 'nullable',
@@ -309,7 +314,7 @@ class DossierAchatController extends VoyagerBaseController
             $DossierAchat->rib_Validation == 'valider' &&
             $DossierAchat->relevecnss_Validation == 'valider'
         ) {
-            //----    notif commercial & comptable    ----\\ 
+            //----    notif commercial & comptable    ----\\
             $Commercial = User::where('role_id', 4)->first();
 
             if (!$Commercial) {
@@ -323,7 +328,7 @@ class DossierAchatController extends VoyagerBaseController
             $idClient = $DossierAchat->client_id;
             $Statut = $DossierAchat->RCIcomment;
 
-            $user = User::where('id', $idClient)->first();
+            $user = Client::where('id', $idClient)->first();
 
             if (!$user) {
                 throw new \Exception('User not found.');
@@ -338,7 +343,7 @@ class DossierAchatController extends VoyagerBaseController
                 'Statut' => $Statut,
                 'DateCreation' => $DateCreation,
             ];
-             
+
             //try {
             //    if ($CommercialEmail) {
             //        Mail::to($CommercialEmail)->send(new validationCredit($emailData));
@@ -349,8 +354,8 @@ class DossierAchatController extends VoyagerBaseController
             //}
             /*----sending email notifications -----*/
         }
-        
-        return redirect('page/dossier-achats');
+
+        return redirect('admin/dossier-achats');
     }
 
 }

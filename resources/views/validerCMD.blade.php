@@ -3,6 +3,7 @@
 @section('headScript')
     <script type="text/javascript" src="{{asset('scripts/api/tramegatewaynapsv4.js')}}"></script>
     <script type="text/javascript" src="{{asset('scripts/api/jsencrypt.js')}}"></script>
+
 @stop
 
 @section('popUp')
@@ -76,8 +77,6 @@
                 @endif
             </div>
 
-            <p class="SousReserve">**Sous réserve d'acceptation du dossier crédit par Mobilize Financial services</p>
-
         </div>
 
         @if(session('success'))
@@ -137,13 +136,13 @@
                         <form id="cardPContent" style="display: none">
                             <div class="champ" style="display: none">
                                 <label>ID commerçant *&nbsp;&nbsp;&nbsp;:</label>
-                                <input type="text" id="cmr" value="2240803">
+                                <input type="text" id="cmr" value="1010101">
                                 <label style="margin-left: 30px">ID Galerie *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
-                                <input type="text" id="gal" value="0190">
+                                <input type="text" id="gal" value="9999">
                             </div>
                             <div class="champ" style="display: none">
                                 <label>Clé publique * :</label>
-                                <textarea id="clepub">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0ICFCzkw9FEAV+khE023ZxDC/wsG8A2Any7a4UePXfTWE1+JXeHIoXLXwXGHa8JyrE49Y9DoWHIgNFdPXFUftT8+gdI75g2HPG2116d4yyAKpWfqWZkmbxkOa0UTEnBZP0WEU8uQI6XKKciBPlrAX1O9mVHqoLBCxUFS5img7xJmIyeVHtcHbd2eaKy4PdmqE5GsQfnt+x853ZJDA1iXhxJALylo2R5dV0644fijS5IzvyN8dQ0UJmyv0Hu3YLoWwVH0kfXhEhm/Ka3dXW1rcRnfArR75rD+cn49wpgXSbtFWqP0WOujdl07lq2U217O7VFnKveRIDk6dDsyC08wdwIDAQAB</textarea>
+                                <textarea id="clepub">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAh2q4viqQwzVWCKT1KRPvsiixEoNm8dg95gE7h4OUVuERp9csLKYHM9I9EaQ/SUYwgBBLHOslpe5qbvX3x1oAcksO5BT8SYHmtbgUpH1yZjcU1lI2/M3qyRUb03NQaF6vgxCOLGlLpDQqdg0jxl4ySDYu3bcMQto6J2eRAnIPIZkC/h4GQMwhBheFEHf7uMCqj8uNkNf5yU1Js9/Yj8FGbS1fSYwQ1ZQ7Jr94eUhCuTgjFKYUxD18QIPgYEnYbir4mKagtnF8fv3S1+COsVlUXkix77KGW5SYMbeJJYtOVTs1/Cr+/8eHRf5al5249binOJxWLkANpsZtLNI60i9UUQIDAQAB</textarea>
                             </div>
                             <div class="champ">
                                 <!--Nom & Prénom-->
@@ -154,7 +153,7 @@
                                 <input type="text" id="email" placeholder="Email*">
                             </div>
 
-                            <div class="champ" style="display: none">
+                            <div class="champ" >
                                 <label style="margin-left: 30px">IDcommand:</label>
                                 <input type="text" id="idcommande" value={{$commandeID}}>
 
@@ -166,7 +165,7 @@
                                 <input type="text" id="tel">
                             </div>
                             <div class="champ" style="display: none">
-                                <input type="text" id="failURL" value="http://localhost/API_PHP_4T/failURL.php">
+                                <input type="text" id="failURL" value="http://localhost:8000/failurl">
                                 <input type="text" id="timeoutURL" >
                             </div>
                             <div class="champ" style="display: none">
@@ -251,7 +250,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" id="Calque_1" data-name="Calque 1" viewBox="0 0 100 100" width="50" height="50">
                             <path class="cls-1" d="M46.74,92.03h-6.36c-10.39-14.11-20.93-30.55-30.24-48.08l5.74-3.42c8.68,16.13,17.99,30.87,27.45,44.05,15.35-26.21,27.45-49.32,40.48-76.62l6.05,2.95c-13.96,29.32-26.36,52.89-43.11,81.11Z"></path>
                         </svg>
-                        <p class="text">Félicitations, votre commande à été validé.</p>
+                        <p class="text">Félicitations, votre commande à été validée.</p>
                     </div>
                     <div class="part2">
                         <p>Validation de votre conseiller : <span>Validé</span></p>
@@ -305,7 +304,6 @@
         </div>
 
     </div>
-    <p class="SousReserve mobile" style="display: none;">**Sous réserve d'acceptation du dossier crédit par Mobilize Financial services</p>
 @else
     <div class="content">
         <div style="margin: 40px auto;gap: 30px;display: flex;flex-direction: column;align-items: center;">
@@ -327,7 +325,7 @@
             </svg>
         </span>
         <span>
-            <form method="POST" action="{{ route('logout') }}">
+            <form method="POST" action="{{ route('logoutUser') }}">
                 @csrf
                 <button type="submit" class="MDPoublie">Se déconnecter</button>
             </form>

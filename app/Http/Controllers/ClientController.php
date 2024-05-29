@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Mail\userCreationMail;
+use App\Models\Client;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
@@ -34,7 +35,7 @@ class ClientController extends VoyagerBaseController
         $validatedData = $request->validate([
             'name' => 'required|max:50',
             'prenom' => 'required|max:50',
-            'email' => ['required', 'email', Rule::unique('users')->ignore($request->id)],
+            'email' => ['required', 'email', Rule::unique('clients')->ignore($request->id)],
             'tele' => 'required|max:10|min:10',
             'ville' => 'required|max:255',
             'testDrive' => 'boolean',
@@ -47,7 +48,7 @@ class ClientController extends VoyagerBaseController
         $hashedPassword = Hash::make($password);
 
         // Save the user with the hashed password
-        $user = User::create(array_merge($validatedData, ['password'=>$hashedPassword, 'role_id' => 2]));
+        $user = Client::create(array_merge($validatedData, ['password'=>$hashedPassword]));
 
         // Send email with the password
         Mail::to($validatedData['email'])->send(new UserCreationMail($user, $password));
@@ -91,14 +92,32 @@ class ClientController extends VoyagerBaseController
             'password' => 'required|min:8',
             'passwordChanged' => 'required',
         ]);
-    
-        $client = User::findOrFail($id);
+
+        $client = Client::findOrFail($id);
         $client->password = Hash::make($request->password);
         $client->passwordChanged = $request->passwordChanged;
         $client->save();
 
         return redirect()->back()->with('success', 'Votre mot de passe a bien été modifié.');
 
+    }
+
+    public function updateAllInfo(Request $request, $id){
+        $client = Client::findOrFail($id);
+
+        $data = $request->validate([
+            'name' => 'required|string|max:255',
+            'prenom' => 'required|string|max:255',
+            'email' => 'required|email|max:255',
+            'ville' => 'nullable|string|max:255',
+            'tele' => 'nullable|string|max:255',
+            'password' => 'nullable|string|min:8',
+        ]);
+        if ($request->filled('password')) {
+            $client->password = Hash::make($request->input('password'));
+        }
+        $client->update($data);
+        return redirect('admin/clients');
     }
 
     /**

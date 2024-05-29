@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Mail\apportMail;
 use App\Models\Aport;
+use App\Models\Client;
 use App\Models\Commande;
 use App\Models\DossierAchat;
 use App\Models\Modele;
@@ -210,7 +211,7 @@ class ApportController extends VoyagerBaseController
 
         $commande = Commande::with('client','modele','version','Aport')->find($idCommande);
 
-        $users = User::all();
+        $users = Client::all();
         $commandes = Commande::all();
 
         return view('vendor.voyager.apports.edit', compact('commande','commandes','users','dataTypeContent'));
@@ -245,8 +246,9 @@ class ApportController extends VoyagerBaseController
             $failurl = str_replace('validationCommande', 'failURL.php', $actual_link);
         }
 
+        $client = Auth::guard('client')->user();
         // Get the authenticated user's ID
-        $ClientID = Auth::user()->id;
+        $ClientID = $client->id;
 
         // Retrieve commande ID of the client
         $commandeID = Commande::where('client_id', $ClientID)->pluck('id')->first();
@@ -333,9 +335,10 @@ class ApportController extends VoyagerBaseController
 
     public function userStore(Request $request){
         // Get the authenticated user's ID
-        $idClient = Auth::user()->id;
-        $email = Auth::user()->email;
-        $Client = User::find($idClient);
+        $client = Auth::guard('client')->user();
+        $idClient = $client->id;
+        $email = $client->email;
+        $Client = Client::find($idClient);
 
         // Get the commande ID for the authenticated user
         $commande = Commande::where('client_id', $idClient)->first();
@@ -387,7 +390,7 @@ class ApportController extends VoyagerBaseController
 
             $financement = $simulation ? 'Crédit' : 'Comptant';
 
-            $user = User::where('id', $idClient)->first();
+            $user = Client::where('id', $idClient)->first();
             $Version = Version::where('id', $idVersion)->first();
             $Modele = Modele::where('id', $idModele)->first();
 

@@ -2,9 +2,8 @@
 
 namespace App\Mail;
 
-use App\Models\User;
+use App\Models\Client;
 use Illuminate\Bus\Queueable;
-use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
@@ -19,7 +18,7 @@ class dossierAchatMail extends Mailable
      *
      * @return void
      */
-    public function __construct(private User $newClient)
+    public function __construct(private Client $newClient)
     {
         //
     }

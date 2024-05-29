@@ -16,7 +16,7 @@ class PdfController extends Controller
 {
     public function showPdf()
     {
-        $user = Auth::user();
+        $user = Auth::guard('client')->user();
         $userId = $user->id;
         $commande = Commande::where('client_id', $userId)->first();
         $version_id = $commande->version_id;
@@ -34,7 +34,7 @@ class PdfController extends Controller
 
     public function downloadPdf()
     {
-        $user = Auth::user();
+        $user = Auth::guard('client')->user();
         $userId = $user->id;
         $commande = Commande::where('client_id', $userId)->first();
         $version_id = $commande->version_id;

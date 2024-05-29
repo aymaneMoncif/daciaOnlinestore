@@ -25,7 +25,8 @@
 @if($commandeID && $isExpired == null)
             <p class="Main_title">Bonjour</p>
             <p class="Main_sous-title">Bienvenue dans votre espace de précommande M-AUTOMOTIV</p>
-            @if(null !== Auth::user() && Auth::user()->passwordChanged === "false")
+
+            @if(null !== $client && $client->passwordChanged === "false")
                 <div class="contentMDPChange" id="contentMDPChange">
                     <div class="carCard">
                         <p class="title">Votre {{$version->nomversion}} est prête.</p>
@@ -37,7 +38,7 @@
 
                     <div class="formMDP">
                         <p class="title">Veuillez saisir votre nouveau mot de passe pour accéder à votre précommande.</p>
-                        <form method="POST" action="{{ route('update.user', Auth::user()->id) }}" onsubmit="return validateForm()">
+                        <form method="POST" action="{{ route('update.user', $client->id) }}" onsubmit="return validateForm()">
                             @csrf
                             @method('PATCH')
                             <input type="password" id="password" name="password" placeholder="Nouveau mot de passe" required>
@@ -54,7 +55,7 @@
                         </form>
                     </div>
                 </div>
-            @elseif(null !== Auth::user() && $version)
+            @elseif(null !== $client && $version)
             <!-------------------------------------------------------->
             <div class="StepsContent" id="StepsContent">
                 <div class="carCard">
@@ -93,7 +94,7 @@
                             @endif
                         </div>
                     </div>
-                    @if(Auth::check() && Auth::user()->id !== null)
+                    @if($client && $client->id !== null)
                         <button class="ConsultBTN" onclick="window.location.href='{{ route('sendIdCommande')}}'">Consulter ma commande</button>
                     @endif
                 </div>
@@ -119,7 +120,7 @@
                     </svg>
                 </span>
                 <span>
-                    <form method="POST" action="{{ route('logout') }}">
+                    <form method="POST" action="{{ route('logoutUser') }}">
                         @csrf
                         <button type="submit" class="MDPoublie">Se déconnecter</button>
                     </form>

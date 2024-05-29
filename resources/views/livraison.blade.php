@@ -44,8 +44,6 @@
                     <p>{{$equipement->nomequipement}}</p>
                 @endforeach
             </div>
-
-            <p class="SousReserve">**Sous réserve d'acceptation du dossier crédit par Mobilize Financial services</p>
         </div>
 
         @if($Paiement)
@@ -79,7 +77,7 @@
             </svg>
         </span>
         <span>
-            <form method="POST" action="{{ route('logout') }}">
+            <form method="POST" action="{{ route('logoutUser') }}">
                 @csrf
                 <button type="submit" class="MDPoublie">Se déconnecter</button>
             </form>

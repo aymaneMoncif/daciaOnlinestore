@@ -397,7 +397,7 @@ export default function Layout(){
                                             </svg>
                                         </a>
                                         :
-                                        <a href="http://localhost:8000/page/login">
+                                        <a href="http://localhost:8000/login">
                                             <svg xmlns="http://www.w3.org/2000/svg" id="Calque_1" data-name="Calque 1" viewBox="0 0 100 100" width="20" height="20" fill="#646b52">
                                                 <path className="cls-1" d="M40.72,45.55c-.79.15-1.55.34-2.31.53.73.48,1.5.91,2.31,1.29v-1.82Z" fill="#646b52"></path>
                                                 <path className="cls-1" d="M60.01,47.37c.82-.38,1.59-.82,2.32-1.3-.76-.19-1.52-.37-2.32-.52v1.82Z" fill="#646b52"></path>

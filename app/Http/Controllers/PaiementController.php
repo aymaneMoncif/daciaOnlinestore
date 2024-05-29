@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Mail\paiementMail;
 use App\Models\Aport;
+use App\Models\Client;
 use App\Models\Commande;
 use App\Models\DossierAchat;
 use App\Models\Paiement;
@@ -23,7 +24,8 @@ class PaiementController extends VoyagerBaseController
      */
     public function sendInfoPaiement()
     {
-        $id = Auth::user()->id;
+        $client = Auth::guard('client')->user();
+        $id = $client->id;
 
         $commandeID = Commande::where('client_id', $id)->pluck('id')->first();
 
@@ -31,9 +33,9 @@ class PaiementController extends VoyagerBaseController
         $simulateur = Simulateur::where('client_id', $id)->first();
 
         $commande = Commande::find($commandeID);
-        
+
         $version = $commande?->Version;;
-        $equipements = $commande?->equipements;       
+        $equipements = $commande?->equipements;
 
         $allDossierAchat = DossierAchat::where('client_id', $id)->first();
         $allapport = Aport::where('client_id', $id)->first();
@@ -59,18 +61,18 @@ class PaiementController extends VoyagerBaseController
             $rib_Validation = null;
             $relevecnss_Validation = null;
 
-            
+
             $DossierAchat= null;
         }
 
         // Calculate $done
-        $done = ($modepaiement_Validation === 'valider' && 
-                $cin_Validation === 'valider' && 
-                $Attestationsalaire_Validation === 'valider' && 
-                $bulletinpaie_Validation === 'valider' && 
-                $relevebancaire_Validation === 'valider' && 
-                $justificatifdomiciliation_Validation === 'valider' && 
-                $rib_Validation === 'valider' && 
+        $done = ($modepaiement_Validation === 'valider' &&
+                $cin_Validation === 'valider' &&
+                $Attestationsalaire_Validation === 'valider' &&
+                $bulletinpaie_Validation === 'valider' &&
+                $relevebancaire_Validation === 'valider' &&
+                $justificatifdomiciliation_Validation === 'valider' &&
+                $rib_Validation === 'valider' &&
                 $relevecnss_Validation === 'valider');
 
         if (!$simulateur && !$allapport?->comptable_validation) {
@@ -107,9 +109,10 @@ class PaiementController extends VoyagerBaseController
         ]);
 
         // Get the authenticated user's ID
-        $idClient = Auth::user()->id;
-        $email = Auth::user()->email;
-        $Client = User::find($idClient);
+        $client = Auth::guard('client')->user();
+        $idClient = $client->id;
+        $email = $client->email;
+        $Client = Client::find($idClient);
 
         // Get the commande ID for the authenticated user
         $commandeID = Commande::where('client_id', $idClient)->pluck('id')->first();
@@ -135,7 +138,8 @@ class PaiementController extends VoyagerBaseController
 
     public function sendInfoLivraison()
     {
-        $id = Auth::user()->id;
+        $client = Auth::guard('client')->user();
+        $id = $client->id;
 
         $commandeID = Commande::where('client_id', $id)->pluck('id')->first();
 
@@ -143,9 +147,9 @@ class PaiementController extends VoyagerBaseController
         $simulateur = Simulateur::where('client_id', $id)->first();
 
         $commande = Commande::find($commandeID);
-        
+
         $version = $commande?->Version;;
-        $equipements = $commande?->equipements;       
+        $equipements = $commande?->equipements;
 
         $allPaiement = Paiement::where('client_id', $id)->first();
 
@@ -171,10 +175,10 @@ class PaiementController extends VoyagerBaseController
         $idCommande = $dataTypeContent->commande_id;
 
         $simulateur = Simulateur::where('command_id', $idCommande)->first();
-        
+
         $commande = Commande::with('client','modele','version','Aport')->find($idCommande);
 
-        $users = User::all();
+        $users = Client::all();
         $commandes = Commande::all();
 
         return view('vendor.voyager.paiements.edit', compact('commande','simulateur','commandes','users','dataTypeContent'));

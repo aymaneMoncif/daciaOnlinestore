@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Mail\NotifiAdministration\Commercial\Cmntcallcenter;
+use App\Models\Client;
 use App\Models\Commande;
 use App\Models\Couleur;
 use App\Models\Equipement;
@@ -132,7 +133,7 @@ class CommandeController extends VoyagerBaseController
             $simulation = Simulateur::where('command_id', $idcommande)->first();
 
             $financement = $simulation ? 'Crédit' : 'Comptant';
-            $user = User::where('id', $idClient)->first();
+            $user = Client::where('id', $idClient)->first();
             $Version = Version::where('id', $idVersion)->first();
             $Modele = Modele::where('id', $idModele)->first();
 
@@ -160,7 +161,7 @@ class CommandeController extends VoyagerBaseController
             //}
 
             // Optionally, you can return a response indicating success or failure
-            return redirect()->to('page/commandes')->with('success', 'Custom fields updated successfully');
+            return redirect()->to('admin/commandes')->with('success', 'Custom fields updated successfully');
         } catch (\Exception $e) {
             // Handle the exception, log it, and return an error response
             return back()->with('error', 'An error occurred: ' . $e->getMessage());

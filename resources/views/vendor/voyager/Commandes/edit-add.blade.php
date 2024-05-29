@@ -70,7 +70,7 @@
             padding: 0 20px;
             justify-content: space-between;
             font-size: 20px;
-            font-weight: 500;   
+            font-weight: 500;
         }
         .valideAndIconTrue{
             color: #56b956e8;
@@ -97,7 +97,7 @@
 
 @section('page_header')
     <h1 class="page-title">
-        
+
     </h1>
     @include('voyager::multilingual.language-selector')
 @stop
@@ -117,7 +117,7 @@
 
         <div class="col-md-8">
             <!-- ### TITLE ### -->
-            <div class="panel panel-bordered panel-default">                                            
+            <div class="panel panel-bordered panel-default">
                 <div class="panel-heading">
                     <h3 class="panel-title">Client</h3>
                     <div class="panel-actions">
@@ -139,7 +139,7 @@
                             @endif
                             <!-- ### client_id ### -->
                             <td class="fs-3" height="40">
-                                <label for="identite">Identité</label> : 
+                                <label for="identite">Identité</label> :
                                 @if ($commande->Client)
                                     <strong>{{ $commande->Client->id }}</strong>
                                 @else
@@ -156,13 +156,13 @@
                                 <td class="fs-3" height="40"><label>Téléphone </label>: <strong>{{$commande->Client?->tele}}</strong></td>
                             </tr>
                             <tr>
-                                <td class="fs-3" height="40"><label>Email </label> : <strong>{{$commande->Client?->email}}</strong></td>                     
+                                <td class="fs-3" height="40"><label>Email </label> : <strong>{{$commande->Client?->email}}</strong></td>
                             </tr>
                             <tr>
-                                <td class="fs-3" height="40"><label>Ville </label> : <strong>{{$commande->Client?->ville}}</strong></td>                     
+                                <td class="fs-3" height="40"><label>Ville </label> : <strong>{{$commande->Client?->ville}}</strong></td>
                             </tr>
                         </tbody>
-                    </table>           
+                    </table>
                 </div>
             </div>
 
@@ -171,13 +171,13 @@
                 <input type="text" name="modele_id" value={{$commande->modele_id}} hidden>
                 <!-- ### modele_id ### -->
             <div class="panel">
-                <div class="panel-heading">      
+                <div class="panel-heading">
                     <h3 class="panel-title">Véhicules</h3>
                     <div class="panel-actions">
                         <a class="panel-action voyager-angle-down" data-toggle="panel-collapse" aria-hidden="true"></a>
                     </div>
                 </div>
-                <div class="panel-body"> 
+                <div class="panel-body">
                     <label for="id_modele">Modèle</label>
                     <select class="form-control" id="id_modele" name="id_modele" disabled>
                         @foreach($modeles as $modele)
@@ -215,7 +215,7 @@
                     <label for="equipements">Equipements</label><br>
                     <select class="form-control select2" name="equipement_id" multiple disabled>
                         @foreach($equipementsSelected as $equipement)
-                            <option value="{{ $equipement->id }}" 
+                            <option value="{{ $equipement->id }}"
                                 {{ $equipementsSelected->contains($equipement->id) ? 'selected' : '' }}>
                                 {{ $equipement->nomequipement }}
                             </option>
@@ -227,8 +227,8 @@
             <!-- ### Apport ### -->
             <div class="panel panel panel-bordered panel-dark">
                 <div class="panel-heading">
-                    <h3 class="panel-title"><i class="icon wb-clipboard"></i>Apport</h3> 
-                                                        
+                    <h3 class="panel-title"><i class="icon wb-clipboard"></i>Apport</h3>
+
                     <div class="panel-actions">
                         <a class="panel-action voyager-angle-up" data-toggle="panel-collapse" aria-hidden="true"></a>
                     </div>
@@ -239,7 +239,7 @@
                     <label for="slug">Nom de la banque</label>
                     <input type="text" class="form-control" name="nombanque" placeholder="nom de la banque" readonly="" value={{$commande->Aport?->nombanque}} ><br>
                     <!--input type="text" class="form-control" name="numerotransaction" placeholder="Numero de transaction" readonly="" value={$commande->Aport->numerotransaction} ><br-->
-                    <!--img style="width: 100%;" src= asset('storage/'. $commande->Aport->imagerecu) alt=""-->  
+                    <!--img style="width: 100%;" src= asset('storage/'. $commande->Aport->imagerecu) alt=""-->
                     @if($commande->Aport?->comptable_validation == 1)
                         <div class="validezone">
                             <span>Validé</span>
@@ -258,12 +258,12 @@
                 </div>
             </div>
             <!-- ### Apport ### -->
-            
+
             <!-- ### Paiement ### -->
             <div class="panel panel panel-bordered panel-dark">
                 <div class="panel-heading">
-                    <h3 class="panel-title"><i class="icon wb-clipboard"></i>Paiement</h3> 
-                                                        
+                    <h3 class="panel-title"><i class="icon wb-clipboard"></i>Paiement</h3>
+
                     <div class="panel-actions">
                         <a class="panel-action voyager-angle-up" data-toggle="panel-collapse" aria-hidden="true"></a>
                     </div>
@@ -297,8 +297,8 @@
             <!-- ### Dossier d'achat ### -->
             <div class="panel panel panel-bordered panel-dark">
                 <div class="panel-heading">
-                    <h3 class="panel-title"><i class="icon wb-clipboard"></i>Dossier d'achat</h3> 
-                                                        
+                    <h3 class="panel-title"><i class="icon wb-clipboard"></i>Dossier d'achat</h3>
+
                     <div class="panel-actions">
                         <a class="panel-action voyager-angle-up" data-toggle="panel-collapse" aria-hidden="true"></a>
                     </div>
@@ -497,14 +497,14 @@
                                 </svg>
                             </div>
                         @endif
-                    </div> 
+                    </div>
                 </div>
             </div>
             <!-- ### Dossier d'achat ### -->
-        
+
         </div>
 
-        <div class="col-md-4"> 
+        <div class="col-md-4">
             <!-- ### CC Status & Comment ### -->
             <div class="panel panel-bordered panel-warning">
                 <div class="panel-heading">
@@ -513,7 +513,7 @@
                         <a class="panel-action voyager-angle-down" data-toggle="panel-collapse" aria-hidden="true"></a>
                     </div>
                 </div>
-                @if(Auth::user()->role->name == 'Centre conseiller' || Auth::user()->role->name == 'admin')
+                @if(Auth::guard('admin')->user()->role->name == 'Centre conseiller' || Auth::guard('admin')->user()->role->name == 'admin')
                     <div class="panel-body">
                         <h3 class="panel-title" style="color: black;">Call center Status</h3>
                             <select class="form-control" name="CC_status" id="">
@@ -523,7 +523,7 @@
                                 <option value="Intéressé" {{ $commande->CC_status === "Intéressé" ? 'selected' : '' }}>Intéressé</option>
                                 <option value="clos sans Suite" {{ $commande->CC_status === "clos sans Suite" ? 'selected' : '' }}>clos sans Suite</option>
                                 <option value="A rappeler" {{ $commande->CC_status === "A rappeler" ? 'selected' : '' }}>A rappeler</option>
-                            </select>                        
+                            </select>
                             <h3 class="panel-title" style="color: black;">Call center Status</h3>
                             <textarea class="form-control" name="CC_Comment" id="" cols="30" rows="10">{{ $commande->CC_Comment }}</textarea>
                         <button class="btn btn-primary" type="submit">Ajouter</button>
@@ -533,7 +533,7 @@
                         <h3 class="panel-title" style="color: black;">Call center Status</h3>
                             <select class="form-control" name="CC_status" id="" disabled>
                                 <option value={{$commande->CC_status}} selected>{{$commande->CC_status}}</option>
-                            </select>                        
+                            </select>
                             <h3 class="panel-title" style="color: black;">Call center Status</h3>
                             <textarea class="form-control" name="CC_Comment" id="" cols="30" rows="10" disabled>{{ $commande->CC_Comment }}</textarea>
                     </div>
@@ -550,7 +550,7 @@
                     </div>
                 </div>
 
-                @if(Auth::user()->role->name == 'Commercial' || Auth::user()->role->name == 'admin')
+                @if(Auth::guard('admin')->user()->role->name == 'Commercial' || Auth::guard('admin')->user()->role->name == 'admin')
                     <div class="panel-body">
                         <h3 class="panel-title" style="color: black;">Commercial Status</h3>
                         <select class="form-control" name="Commercial_Status" id="">
@@ -559,7 +559,7 @@
                             <option value="Livraison" {{ $commande->Commercial_Status === "Livraison" ? 'selected' : '' }}>Livraison</option>
                             <option value="Clos sans suite" {{ $commande->Commercial_Status === "Clos sans suite" ? 'selected' : '' }}>Clos sans suite</option>
                             <option value="Opportunité" {{ $commande->Commercial_Status === "Opportunité" ? 'selected' : '' }}>Opportunité</option>
-                        </select>                             
+                        </select>
 
                         <h3 class="panel-title" style="color: black;">Commercial Comment</h3>
                         <textarea class="form-control" name="Commercial_Comment" id="" cols="30" rows="10">{{ $commande->Commercial_Comment }}</textarea>
@@ -571,13 +571,13 @@
                         <h3 class="panel-title" style="color: black;">Commercial Status</h3>
                         <select class="form-control" name="Commercial_Status" id="" disabled>
                             <option value={{$commande->Commercial_Status}} selected>{{$commande->Commercial_Status}}</option>
-                        </select>                        
+                        </select>
                         <h3 class="panel-title" style="color: black;">Commercial Comment</h3>
                         <textarea class="form-control" name="Commercial_Comment" id="" cols="30" rows="10" disabled>{{ $commande->Commercial_Comment }}</textarea>
                     </div>
                 @endif
             </div>
-            <!-- ### Commercial Status & Comment ### -->                                               
+            <!-- ### Commercial Status & Comment ### -->
         </div>
 
         </form>
@@ -586,5 +586,5 @@
 @stop
 
 @section('javascript')
-    
+
 @stop
